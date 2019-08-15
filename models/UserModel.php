@@ -23,7 +23,7 @@ class UserModel
     }
 
     public function getAll():array {
-        $sql = 'SELECT * FROM user';
+        $sql = 'SELECT * FROM users';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res = $prep->execute();
         $users = [];

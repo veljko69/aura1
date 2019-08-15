@@ -10,7 +10,7 @@ $databaseConfiguration = new DatabaseConfiguration('localhost','root','','aura')
   $databaseConnection= new DatabaseConnection($databaseConfiguration);
 
       $userModel = new UserModel($databaseConnection);
-      $users = $userModel->getByPassword('23456789');
+      $users = $userModel->getAll();
       print_r($users);
 
 
