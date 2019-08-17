@@ -17,14 +17,16 @@ $databaseConfiguration = new DatabaseConfiguration('localhost','root','','aura')
 //      print_r($users);
 
 $categoryModel = new App\Models\CategoryModel($databaseConnection);
-$proizvodi = $categoryModel->getByProductName('pantalone');
-print_r($proizvodi);
+$proizvodi = $categoryModel->getByPol('m');
+//print_r($proizvodi);
+$data = ['products'=>$proizvodi];
 
-   $controller = new App\Controller\MainController($databaseConnection);
-   $data = $controller->home();
-//   print_r($data);
+//   $controller = new App\Controller\MainController($databaseConnection);
+//   $data = $controller->home();
+   print_r($data);
 foreach ($data as $name=>$value) {
     $$name = $value;
 
    }
-require_once 'views/Main/home.php';
+//require_once 'views/Main/home.php';
+require_once  'views/Pol/muski.html';
