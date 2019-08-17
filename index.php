@@ -1,16 +1,30 @@
 <?php
+  require_once 'getRegister.html';
   require_once 'vendor/autoload.php';
+  require_once 'controller/MainController.php';
 
   use App\Core\DatabaseConfiguration;
   use App\Core\DatabaseConnection;
-  use App\Models\UserModel;
+//  use App\Models\UserModel;
+//  use App\Controller\MainController;
 
 
 $databaseConfiguration = new DatabaseConfiguration('localhost','root','','aura');
   $databaseConnection= new DatabaseConnection($databaseConfiguration);
 
-      $userModel = new UserModel($databaseConnection);
-      $users = $userModel->getByPassword('23456789');
-      print_r($users);
+//      $userModel = new UserModel($databaseConnection);
+//      $users = $userModel->getAll();
+//      print_r($users);
 
+$categoryModel = new App\Models\CategoryModel($databaseConnection);
+$proizvodi = $categoryModel->getByProductName('pantalone');
+print_r($proizvodi);
 
+   $controller = new App\Controller\MainController($databaseConnection);
+   $data = $controller->home();
+//   print_r($data);
+foreach ($data as $name=>$value) {
+    $$name = $value;
+
+   }
+require_once 'views/Main/home.php';
