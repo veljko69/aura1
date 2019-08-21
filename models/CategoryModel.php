@@ -23,7 +23,7 @@ class CategoryModel
 //    }
 
     public function getAll():array {
-        $sql = 'SELECT * FROM proizvod';
+        $sql = 'SELECT * FROM proizvodi';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res = $prep->execute();
         $products = [];
@@ -43,26 +43,18 @@ class CategoryModel
         }
         return $products;
     }
-//    public  function getByEmail($email){
-//        $sql  = 'SELECT * FROM user WHERE  email = ?;';
-//        $prep = $this->dbc->getConnection()->prepare($sql);
-//        $res  = $prep->execute([$email]);
-//        $user = NULL;
-//        if ($res){
-//            $user = $prep->fetch(\PDO::FETCH_OBJ);
-//        }
-//        return $user;
-//    }
-//    public  function getByPassword($password){
-//        $sql  = 'SELECT * FROM user WHERE  password = ?;';
-//        $prep = $this->dbc->getConnection()->prepare($sql);
-//        $res  = $prep->execute([$password]);
-//        $user = NULL;
-//        if ($res){
-//            $user = $prep->fetch(\PDO::FETCH_OBJ);
-//        }
-//        return $user;
-//    }
+
+    public function getByPol(string $pol)
+    {
+        $sql  = 'SELECT * FROM proizvod WHERE  pol = ?;';
+        $prep = $this->dbc->getConnection()->prepare($sql);
+        $res  = $prep->execute([$pol]);
+        $products = [];
+        if ($res){
+            $products = $prep->fetchAll(\PDO::FETCH_OBJ);
+        }
+        return $products;
+    }
 
 
 }

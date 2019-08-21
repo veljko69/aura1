@@ -1,0 +1,42 @@
+.registracija{
+    border: 2px solid grey;
+    width: 380px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+.form{
+    width: 330px;
+    height: 25px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+#button{
+    height: 35px;
+    width: 200px;
+    margin:  0 90px;
+    background-color: #fff;
+}
+.button1{
+    border: 2px solid grey;
+    width: 380px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+.header{
+    width: 800px;
+    background-color: darkred;
+    height: 40px;
+    margin-bottom: 120px;
+}
+.art{
+    color: darkred;
+    width: 200px;
+    height: 200px;
+    border: black 2px solid;
+    display: inline-block;
+    list-style: none;
+}

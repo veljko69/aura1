@@ -15,7 +15,7 @@ class DatabaseConnection
    public function getConnection():PDO{
        if($this->connection===NULL){
            $this->connection = new PDO(
-                            $this->configuration->getSourceStrng(),
+                            $this->configuration->getSourceString(),
                             $this->configuration->getUser(),
                             $this->configuration->getPass()
            );

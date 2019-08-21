@@ -17,7 +17,7 @@ class DatabaseConfiguration
     }
 
 
-    public function getSourceStrng()
+    public function getSourceString()
     {
         return "mysql:host={$this->host};dbname={$this->name};charset=utf8";
     }

@@ -4,6 +4,7 @@ namespace App\Models;
 
 class UserModel
 {
+
     private $dbc;
 
     public function __construct(DatabaseConnection &$dbc)
@@ -34,7 +35,7 @@ class UserModel
 
     }
     public  function getByUsername($username){
-        $sql  = 'SELECT * FROM user WHERE  user_name = ?;';
+        $sql  = 'SELECT * FROM users WHERE  username = ?;';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res  = $prep->execute([$username]);
         $user = NULL;
@@ -44,7 +45,7 @@ class UserModel
         return $user;
     }
     public  function getByEmail($email){
-        $sql  = 'SELECT * FROM user WHERE  email = ?;';
+        $sql  = 'SELECT * FROM users WHERE  email = ?;';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res  = $prep->execute([$email]);
         $user = NULL;
@@ -53,16 +54,26 @@ class UserModel
         }
         return $user;
     }
-    public  function getByPassword($password){
-        $sql  = 'SELECT * FROM user WHERE  password = ?;';
+    public  function getByPassword($passwordHash)
+    {
+        $sql = 'SELECT * FROM users WHERE  password_hash = ?;';
         $prep = $this->dbc->getConnection()->prepare($sql);
-        $res  = $prep->execute([$password]);
+        $res = $prep->execute([$passwordHash]);
         $user = NULL;
-        if ($res){
+        if ($res) {
             $user = $prep->fetch(\PDO::FETCH_OBJ);
         }
         return $user;
     }
+        public  function add($username, $email,$passwordHash,$forename,$surname){
+            $sql = 'INSERT INTO users(username, email,password_hash,forename,surname)
+                    VALUES(?,?,?,?,?)';
+            $prep = $this->dbc->getConnection()->prepare($sql);
+            $res  = $prep->execute([$username, $email,$passwordHash,$forename,$surname]);
+
+            return $res;
+        }
+
 
 
 }
