@@ -11,19 +11,10 @@ class CategoryModel
         $this->dbc = $dbc;
     }
 
-//    public  function getById($userId){
-//        $sql  = 'SELECT * FROM user WHERE  user_id = ?;';
-//        $prep = $this->dbc->getConnection()->prepare($sql);
-//        $res  = $prep->execute([$userId]);
-//        $user = NULL;
-//        if ($res){
-//            $user = $prep->fetch(\PDO::FETCH_OBJ);
-//        }
-//        return $user;
-//    }
+
 
     public function getAll():array {
-        $sql = 'SELECT * FROM proizvodi';
+        $sql = 'SELECT * FROM proizvod';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res = $prep->execute();
         $products = [];

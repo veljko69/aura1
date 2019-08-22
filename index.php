@@ -1,5 +1,5 @@
 <?php
-require_once 'views/_global/header.html';
+require_once 'views/_global/before.html';
 require_once 'vendor/autoload.php';
 require_once 'controller/MainController.php';
 use App\Core\DatabaseConfiguration;
@@ -11,18 +11,30 @@ use App\Models\UserModel;
 $databaseConfiguration = new DatabaseConfiguration('localhost','root','','aura1');
 $databaseConnection= new DatabaseConnection($databaseConfiguration);
 
-      $userModel = new UserModel($databaseConnection);
-      $users = $userModel->getByUsername('user_one');
-      print_r($users);
+
 //$categoryModel = new App\Models\CategoryModel($databaseConnection);
 //$proizvodi = $categoryModel->getByPol('m');
 //print_r($proizvodi);
 //$data = ['products'=>$proizvodi];
+
+
 //   $controller = new App\Controller\MainController($databaseConnection);
 //   $data = $controller->home();
 //print_r($data);
-//foreach ($data as $name=>$value) {
+   $controller = new App\Controller\MainController($databaseConnection);
+$mdata = $controller->muski();
+
+$controller = new App\Controller\MainController($databaseConnection);
+$zdata = $controller->zenski();
+//print_r($data);
+
+
+foreach ($mdata as $name=>$value) {
+    $$name = $value;
+}
+//foreach ($zdata as $name=>$value) {
 //    $$name = $value;
 //}
 //require_once 'views/Main/home.php';
 //require_once  'views/Pol/muski.html';
+require_once  'views/Pol/zenski.html';

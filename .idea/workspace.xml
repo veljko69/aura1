@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="dodao registraciju">
-      <change beforePath="$PROJECT_DIR$/.idea/aura1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aura1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="dodao registracijuptopuna registracija i login">
+      <change afterPath="$PROJECT_DIR$/views/Pol/zenski.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_global/before.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/CategoryModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/CategoryModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/getLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/getLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/getRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/getRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/RegLog/registracija.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/RegLog/registracija.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_global/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_global/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/_global/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,11 +106,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\aura1\assets" />
       <recent name="D:\wamp64\www\aura1\views\Main" />
       <recent name="D:\wamp64\www\aura1\views\_global" />
       <recent name="D:\wamp64\www\aura1\css" />
       <recent name="D:\wamp64\www\aura1" />
-      <recent name="D:\wamp64\www\aura1\views\RegLog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,7 +160,9 @@
       <workItem from="1566172557617" duration="853000" />
       <workItem from="1566253467032" duration="2866000" />
       <workItem from="1566402263630" duration="3716000" />
-      <workItem from="1566415458946" duration="10665000" />
+      <workItem from="1566415458946" duration="16131000" />
+      <workItem from="1566482707327" duration="1321000" />
+      <workItem from="1566503907712" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="dodao registraciju">
       <created>1565878056331</created>
@@ -174,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566030762517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dodao registracijuptopuna registracija i login">
+      <created>1566427969911</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566427969911</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +250,7 @@
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="dodao registraciju" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodao registraciju" />
+    <MESSAGE value="dodao registracijuptopuna registracija i login" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodao registracijuptopuna registracija i login" />
   </component>
 </project>

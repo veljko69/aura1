@@ -19,6 +19,19 @@ class MainController
 
         return [ 'products'=>$products] ;
     }
+    public function muski(){
+        $categoryModel = new CategoryModel($this->dbc);
+        $products = $categoryModel->getByPol('m');
+
+        return [ 'products'=>$products] ;
+    }
+    public function zenski(){
+        $categoryModel = new CategoryModel($this->dbc);
+        $products = $categoryModel->getByPol('z');
+
+        return [ 'products'=>$products] ;
+    }
+
 
 
 }
