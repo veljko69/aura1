@@ -1,4 +1,54 @@
-.registracija{
+* {
+    /*box-sizing:border-box; */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 1200px;
+}
+
+.site-header {
+    display: grid;
+    grid-template-areas: "banner social" "banner search" "menu   menu";
+}
+
+.banners {
+    grid-area: banner;
+}
+
+.social-icons {
+    grid-area: social;
+}
+
+.search-box {
+    grid-area: search;
+}
+
+#main-menu {
+    grid-area: menu;
+
+
+}
+
+#main-menu > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+}
+#main-menu > ul> li{
+    text-align: center;
+    flex-grow:1;
+}
+#main-menu > ul> li:hover{
+   background: rgba(200,200,200,0.3);
+}
+
+.registracija {
     border: 2px solid grey;
     width: 380px;
     margin: 50px auto;
@@ -6,19 +56,22 @@
     background-color: gainsboro;
     border-radius: 10px;
 }
-.form{
+
+.form {
     width: 330px;
     height: 25px;
     padding-left: 20px;
     border-radius: 8px;
 }
-#button{
+
+#button {
     height: 35px;
     width: 200px;
-    margin:  0 90px;
+    margin: 0 90px;
     background-color: #fff;
 }
-.button1{
+
+.button1 {
     border: 2px solid grey;
     width: 380px;
     margin: 50px auto;
@@ -26,12 +79,4 @@
     background-color: white;
     border-radius: 10px;
 }
-.button2{
-    border: 1px solid grey;
-    width: 200px;
-    margin: 0;
-    background-color: white;
-    border-radius: 10px;
-    float: right;
-    padding-left: 25px ;
-}
+
