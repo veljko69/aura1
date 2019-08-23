@@ -5,7 +5,7 @@ use App\Core\DatabaseConfiguration;
 use App\Core\DatabaseConnection;
 use App\Models\UserModel;
 
-$databaseConfiguration = new DatabaseConfiguration('localhost', 'root', '', 'aura1');
+$databaseConfiguration = new DatabaseConfiguration('localhost', 'root', '', 'aura');
 $databaseConnection = new DatabaseConnection($databaseConfiguration);
 
         $username = filter_input(INPUT_POST, 'reg_username', FILTER_SANITIZE_STRING);

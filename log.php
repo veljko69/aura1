@@ -5,7 +5,7 @@ use App\Core\DatabaseConfiguration;
 use App\Core\DatabaseConnection;
 use App\Models\UserModel;
 
-$databaseConfiguration = new DatabaseConfiguration('localhost', 'root', '', 'aura1');
+$databaseConfiguration = new DatabaseConfiguration('localhost', 'root', '', 'aura');
 $databaseConnection = new DatabaseConnection($databaseConfiguration);
 
     $username = filter_input(INPUT_POST, 'log_username', FILTER_SANITIZE_STRING);
@@ -20,15 +20,13 @@ $databaseConnection = new DatabaseConnection($databaseConfiguration);
             echo 'Korisnicko ime ne postoji';
             exit();
         }
+        $passwordHash =$user->password_hash;
 
-        $upass =$user->password_hash;
-        print_r($user);
-        $pass=$userModel->getByPassword($user->password_hash);
-        if(!$pass){
+        if(!password_verify($password,$passwordHash)){
             echo 'Unesite ispravnu lozinku';
         }
-//        else{
-//            header('location: ../../aura1/index.php');
-//        }
+        else{
+            header('location: ../../aura1/index.php');
+        }
 
 echo "kraj";

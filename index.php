@@ -8,7 +8,7 @@ use App\Models\UserModel;
 
 //  use App\Models\UserModel;
 //  use App\Controller\MainController;
-$databaseConfiguration = new DatabaseConfiguration('localhost','root','','aura1');
+$databaseConfiguration = new DatabaseConfiguration('localhost','root','','aura');
 $databaseConnection= new DatabaseConnection($databaseConfiguration);
 
 

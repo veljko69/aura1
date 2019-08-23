@@ -13,7 +13,7 @@ class UserModel
     }
 
     public  function getById($userId){
-        $sql  = 'SELECT * FROM user WHERE  user_id = ?;';
+        $sql  = 'SELECT * FROM users WHERE  user_id = ?;';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res  = $prep->execute([$userId]);
         $user = NULL;
@@ -54,17 +54,8 @@ class UserModel
         }
         return $user;
     }
-    public  function getByPassword($passwordHash)
-    {
-        $sql = 'SELECT * FROM users WHERE  password_hash = ?;';
-        $prep = $this->dbc->getConnection()->prepare($sql);
-        $res = $prep->execute([$passwordHash]);
-        $user = NULL;
-        if ($res) {
-            $user = $prep->fetch(\PDO::FETCH_OBJ);
-        }
-        return $user;
-    }
+
+
         public  function add($username, $email,$passwordHash,$forename,$surname){
             $sql = 'INSERT INTO users(username, email,password_hash,forename,surname)
                     VALUES(?,?,?,?,?)';
