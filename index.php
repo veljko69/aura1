@@ -1,40 +1,42 @@
 <?php
-require_once 'views/_global/before.html';
-require_once 'vendor/autoload.php';
-require_once 'controller/MainController.php';
+
+namespace App;
+
+use App\Controller\MainController;
 use App\Core\DatabaseConfiguration;
 use App\Core\DatabaseConnection;
-use App\Models\UserModel;
+use App\Core\Router;
+use App\core\Route;
 
-//  use App\Models\UserModel;
-//  use App\Controller\MainController;
-$databaseConfiguration = new DatabaseConfiguration('localhost','root','','aura');
-$databaseConnection= new DatabaseConnection($databaseConfiguration);
+require_once 'views/Main/home.php';
+require_once 'vendor/autoload.php';
 
-
-//$categoryModel = new App\Models\CategoryModel($databaseConnection);
-//$proizvodi = $categoryModel->getByPol('m');
-//print_r($proizvodi);
-//$data = ['products'=>$proizvodi];
-
-
-//   $controller = new App\Controller\MainController($databaseConnection);
-//   $data = $controller->home();
-//print_r($data);
-   $controller = new App\Controller\MainController($databaseConnection);
-$mdata = $controller->muski();
-
-$controller = new App\Controller\MainController($databaseConnection);
-$zdata = $controller->zenski();
-//print_r($data);
+$databaseConfiguration = new DatabaseConfiguration(
+    Configuration::DATABASE_HOST,
+    Configuration::DATABASE_USER,
+    Configuration::DATABASE_PASSWORD,
+    Configuration::DATABASE_NAME);
+$databaseconnection = new DatabaseConnection($databaseConfiguration);
+// $controller = new MainController($databaseconnection)
+//     $controller->home();
+// $data= $controller->getData();
+//
+// foreach ($data as $name=>$value )
 
 
-foreach ($mdata as $name=>$value) {
-    $$name = $value;
+
+//$httpMethod = filter_input(INPUT_SERVER, 'REQUEST_METHOD');
+$url = filter_input(INPUT_GET, 'URL');
+echo $url;
+//print_r($httpMethod);
+
+$router = new Router();
+$routes = require_once 'Routes.php';
+foreach ($routes as $route){
+    $route = $router->add($httpMethod,$url);
+    print_r($route);
 }
-//foreach ($zdata as $name=>$value) {
-//    $$name = $value;
-//}
-//require_once 'views/Main/home.php';
-//require_once  'views/Pol/muski.html';
-require_once  'views/Pol/zenski.html';
+
+
+    echo $url;
+print_r($httpMethod);

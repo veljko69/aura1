@@ -41,5 +41,5 @@ $databaseConnection = new DatabaseConnection($databaseConfiguration);
 
          $newuser = $userModel->add($username, $email,$passwordHash,$forename,$surname);
          if($newuser){
-             header("Location: views/Main/getLogin.html ");
+             header("Location: views/Main/getLogin.php ");
          }

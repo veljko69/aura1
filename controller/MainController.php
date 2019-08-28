@@ -31,7 +31,16 @@ class MainController
 
         return [ 'products'=>$products] ;
     }
+    public function sizePlus(){
+        $categoryModel = new CategoryModel($this->dbc);
+        $products = $categoryModel->getBySize();
 
+        return [ 'products'=>$products] ;
+    }
+
+    public function getData()
+    {
+    }
 
 
 }

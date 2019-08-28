@@ -26,7 +26,7 @@ $databaseConnection = new DatabaseConnection($databaseConfiguration);
             echo 'Unesite ispravnu lozinku';
         }
         else{
-            header('location: ../../aura1/index.php');
+            header('location: ../../aura1/views/Main/home.php');
         }
 
 echo "kraj";
