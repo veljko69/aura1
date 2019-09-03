@@ -1,5 +1,5 @@
 * {
-    /*box-sizing:border-box; */
+    box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
@@ -124,6 +124,11 @@ body {
     padding: 40px;
     background-color: white;
     border-radius: 10px;
+}
+
+footer {
+    border-top: 2px solid gray;
+    text-align: center;
 }
 
 

@@ -4,11 +4,12 @@ require_once 'views/_global/header.php';
 
 
 <nav>
+<h1>heloooooooooooooooooooooooo</h1>
 
     <ul class="art">
         <?php
-        $products=[];
-        foreach ($products as $product): ?>
+
+    foreach ($products as $product): ?>
 
         <li style="font-size: 2em ;background: green">
             <a href="?product=<?php echo $product->proizvod_id; ?>">
@@ -25,15 +26,6 @@ require_once 'views/_global/header.php';
 
     </ul>
 
-
-</nav>
-<div class="z-pocetna">
-
-
-    <img src="http://localhost/aura1/assets/img/people-2563491_1280.jpg" height="850" width="1200"/>
-    </div>
-<div class="m-pocetna">
-
-    <img src="http://localhost/aura1/assets/img/black-and-white-1283231_1280.jpg" height="850" width="1200"/></div>
-</body>
-</html>
+<?php
+require_once 'views/_global/footer.php';
+?>

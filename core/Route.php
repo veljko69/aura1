@@ -34,7 +34,7 @@ final class Route
 
     public static function any(string $pattern, string $controller, string $method)
     {
-        return new Route('GET|POST','$pattern', '$controller', '$method');
+        return new Route('GET|POST',$pattern,$controller,$method);
     }
 
     public function matches(string $method, string $url)
@@ -55,6 +55,18 @@ final class Route
     public function getMethodName()
     {
         return $this->method;
+    }
+
+    public function extractArguments( $url ):array
+    {
+        $matches = [];
+        $arguments=[];
+        preg_match($this->pattern,$url,$matches);
+        if(isset($matches[1])){
+         $arguments=[$matches[1]];
+        }
+        return $arguments;
+
     }
 
 }
