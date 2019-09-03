@@ -1,33 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="do rutiranja">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Main/postLogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Main/postRegiser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/_global/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/muski.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/size.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Main/getLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/getLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Main/getRegister.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/getRegister.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Main/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Main/size.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/sizeplus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Pol/ViewMuski.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/muski.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Pol/muskiView.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Pol/zenski.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/zenski.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/_global/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/_global/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zenski.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,13 +67,19 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -211,7 +192,7 @@
       <workItem from="1567095589612" duration="20774000" />
       <workItem from="1567178362423" duration="3379000" />
       <workItem from="1567339885614" duration="9680000" />
-      <workItem from="1567446924484" duration="5014000" />
+      <workItem from="1567446924484" duration="5890000" />
     </task>
     <task id="LOCAL-00001" summary="dodao registraciju">
       <created>1565878056331</created>
@@ -269,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567000902960</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="zavrsena prijava i rutiranje">
+      <created>1567504049508</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567504049508</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -356,7 +344,8 @@
     <MESSAGE value="dodao registraciju" />
     <MESSAGE value="dodao registracijuptopuna registracija i login" />
     <MESSAGE value="do rutiranja" />
-    <option name="LAST_COMMIT_MESSAGE" value="do rutiranja" />
+    <MESSAGE value="zavrsena prijava i rutiranje" />
+    <option name="LAST_COMMIT_MESSAGE" value="zavrsena prijava i rutiranje" />
   </component>
   <component name="masterDetails">
     <states>
