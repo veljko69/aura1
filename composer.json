@@ -1,6 +1,7 @@
 {
     "name": "lora/aura-1",
-    "type": "project",
+  "license": "",
+  "type": "project",
     "require": {
       "ext-pdo": "*"
     },

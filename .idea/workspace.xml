@@ -2,7 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/veljk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/4820801_1_460_690px.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bluza1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/0b/0ba4a12a81870abf82d6f4a14b19b416b5a1d0a5a2de9732354d3a8251c7bcff.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/11/11b5d8900f7262471c46fcdb3954560eb27fc8f40500772f4c9d84342ce2aa31.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/1a/1a86c5a3fb25a625241a09b8e1e87a76dd2bb5da35c713cff25ceb762656d50b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/41/4181ea9ee45e9295720fc3e201906d6e9cf6fa5270b1c4aabba5802297f5a111.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/6a/6a6b514766009aa28c77916ec8e076746ee36184cfd2f9a0c05c313352a0e452.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/9a/9aa200ba2ca2e597abda9e6f91f6597f474c071dfa8b246e56d913007a5a797b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/c8/c8c567144bcd52f921479e64012b19a734e96edbc4106a202c55b10b6af15b03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/d2/d2c753a57a90d6a4fdb709f9cd5420a90ee7009e66dafe2e75e77cdae311f442.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/dc/dc6711c16e7e868750338eb9623dbaca10872a3893d3ea5d660d701c66457396.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/f8/f87816ad483fa83399faf8e906c6f7d65a7c81aaa95f21830e2f527022913c03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Main/getLogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Main/getRegister.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Main/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Main/muski.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Main/sizeplus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Main/zenski.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Product/showProductById.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_global/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/CategoryModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/getRegister.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/muski.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/sizeplus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/zenski.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_global/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_global/header.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +100,7 @@
         <item name="aura@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="aura: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="proizvod: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -117,16 +169,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
     <property name="two.files.diff.last.used.folder" value="D:/Git/bin" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\aura1\assets\img" />
+      <recent name="D:\wamp64\www\aura1\views\Product" />
+      <recent name="D:\wamp64\www\aura1\views\Main" />
       <recent name="C:\wamp64\www\aura1\views\Main" />
       <recent name="C:\wamp64\www\aura1" />
-      <recent name="C:\wamp64\www\aura1\views\size" />
-      <recent name="C:\wamp64\www\aura1\views" />
-      <recent name="C:\wamp64\www\aura1\core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,7 +197,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@900556cd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -193,6 +250,25 @@
       <workItem from="1567178362423" duration="3379000" />
       <workItem from="1567339885614" duration="9680000" />
       <workItem from="1567446924484" duration="5890000" />
+      <workItem from="1567539083328" duration="2671000" />
+      <workItem from="1567549979173" duration="14000" />
+      <workItem from="1567800342750" duration="1806000" />
+      <workItem from="1567805287888" duration="975000" />
+      <workItem from="1567806318038" duration="707000" />
+      <workItem from="1567807050573" duration="34000" />
+      <workItem from="1567807097870" duration="135000" />
+      <workItem from="1567807244308" duration="642000" />
+      <workItem from="1567807897470" duration="171000" />
+      <workItem from="1567808079338" duration="204000" />
+      <workItem from="1567808321005" duration="1687000" />
+      <workItem from="1567860867514" duration="6466000" />
+      <workItem from="1567889974973" duration="8021000" />
+      <workItem from="1567900778208" duration="109000" />
+      <workItem from="1567936546032" duration="7620000" />
+      <workItem from="1567944556003" duration="1423000" />
+      <workItem from="1567960648821" duration="6433000" />
+      <workItem from="1567976431873" duration="3543000" />
+      <workItem from="1568033072129" duration="10925000" />
     </task>
     <task id="LOCAL-00001" summary="dodao registraciju">
       <created>1565878056331</created>

@@ -2,7 +2,7 @@
 namespace App\Models;
 use App\Core\DatabaseConnection;
 
-class CategoryModel
+class ProductModel
 {
     private $dbc;
 
@@ -30,6 +30,15 @@ class CategoryModel
         $products = [];
         if ($res){
             $products = $prep->fetchAll(\PDO::FETCH_OBJ);
+        }
+        return $products;
+    }public  function getById($id){
+        $sql  = 'SELECT * FROM proizvod WHERE  proizvod_id = ?;';
+        $prep = $this->dbc->getConnection()->prepare($sql);
+        $res  = $prep->execute([$id]);
+        $products = null;
+        if ($res){
+            $products = $prep->fetch(\PDO::FETCH_OBJ);
         }
         return $products;
     }

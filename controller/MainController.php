@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use App\core\Controller;
-use App\Models\CategoryModel;
+use App\Models\ProductModel;
 use App\Models\UserModel;
 
 class MainController extends Controller
@@ -13,24 +13,24 @@ class MainController extends Controller
     public function home()
     {
         $dbc = $this->getDatabaseConnection();
-        $categoryModel = new CategoryModel($dbc);
-        $products = $categoryModel->getAll();
+        $productModel = new ProductModel($dbc);
+        $products = $productModel->getAll();
         $this->set('products', $products);
     }
 
     public function muski()
     {
         $dbc = $this->getDatabaseConnection();
-        $categoryModel = new CategoryModel($dbc);
-        $products = $categoryModel->getByPol('m');
+        $productModel = new ProductModel($dbc);
+        $products = $productModel->getByPol('m');
         $this->set('products', $products);
     }
 
     public function zenski()
     {
         $dbc = $this->getDatabaseConnection();
-        $categoryModel = new CategoryModel($dbc);
-        $products = $categoryModel->getByPol('z');
+        $productModel = new ProductModel($dbc);
+        $products = $productModel->getByPol('z');
 
         $this->set('products', $products);
 
@@ -40,8 +40,8 @@ class MainController extends Controller
     {
         $dbc = $this->getDatabaseConnection();
 
-        $categoryModel = new CategoryModel($dbc);
-        $products = $categoryModel->getBySize();
+        $productModel = new ProductModel($dbc);
+        $products = $productModel->getBySize();
 
         $this->set('products', $products);
     }
@@ -110,11 +110,18 @@ class MainController extends Controller
         if (!password_verify($password, $passwordHash)) {
             echo 'Unesite ispravnu lozinku';
         }
-
+        header("Location:/aura1/home ");
     }
 
     public function getLogin()
     {
 
+    }
+    public function showProductById($id)
+    {
+        $dbc = $this->getDatabaseConnection();
+        $productModel = new ProductModel($dbc);
+        $products = $productModel->getById($id);
+        $this->set('products', $products);
     }
 }

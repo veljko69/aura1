@@ -1,0 +1,20 @@
+{% extends "_global/index.html"%}
+{% block main%}
+{% spaceless %}
+<div class="proizvodi" >
+        {% for product in products %}
+
+  <div class="proizvod">
+      <img src="assets/img/{{ product.slika}}.jpg"height="auto" width="300">
+            <a  class="link"href="product/{{ product.proizvod_id}}" class="veza">{{ product.pol}}.{{ product.naziv}}</a><br>
+            {{ product.cijena }}<br>
+            {{ product.velicina }}<br>
+            {{ product.boja }}<br>
+            {{ product.sifra }}<br>
+  </div>
+            {% endfor %}
+</div>
+{% endspaceless %}
+
+{% endblock %}
+{% block naslov %}Zenska kolekcija{% endblock %}

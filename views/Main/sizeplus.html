@@ -1,0 +1,23 @@
+{% extends "_global/index.html"%}
+{% block main%}
+{% spaceless %}
+<nav>
+    <ul>
+        {% for product in products %}
+
+        <li>
+            <a href="product/{{ product.proizvod_id}}">{{ product.pol}}.{{ product.naziv}}</a><br>
+
+
+            {{ product.cijena }}<br>
+            {{ product.velicina }}<br>
+            {{ product.boja }}<br>
+            {{ product.sifra }}<br>
+
+            {% endfor %}
+    </ul>
+</nav>
+{% endspaceless %}
+
+{% endblock %}
+{% block naslov %}Size plus {% endblock %}

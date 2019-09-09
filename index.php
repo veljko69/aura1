@@ -6,6 +6,10 @@ use App\Controller\MainController;
 use App\Core\DatabaseConfiguration;
 use App\Core\DatabaseConnection;
 use App\Core\Router;
+use App\Models\ProductModel;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
 
 
 $databaseConfiguration = new DatabaseConfiguration(
@@ -34,7 +38,7 @@ foreach ($routes as $route) {
 $route = $router->find($httpMethod, $url);
 
 $arguments = $route->extractArguments($url);
-
+//var_dump($arguments);
 $fullControllerName = '\\App\\Controller\\' . $route->getControllerName() . 'Controller';
 $controller = new $fullControllerName($databaseconnection);
 
@@ -42,7 +46,97 @@ call_user_func_array([$controller, $route->getMethodName()], $arguments);
 
 $data = $controller->getData();
 
-foreach ($data as $name => $value) {
-    $$name = $value;
+//var_dump($data);
+//foreach ($data as $name => $value) {
+//    $$name = $value;
+//}
+//require_once 'views/'.$route->getControllerName().'/'.$route->getMethodName().'.php' ;
+
+
+$loader = new \Twig\Loader\FilesystemLoader('./views/');
+$twig = new \Twig\Environment($loader, [
+    "cache" => "./twig-cache",
+    "auto_reload"=>true
+]);
+try {
+    echo $twig->render($route->getControllerName() . '/' . $route->getMethodName() .'.html', $data);
+} catch (LoaderError $e) {
+} catch (RuntimeError $e) {
+} catch (SyntaxError $e) {
 }
-require_once 'views/'.$route->getControllerName().'/'.$route->getMethodName().'.php' ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

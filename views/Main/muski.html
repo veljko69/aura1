@@ -1,0 +1,25 @@
+{% extends "_global/index.html"%}
+{% block main%}
+{% spaceless %}
+
+    <ul class="proizvodi" >
+        {% for product in products %}
+
+        <li class="proizvod">
+            <img src="assets/img/{{ product.slika}}.jpg"height="auto" width="300">
+            <a class="link" href="product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
+
+           <br>
+            <p>cijena:</p>{{ product.cijena }}
+            <p>velicina:</p>{{ product.velicina }}<br>
+            {{ product.boja }}<br>
+
+
+            {% endfor %}
+    </ul>
+
+{% endspaceless %}
+
+{% endblock %}
+
+{% block naslov %}Muska kolekcija{% endblock %}
