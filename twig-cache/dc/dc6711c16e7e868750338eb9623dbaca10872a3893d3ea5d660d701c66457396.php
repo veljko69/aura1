@@ -51,42 +51,39 @@ class __TwigTemplate_b58782529998f2f33e4b97bff2820be5c309168269a14f34da27e3a3117
         ob_start(function () { return ''; });
         // line 4
         echo "
+<div class=\"proizvod\">
 
-
-
+<img src=\"../assets/img/";
+        // line 7
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "slika", [], "any", false, false, false, 7), "html", null, true);
+        echo ".jpg\"height=\"auto\" width=\"300\">
             ";
         // line 8
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "pol", [], "any", false, false, false, 8), "html", null, true);
-        echo ".";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "naziv", [], "any", false, false, false, 8), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "cijena", [], "any", false, false, false, 8), "html", null, true);
         echo "<br>
             ";
         // line 9
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "cijena", [], "any", false, false, false, 9), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "velicina", [], "any", false, false, false, 9), "html", null, true);
         echo "<br>
             ";
         // line 10
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "velicina", [], "any", false, false, false, 10), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "boja", [], "any", false, false, false, 10), "html", null, true);
         echo "<br>
             ";
         // line 11
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "boja", [], "any", false, false, false, 11), "html", null, true);
-        echo "<br>
-            ";
-        // line 12
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "sifra", [], "any", false, false, false, 12), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "sifra", [], "any", false, false, false, 11), "html", null, true);
         echo "<br>
 
-
+</div>
 
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));
-        // line 17
+        // line 16
         echo "
 ";
     }
 
-    // line 20
+    // line 19
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -105,7 +102,7 @@ class __TwigTemplate_b58782529998f2f33e4b97bff2820be5c309168269a14f34da27e3a3117
 
     public function getDebugInfo()
     {
-        return array (  90 => 20,  85 => 17,  77 => 12,  73 => 11,  69 => 10,  65 => 9,  59 => 8,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  87 => 19,  82 => 16,  74 => 11,  70 => 10,  66 => 9,  62 => 8,  58 => 7,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()

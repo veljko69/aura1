@@ -50,59 +50,61 @@ class __TwigTemplate_eef40db1a6464faeca1647053943bffbe3dceca2ce356d290106931760f
         // line 3
         ob_start(function () { return ''; });
         // line 4
-        echo "<nav>
-    <ul>
-        ";
-        // line 6
+        echo "<div class=\"proizvodi\">
+    ";
+        // line 5
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["products"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["product"]) {
-            // line 7
+            // line 6
             echo "
-        <li>
-            <a href=\"product/";
+    <div class=\"proizvod\">
+        <img src=\"assets/img/";
+            // line 8
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "slika", [], "any", false, false, false, 8), "html", null, true);
+            echo ".jpg\" height=\"auto\" width=\"300\">
+        <a class=\"link\" href=\"product/";
             // line 9
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 9), "html", null, true);
-            echo "\">";
+            echo "\" >";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "pol", [], "any", false, false, false, 9), "html", null, true);
             echo ".";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "naziv", [], "any", false, false, false, 9), "html", null, true);
             echo "</a><br>
 
 
-            ";
+        <p>cijena:</p>";
             // line 12
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "cijena", [], "any", false, false, false, 12), "html", null, true);
             echo "<br>
-            ";
+        <p>velicina:</p>";
             // line 13
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "velicina", [], "any", false, false, false, 13), "html", null, true);
             echo "<br>
-            ";
+        ";
             // line 14
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "boja", [], "any", false, false, false, 14), "html", null, true);
             echo "<br>
-            ";
+        ";
             // line 15
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "sifra", [], "any", false, false, false, 15), "html", null, true);
             echo "<br>
-
-            ";
+    </div>
+    ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 18
-        echo "    </ul>
-</nav>
+        echo "</div>
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));
-        // line 21
+        // line 20
         echo "
 ";
     }
 
-    // line 23
+    // line 22
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -121,7 +123,7 @@ class __TwigTemplate_eef40db1a6464faeca1647053943bffbe3dceca2ce356d290106931760f
 
     public function getDebugInfo()
     {
-        return array (  106 => 23,  101 => 21,  96 => 18,  87 => 15,  83 => 14,  79 => 13,  75 => 12,  65 => 9,  61 => 7,  57 => 6,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  108 => 22,  103 => 20,  99 => 18,  90 => 15,  86 => 14,  82 => 13,  78 => 12,  68 => 9,  64 => 8,  60 => 6,  56 => 5,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()

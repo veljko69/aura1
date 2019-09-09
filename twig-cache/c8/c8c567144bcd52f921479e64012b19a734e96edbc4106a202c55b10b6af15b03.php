@@ -51,7 +51,7 @@ class __TwigTemplate_91dc71a910569e1fd65780312a10ad58d566e323aee44d276a273a1ba30
         ob_start(function () { return ''; });
         // line 4
         echo "
-    <ul class=\"proizvodi\" >
+    <div class=\"proizvodi\" >
         ";
         // line 6
         $context['_parent'] = $context;
@@ -59,7 +59,7 @@ class __TwigTemplate_91dc71a910569e1fd65780312a10ad58d566e323aee44d276a273a1ba30
         foreach ($context['_seq'] as $context["_key"] => $context["product"]) {
             // line 7
             echo "
-        <li class=\"proizvod\">
+        <div class=\"proizvod\">
             <img src=\"assets/img/";
             // line 9
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "slika", [], "any", false, false, false, 9), "html", null, true);
@@ -87,14 +87,14 @@ class __TwigTemplate_91dc71a910569e1fd65780312a10ad58d566e323aee44d276a273a1ba30
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "boja", [], "any", false, false, false, 15), "html", null, true);
             echo "<br>
 
-
+        </div>
             ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 19
-        echo "    </ul>
+        echo "    </div>
 
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));

@@ -2,10 +2,10 @@
 {% block main%}
 {% spaceless %}
 
-    <ul class="proizvodi" >
+    <div class="proizvodi" >
         {% for product in products %}
 
-        <li class="proizvod">
+        <div class="proizvod">
             <img src="assets/img/{{ product.slika}}.jpg"height="auto" width="300">
             <a class="link" href="product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
 
@@ -14,9 +14,9 @@
             <p>velicina:</p>{{ product.velicina }}<br>
             {{ product.boja }}<br>
 
-
+        </div>
             {% endfor %}
-    </ul>
+    </div>
 
 {% endspaceless %}
 

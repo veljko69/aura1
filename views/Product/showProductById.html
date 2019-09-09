@@ -2,16 +2,15 @@
 {% block main%}
 {% spaceless %}
 
+<div class="proizvod">
 
-
-
-            {{ product.pol}}.{{product.naziv }}<br>
+<img src="../assets/img/{{ product.slika}}.jpg"height="auto" width="300">
             {{ product.cijena }}<br>
             {{ product.velicina }}<br>
             {{ product.boja }}<br>
             {{ product.sifra }}<br>
 
-
+</div>
 
 {% endspaceless %}
 

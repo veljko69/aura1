@@ -3,22 +3,17 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     margin: 20px auto;
     width: 1200px;
     max-width: 1200px;
     background-color: #f9f9f9;
 }
-
 body .site-header {
     display: grid;
     grid-template-areas: "banner social" "banner search" "menu   menu";
     background-color: #f3f3f3;
-
 }
-
-
 .banners {
     grid-area: banner;
     margin-left: 20px;
@@ -29,14 +24,10 @@ body .site-header {
     display: flex;
     margin-right: 100px;
     flex-direction: row;
-
 }
-
 .social-icons {
     width: 24px;
     height: 16px;
-
-
 }
 
 .fa-facebook {
@@ -64,11 +55,9 @@ body .site-header {
 
 #main-menu {
     grid-area: menu;
-    margin: 20px 0;
+    margin: 10px 0;
     border-top: 2px solid grey;
-
 }
-
 #main-menu > ul {
     list-style: none;
     display: flex;
@@ -76,12 +65,10 @@ body .site-header {
     align-items: stretch;
     align-content: stretch;
 }
-
 #main-menu > ul > li {
     text-align: center;
     flex-grow: 1;
 }
-
 #main-menu > ul > li > a {
     text-decoration: none;
     padding: 10px 0;
@@ -108,7 +95,6 @@ body .site-header {
     padding-left: 90px;
     border-radius: 8px;
 }
-
 #button {
     height: 35px;
     width: 200px;
@@ -116,7 +102,6 @@ body .site-header {
     padding-left: inherit;
     background-color: #fff;
 }
-
 .button1 {
     border: 2px solid grey;
     width: 380px;
@@ -141,16 +126,13 @@ footer {
     flex-wrap: wrap;
     border: #ccc 1px solid;
 
-
 }
 
 .proizvod {
     text-decoration: none;
     width: 25%;
-    height:600px;
-    /*border: #ebebeb 1px solid;*/
-
-
+    height: 600px;
+    border: #ebebeb 1px solid;
 }
 
 .proizvod:hover {
@@ -158,7 +140,8 @@ footer {
     background: rgba(200, 200, 200, 0.4);
 
 }
-.link{
+
+.link {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
