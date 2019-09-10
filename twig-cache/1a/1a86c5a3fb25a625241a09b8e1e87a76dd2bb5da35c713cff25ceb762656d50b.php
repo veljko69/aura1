@@ -84,6 +84,6 @@ class __TwigTemplate_e5ed5c792988156ff80a9c8ba3d97bbc18d34df05f42d362a5a2948a11e
 
     public function getSourceContext()
     {
-        return new Source("", "Main/home.html", "D:\\wamp64\\www\\aura1\\views\\Main\\home.html");
+        return new Source("", "Main/home.html", "C:\\wamp64\\www\\aura1\\views\\Main\\home.html");
     }
 }

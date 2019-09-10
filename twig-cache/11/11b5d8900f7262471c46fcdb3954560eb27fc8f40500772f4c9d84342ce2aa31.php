@@ -144,6 +144,6 @@ class __TwigTemplate_4a41f3a424405fd2eabde7ff2cd895c3a343e94b2652f181ea8140f9f52
 
     public function getSourceContext()
     {
-        return new Source("", "Main/getRegister.html", "D:\\wamp64\\www\\aura1\\views\\Main\\getRegister.html");
+        return new Source("", "Main/getRegister.html", "C:\\wamp64\\www\\aura1\\views\\Main\\getRegister.html");
     }
 }

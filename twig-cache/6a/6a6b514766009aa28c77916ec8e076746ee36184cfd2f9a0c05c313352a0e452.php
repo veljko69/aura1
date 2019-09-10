@@ -88,7 +88,7 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
         // line 46
         echo "            </main>
 
-        <footer>
+        <footer class=\"footer\">
             &copy; 2019 aura
        </footer>
 </body>
@@ -122,6 +122,6 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
 
     public function getSourceContext()
     {
-        return new Source("", "_global/index.html", "D:\\wamp64\\www\\aura1\\views\\_global\\index.html");
+        return new Source("", "_global/index.html", "C:\\wamp64\\www\\aura1\\views\\_global\\index.html");
     }
 }
