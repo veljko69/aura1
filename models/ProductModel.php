@@ -56,7 +56,7 @@ class ProductModel
     }
     public function getBySize()
     {
-        $sql  = 'SELECT * FROM proizvod WHERE  velicina > 42;';
+        $sql  = 'SELECT * FROM proizvod WHERE velicina > 42  AND velicina <51   ;';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res  = $prep->execute();
         $products = [];
