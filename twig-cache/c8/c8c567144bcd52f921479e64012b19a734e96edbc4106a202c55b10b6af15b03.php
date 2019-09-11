@@ -59,11 +59,13 @@ class __TwigTemplate_91dc71a910569e1fd65780312a10ad58d566e323aee44d276a273a1ba30
         foreach ($context['_seq'] as $context["_key"] => $context["product"]) {
             // line 7
             echo "
-        <div class=\"proizvod\">
-            <img src=\"assets/img/";
+        <div class=\"proizvod\" >
+          <a href=\"product/";
             // line 9
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 9), "html", null, true);
+            echo "\" ><img src=\"assets/img/";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "slika", [], "any", false, false, false, 9), "html", null, true);
-            echo ".jpg\"height=\"auto\" width=\"300\">
+            echo ".jpg\" height=\"auto\" width=\"300\"></a>
             <a class=\"link\" href=\"product/";
             // line 10
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 10), "html", null, true);
@@ -122,7 +124,7 @@ class __TwigTemplate_91dc71a910569e1fd65780312a10ad58d566e323aee44d276a273a1ba30
 
     public function getDebugInfo()
     {
-        return array (  107 => 25,  102 => 22,  97 => 19,  87 => 15,  83 => 14,  79 => 13,  69 => 10,  65 => 9,  61 => 7,  57 => 6,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  109 => 25,  104 => 22,  99 => 19,  89 => 15,  85 => 14,  81 => 13,  71 => 10,  65 => 9,  61 => 7,  57 => 6,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()

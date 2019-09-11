@@ -28,6 +28,7 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
 
         $this->blocks = [
             'naslov' => [$this, 'block_naslov'],
+            'sidebar' => [$this, 'block_sidebar'],
             'main' => [$this, 'block_main'],
         ];
     }
@@ -82,10 +83,14 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
             </nav>
         </header>
             <main>
+
                 ";
-        // line 44
+        // line 45
+        $this->displayBlock('sidebar', $context, $blocks);
+        // line 47
+        echo "                ";
         $this->displayBlock('main', $context, $blocks);
-        // line 46
+        // line 49
         echo "            </main>
 
         <footer class=\"footer\">
@@ -102,11 +107,19 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
         echo "Pocetna";
     }
 
-    // line 44
+    // line 45
+    public function block_sidebar($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        // line 46
+        echo "                ";
+    }
+
+    // line 47
     public function block_main($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 45
+        // line 48
         echo "                ";
     }
 
@@ -117,7 +130,7 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
 
     public function getDebugInfo()
     {
-        return array (  110 => 45,  106 => 44,  99 => 5,  89 => 46,  87 => 44,  45 => 5,  39 => 1,);
+        return array (  123 => 48,  119 => 47,  115 => 46,  111 => 45,  104 => 5,  94 => 49,  91 => 47,  89 => 45,  46 => 5,  40 => 1,);
     }
 
     public function getSourceContext()

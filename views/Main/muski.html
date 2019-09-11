@@ -5,8 +5,8 @@
     <div class="proizvodi" >
         {% for product in products %}
 
-        <div class="proizvod">
-            <img src="assets/img/{{ product.slika}}.jpg"height="auto" width="300">
+        <div class="proizvod" >
+          <a href="product/{{ product.proizvod_id}}" ><img src="assets/img/{{ product.slika}}.jpg" height="auto" width="300"></a>
             <a class="link" href="product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
 
            <br>

@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/0b/0ba4a12a81870abf82d6f4a14b19b416b5a1d0a5a2de9732354d3a8251c7bcff.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/0b/0ba4a12a81870abf82d6f4a14b19b416b5a1d0a5a2de9732354d3a8251c7bcff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/6a/6a6b514766009aa28c77916ec8e076746ee36184cfd2f9a0c05c313352a0e452.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/6a/6a6b514766009aa28c77916ec8e076746ee36184cfd2f9a0c05c313352a0e452.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/c8/c8c567144bcd52f921479e64012b19a734e96edbc4106a202c55b10b6af15b03.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/c8/c8c567144bcd52f921479e64012b19a734e96edbc4106a202c55b10b6af15b03.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/dc/dc6711c16e7e868750338eb9623dbaca10872a3893d3ea5d660d701c66457396.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/dc/dc6711c16e7e868750338eb9623dbaca10872a3893d3ea5d660d701c66457396.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/f8/f87816ad483fa83399faf8e906c6f7d65a7c81aaa95f21830e2f527022913c03.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/f8/f87816ad483fa83399faf8e906c6f7d65a7c81aaa95f21830e2f527022913c03.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/muski.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/muski.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/sizeplus.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/sizeplus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/zenski.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/zenski.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Product/showProductById.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/showProductById.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_global/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/_global/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +224,7 @@
       <workItem from="1567976431873" duration="3543000" />
       <workItem from="1568033072129" duration="13961000" />
       <workItem from="1568068189312" duration="407000" />
-      <workItem from="1568136564718" duration="3838000" />
+      <workItem from="1568136564718" duration="14791000" />
     </task>
     <task id="LOCAL-00001" summary="dodao registraciju">
       <created>1565878056331</created>
@@ -306,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568137830625</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="slike">
+      <created>1568193018539</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568193018539</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -388,6 +399,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="dodao registraciju" />

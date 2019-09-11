@@ -5,7 +5,9 @@
     {% for product in products %}
 
     <div class="proizvod">
-        <img src="assets/img/{{ product.slika}}.jpg" height="auto" width="300">
+        <a href="product/{{ product.proizvod_id}}" >
+            <img src="assets/img/{{ product.slika}}.jpg" height="auto" width="300">
+        </a>
         <a class="link" href="product/{{ product.proizvod_id}}">{{ product.pol}}.{{ product.naziv}}</a><br>
         <p>cijena:</p>{{ product.cijena }}<br>
         <p>velicina:</p>{{ product.velicina }}<br>

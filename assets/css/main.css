@@ -147,5 +147,19 @@ body .site-header {
     text-transform: uppercase;
 }
 
+.proizvod-jedan{
+    background: #b7b7b7;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px #949494;
+}
+.podaci{
+    border: 1px solid #e5e5e5;
+    margin:auto;
+    padding:30px
 
+}
+.slika{
+    margin:40px
+}
 

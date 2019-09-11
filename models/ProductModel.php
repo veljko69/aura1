@@ -1,6 +1,7 @@
 <?php
 namespace App\Models;
 use App\Core\DatabaseConnection;
+use App\core\Model;
 
 class ProductModel
 {
@@ -9,6 +10,17 @@ class ProductModel
     public function __construct(DatabaseConnection &$dbc)
     {
         $this->dbc = $dbc;
+    }
+
+    public  function getById($id){
+        $sql  = 'SELECT * FROM proizvod  WHERE proizvod_id = ?;';
+        $prep = $this->dbc->getConnection()->prepare($sql);
+        $res  = $prep->execute([$id]);
+        $products = null;
+        if ($res){
+            $products = $prep->fetch(\PDO::FETCH_OBJ);
+        }
+        return $products;
     }
 
 
@@ -30,15 +42,6 @@ class ProductModel
         $products = [];
         if ($res){
             $products = $prep->fetchAll(\PDO::FETCH_OBJ);
-        }
-        return $products;
-    }public  function getById($id){
-        $sql  = 'SELECT * FROM proizvod WHERE  proizvod_id = ?;';
-        $prep = $this->dbc->getConnection()->prepare($sql);
-        $res  = $prep->execute([$id]);
-        $products = null;
-        if ($res){
-            $products = $prep->fetch(\PDO::FETCH_OBJ);
         }
         return $products;
     }
