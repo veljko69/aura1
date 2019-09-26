@@ -3,7 +3,8 @@
   "license": "",
   "type": "project",
     "require": {
-      "ext-pdo": "*"
+      "ext-pdo": "*",
+      "ext-json": "*"
     },
     "autoload": {
         "psr-4": {

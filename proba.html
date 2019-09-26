@@ -1,0 +1,45 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div>
+    ID aukcije: <label>
+    <input type="number" min="1" step="1" name="product_id">
+</label>
+    <button type="button" onclick="getProductData();">Get product data</button>
+</div>
+
+<div id="product_id"></div>
+<script>
+    function getProductData(){
+        const productId = document.querySelector('#product_id').value;
+
+        fetch('http://localhost/aura1/api/product/'+productId)
+            .then(result => result.json())
+            .then(data => {
+                showReceivedData(data)
+            });
+        function showReceivedData(data){
+          if (data.product === false){
+              document.querySelector('#product_data').innerHTML = 'Ne postoji proizvod';
+              return;
+          }
+            document.querySelector('#product_data').innerHTML = JSON.stringify(data.product);
+
+        }
+    }
+</script>
+
+</body>
+</html>

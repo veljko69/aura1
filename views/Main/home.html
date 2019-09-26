@@ -1,15 +1,34 @@
 {% extends "_global/index.html"%}
 {% block main%}
 {% spaceless %}
+<div class="pocetna">
+    <div class="z-pocetna">
 
-<div class="z-pocetna">
 
+        <a href="zenski"> <img src="http://localhost/aura1/assets/img/people-2563491_1280.jpg" height="425" width="600"
+                               alt="z slika"/></a>
+    </div>
+    <div class="m-pocetna">
 
-  <a href="zenski"> <img src="http://localhost/aura1/assets/img/people-2563491_1280.jpg" height="850" width="1200" alt="z slika"/></a>
+        <a href="muski"><img src="http://localhost/aura1/assets/img/black-and-white-1283231_1280.jpg" height="425"
+                             width="600" alt="m slika"/></a>
+    </div>
 </div>
-<div class="m-pocetna">
+<div class="proizvodi">
+    {% for product in products %}
 
-   <a href="muski"><img src="http://localhost/aura1/assets/img/black-and-white-1283231_1280.jpg" height="850" width="1200" alt="m slika"/></a>
+    <div class="proizvod">
+        <a href="product/{{ product.proizvod_id}}"><img src="assets/img/{{ product.slika}}.jpg" height="auto"
+                                                        width="300"></a>
+        <a class="link" href="product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
+
+        <br>
+        <p>cijena:</p>{{ product.cijena }}
+        <p>velicina:</p>{{ product.velicina }}<br>
+        {{ product.boja }}<br>
+
+    </div>
+    {% endfor %}
 </div>
 
 {% endspaceless %}

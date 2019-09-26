@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\controller;
-
 
 use App\core\Controller;
 use App\Models\ProductModel;
@@ -15,10 +13,21 @@ class ProductController extends Controller
         $productModel = new ProductModel($dbc);
         $product = $productModel->getById($id);
 
-        if (!$product){
+        if (!$product) {
             header('Location :/aura1/home');
             exit();
         }
         $this->set('product', $product);
+    }public function showProductByName($productname )
+    {
+        $dbc = $this->getDatabaseConnection();
+        $productModel = new ProductModel($dbc);
+        $product = $productModel->getByProductName($productname);
+
+        if (!$product) {
+            header('Location :/aura1/home');
+            exit();
+        }
+        $this->set('products', $product);
     }
 }

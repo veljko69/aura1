@@ -76,7 +76,7 @@ class __TwigTemplate_b58782529998f2f33e4b97bff2820be5c309168269a14f34da27e3a3117
         // line 15
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "velicina", [], "any", false, false, false, 15), "html", null, true);
         echo "<br><br>
-        <h4>Dostupno u baojama:</h4>";
+        <h4>Dostupno u bojama:</h4>";
         // line 16
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "boja", [], "any", false, false, false, 16), "html", null, true);
         echo "<br><br>
@@ -91,18 +91,20 @@ class __TwigTemplate_b58782529998f2f33e4b97bff2820be5c309168269a14f34da27e3a3117
     border-top: 2px solid gray;
     text-align: center;
 \">Slicni proizvodi</h3>
+
+
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));
-        // line 26
+        // line 28
         echo "
 ";
     }
 
-    // line 29
+    // line 31
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
-        echo "Proizvod";
+        echo "Aura";
     }
 
     public function getTemplateName()
@@ -117,7 +119,7 @@ class __TwigTemplate_b58782529998f2f33e4b97bff2820be5c309168269a14f34da27e3a3117
 
     public function getDebugInfo()
     {
-        return array (  102 => 29,  97 => 26,  85 => 17,  81 => 16,  77 => 15,  73 => 14,  67 => 13,  59 => 8,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  104 => 31,  99 => 28,  85 => 17,  81 => 16,  77 => 15,  73 => 14,  67 => 13,  59 => 8,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()

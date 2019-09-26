@@ -3,14 +3,19 @@
 namespace App;
 require_once 'vendor/autoload.php';
 use App\Controller\MainController;
+use App\core\ApiController;
 use App\Core\DatabaseConfiguration;
 use App\Core\DatabaseConnection;
 use App\Core\Router;
+use App\core\session\Session;
 use App\Models\ProductModel;
+use Twig\Environment;
 use Twig\Error\LoaderError;
 use Twig\Error\RuntimeError;
 use Twig\Error\SyntaxError;
+use Twig\Loader\FilesystemLoader;
 
+ob_start();
 
 $databaseConfiguration = new DatabaseConfiguration(
     Configuration::DATABASE_HOST,
@@ -42,19 +47,35 @@ $arguments = $route->extractArguments($url);
 $fullControllerName = '\\App\\Controller\\' . $route->getControllerName() . 'Controller';
 $controller = new $fullControllerName($databaseconnection);
 
+$sessionStorageClassName = Configuration::SESSION_STORAGE;
+$sessionStorageConstructorArguments = Configuration::SESSION_STORAGE_DATA;
+$sessionStorage= new $sessionStorageClassName(...$sessionStorageConstructorArguments);
+
+$session = new Session($sessionStorage,Configuration::SESSION_LIFETIME);
+$controller->setSession($session);
 call_user_func_array([$controller, $route->getMethodName()], $arguments);
 
 $data = $controller->getData();
 
+
+#bez rutiranja
 //var_dump($data);
 //foreach ($data as $name => $value) {
 //    $$name = $value;
 //}
 //require_once 'views/'.$route->getControllerName().'/'.$route->getMethodName().'.php' ;
 
+if($controller instanceof  ApiController){
+  ob_clean();
+    header('Content-type:application/json; charset=utf-8');
+        header('Access-Control-Allow-Origin: *');
 
-$loader = new \Twig\Loader\FilesystemLoader('./views/');
-$twig = new \Twig\Environment($loader, [
+    echo json_encode($data);
+  exit();
+}
+
+$loader = new FilesystemLoader('./views/');
+$twig = new Environment($loader, [
     "cache" => "./twig-cache",
     "auto_reload"=>true
 ]);
