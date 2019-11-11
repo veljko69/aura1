@@ -1,0 +1,305 @@
+@media (max-width: 480px) {
+
+    .one-item-xxs {
+        width:100% !important;
+    }
+
+    .market-barometer-outerwrapper {
+        padding-left:120px;
+    }
+
+    .market-barometer .first-column {
+        width:120px;
+    }
+
+    .fixed-header-cart {
+        top:70px;
+    }
+
+    .main-product-info {
+        padding:0 10px 0;
+    }
+
+    .profile-bg {
+        padding:0;
+        background:transparent;
+    }
+
+    .products-color h1 {
+        font-size:18px;
+    }
+
+    .product-compare-main .headline {
+        font-size:1em;
+        min-height:30px;
+    }
+
+
+    .product-compare .remove-product {
+        top: 5px;
+        right: 5px;
+    }
+
+    .product-slider-wrapper {
+        margin-bottom:0;
+    }
+
+    .product-compare,
+    .compared-products-wrapper .product-slider {
+        padding:0;
+    }
+
+    .catalog-pagination a,
+    .catalog-pagination .prev,
+    .catalog-pagination .next {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+    }
+
+    .catalog-pagination a i {
+        font-size:18px;
+    }
+
+    .catalog-pagination {
+        padding:0;
+    }
+
+    .catalog-reader-html .product-item {
+        max-width: 322px;
+        margin: 0 auto 15px;
+    }
+
+    .profile-bg {
+        margin-top:0;
+    }
+
+    .article-banner .banner-img {
+        background:#fff;
+        margin-bottom: 20px;
+        max-width: calc(100% - 20px);
+        margin-left: 10px;
+    }
+
+    .main-product-info .info-headline {
+        border-right:0 solid #fff;
+        font-weight: 700;
+    }
+
+    .main-slider .owl-controls {
+        bottom:15px;
+    }
+
+    .main-slider-caption {
+        position:static;
+        top:auto;
+        transform:none;
+        background: #0a8ed7;
+    }
+
+    .main-slider-caption-keyword {
+        font-size:1rem;
+        padding:5px 0;
+    }
+
+    .main-slider-caption-text {
+        display:none;
+    }
+
+    .market-prices {
+        padding:0 15px 45px;
+    }
+
+    .catalog-logo {
+        display:none;
+        margin-right:10px;
+    }
+
+    .expiry-date {
+        color:#555;
+    }
+
+    .cart {
+        padding: 0;
+    }
+
+    .catalog-list-ondetail .product-item {
+        max-width:50%;
+        width:50%;
+    }
+
+    .catalog-reader-html .catalog-pagination .slider-prev {
+        margin-left:10px;
+    }
+
+    .catalog-reader-html .catalog-pagination .slider-next {
+        margin-right:-10px;
+    }
+
+    .sidebar .sidebar-small .promo-item.featured-item {
+        min-height:100px;
+    }
+
+    .simmilar-products-laptop-grid .heading-wrapper h2 {
+        font-size:16px;
+    }
+
+    .store .heading-wrapper h3 {
+        margin-bottom:40px;
+    }
+
+    .stores-list .item-wrapper {
+        height:auto;
+    }
+
+    .post-item .item-wrapper,
+    .post-item .description {
+        min-height:0;
+    }
+
+
+    /*sports landing page*/
+
+    .sport-main .item-title{
+        font-size: 20px;
+    }
+    .sport-main .item-button-wrapper{
+        display: none;
+    }
+    .sport-main .item-description{
+        display: none;
+    }
+    /*sports landing page*/
+
+    .onlyimgslider .headline-wrapper .slider-headline h2 {
+        font-size: 25px;
+    }
+
+    .onlyimgslider .slider-description {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    .sport-three-in-row {
+        margin: 0 0 40px 0;
+    }
+
+    .sport-four-in-row .slider-wrapper {
+        padding: 0;
+    }
+    .padding-slider .slick-list.draggable {
+        padding: 0 !important;
+    }
+
+    .b-landing-wrapper .three-items-wrapper {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .b-landing-wrapper .item-subtitle {
+        position: absolute;
+        top: 100px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .b-landing-wrapper .sport-main .item-title {
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    .custom-pagination-slider .item .content .text-wrapper {
+        top: 0;
+        bottom: auto;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        left: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .custom-pagination-slider .slick-dots {
+        top: inherit;
+        bottom: 10px;
+    }
+
+    .article.article-event-home-slider.event-home-slider-v2 .item .content {
+        padding: 10px 0;
+    }
+
+    .article.article-event-home-slider.event-home-slider-v2 .item .the-date {
+        display: none;
+    }
+
+}
+
+/* Very Small devices (tablets, 360px and down) */
+@media (max-width: 360px) {
+
+    .modal-dialog{
+        margin: 10px;
+        width: auto !important;
+    }
+
+    .product-buy .shop-button-qnt {
+        min-width:270px;
+    }
+
+    /*    .slider-navigation{
+            display: none;
+        }*/
+
+}
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+    .toast-middle-center { margin-left: -125px; }
+}
+
+@media all and (min-width: 241px) and (max-width: 320px) {
+    .toast-middle-center { margin-left: -93px; }
+}
+
+@media all and (max-width: 240px) {
+    .toast-middle-center { margin-left: -83px; }
+}
+
+/* NOVI CSS */
+@media (max-width: 480px) {
+
+    .profile .user-data .item {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .gift-card-view{
+
+    }
+    .newsletter.fullwidth-center .btn-wrapper .btn{
+        margin-left: 0;
+    }
+    .newsletter.fullwidth-center .description{
+        padding: 0 10px;
+    }
+    .newsletter.fullwidth-center .form-group{
+        display: block;
+        padding:0 10px;
+    }
+    .newsletter.fullwidth-center .form-group input{
+        width: 100%;
+    }
+
+    .article-list-grid-with-arrows .row > .item:after,
+    .article-list-grid-with-arrows .row > .item:not(:nth-child(2n)):after,
+    .article-list-grid-with-arrows .row > .item:not(:nth-child(3n)):after {
+        content: none;
+    }
+
+    .left-list-right-img .right-wrapper {
+        display: none;
+    }
+    .left-list-right-img .left-wrapper {
+        margin: auto;
+        display: block;
+    }
+
+}

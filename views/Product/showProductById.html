@@ -3,12 +3,14 @@
 {% spaceless %}
 
 <div class="proizvod-jedan">
+<button ><a  style="text-decoration: none ; padding: 0 15px" href="" onclick=" addBookmark( {{product.proizvod_id}}) ">.... Dodaj u favorite....</a>
+   </button>
 
     <div class="slika">
-        <img src="../assets/img/{{ product.slika}}.jpg" height="auto" width="300"><br>
+        <img src="../assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika"><br>
     </div>
 
-    <div class="podaci">
+    <div class="podaci-jedan">
 
         <h4>Naziv proizvoda:</h4>{{ product.pol }}.{{ product.naziv }}<br><br>
         <h4>Cijena proizvoda:</h4>{{ product.cijena }}<br><br>
@@ -18,14 +20,15 @@
     </div>
 </div>
 <h3 style="
+text-decoration: none;
+font-style:italic;
     margin-top: 30px;
     border-top: 2px solid gray;
     text-align: center;
-">Slicni proizvodi</h3>
-
+"><a href="http://localhost/aura1/products/{{ product.pol }}/{{ product.naziv }}">Slicni proizvodi</a></h3>
 
 {% endspaceless %}
 
 {% endblock %}
 
-{% block naslov %}Aura{% endblock %}
+{% block naslov %}{{ product.pol }}.{{ product.naziv }}{% endblock %}

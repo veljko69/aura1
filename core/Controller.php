@@ -8,9 +8,13 @@ use App\Core\Session\Session;
 
 class Controller
 {
-    private $dbc;
+    protected $dbc;
     private $session;
     private $data = [];
+
+    public function __pre(){
+
+    }
 
     final public function __construct(DatabaseConnection &$dbc)
     {
@@ -19,7 +23,7 @@ class Controller
     final public function &getSession(): Session{
         return $this->session;
     }
-    final public function setSession(Session &$session){
+    final public function setSession($session){
          $this->session = $session;
     }
 
@@ -41,5 +45,10 @@ class Controller
     public function getData()
     {
         return $this->data;
+    }
+    final  public function redirect( string $path, int $code = 303){
+        ob_clean();
+        header('Location:'. $path, true, $code);
+        exit;
     }
 }

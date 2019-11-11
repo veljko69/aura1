@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<title>Admin</title>
+
+
+<div class="container-fluid">
+
+<!--    <div class="row">-->
+        <div class="col-md-6  pl-5  m-auto">
+            <h3 class="text-info  text-center  mb-2"> Uredi proizvod</h3>
+            <form action="http://localhost/aura1/admin/{{product.proizvod_id}}/edit" method="POST" enctype="multipart/form-data" >
+                <div class="form-group">
+
+                    <label>Naziv proizvoda:
+                        <input type="text" name="product_name" class="form-control" value="{{ product.naziv}}">
+                    </label>
+
+                    <label>Cijena:
+                        <input type="text" name="product_price" class="form-control" value="{{ product.cijena}}  "  >
+                    </label>
+
+                   <label>Velicina:
+                        <input type="text" name="product_size" class="form-control" value="{{ product.velicina}}">
+                    </label>
+
+                    <label>Pol:
+                        <input type="text" name="product_gender" class="form-control" value="{{ product.pol}}">
+                    </label>
+
+
+                    <label>Sifra:
+                        <input type="text" name="product_code" class="form-control" value="{{ product.sifra}}">
+                    </label>
+
+                    <label>Boja:
+                        <input type="text" name="product_color" class="form-control" value="{{ product.boja}}">
+                    </label>
+
+                    <label>Slika:
+                        <input type="text" name="product_img" class="form-control" value="{{ product.slika}}">
+                    </label>
+
+                    <div class="form-group">
+                        <input type="submit" name="add" class="btn btn-success btn-block" value="Uredi">
+                    </div>
+                </div>
+            </form>
+        </div>
+<!--    </div>-->
+
+
+    <link rel="stylesheet" href="http://localhost/aura1/assets/css/main.css">
+</div>

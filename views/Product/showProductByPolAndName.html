@@ -1,0 +1,26 @@
+{% extends "_global/index.html"%}
+
+{% block main%}
+{% spaceless %}
+
+<div class="proizvodi" >
+    {% for product in products %}
+
+    <div class="proizvod" >
+        <a href="http://localhost/aura1/product/{{ product.proizvod_id}} " >
+            <img src="http://localhost/aura1/assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika">
+        </a>
+        <a class="link" href="http://localhost/aura1/product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
+
+        <br>
+        <p>cijena:</p>{{ product.cijena }}
+        <p>velicina:</p>{{ product.velicina }}<br>
+        {{ product.boja }}<br>
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endspaceless %}
+{% endblock %}
+

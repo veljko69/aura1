@@ -13,8 +13,9 @@ final class Session
 
     public function __construct(SessionStorage  $sessionStorage, int $sessionLife = 1800)
     {
+        $this->sessionLife =$sessionLife;
         $this->sessionStorage = $sessionStorage;
-        $this->sessionData = [];
+        $this->sessionData = (object)[];
         $this->sessionId = filter_input(INPUT_COOKIE, 'APPSESSION', FILTER_SANITIZE_STRING);
         $this->sessionId = preg_replace('|[^A-Za-z0-9]|', '', $this->sessionId);
         if (strlen($this->sessionId) !== 32) {
@@ -35,22 +36,29 @@ final class Session
 
     public function put(string $key, $value)
     {
-        $this->sessionData[$key] = $value;
+        $this->sessionData->$key = $value;
     }
 
     public function get(string $key, $defaultValue)
     {
-        return $this->sessionData[$key] ?? $defaultValue;
+        return $this->sessionData->$key  ?? $defaultValue;
     }
 
     public function clear()
     {
-        $this->sessionData = [];
+        $this->sessionData = (object)[];
+    }
+
+    public function remove(string $key){
+        if ($this->exists($key)){
+            unset($this->sessionData->$key);
+        }
+
     }
 
     public function exists(string $key)
     {
-        return isset($this->sessionData[$key]);
+        return isset($this->sessionData->$key );
     }
 
     public function has(string $key)
@@ -58,7 +66,7 @@ final class Session
         if (!$this->exists($key)) {
             return false;
         }
-        return boolval($this->sessionData[$key]);
+        return boolval($this->sessionData->$key );
 
     }
 
@@ -76,7 +84,7 @@ final class Session
         $jsonData = $this->sessionStorage->load($this->sessionId);
         $restroreData = json_decode($jsonData);
         if (!$restroreData) {
-            $this->sessionData = [];
+            $this->sessionData =(object) [];
             return;
         }
         $this->sessionData = $restroreData;

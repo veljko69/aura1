@@ -62,9 +62,15 @@ final class Route
         $matches = [];
         $arguments=[];
         preg_match($this->pattern,$url,$matches);
-        if(isset($matches[1])){
-         $arguments=[$matches[1]];
+
+        if(isset($matches[1]) && isset($matches[2])){
+            $arguments=[$matches[1],$matches[2]];
+            return $arguments ;
         }
+        if(isset($matches[1])){
+            $arguments=[$matches[1]];
+        }
+
         return $arguments;
 
     }

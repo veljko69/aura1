@@ -1,0 +1,669 @@
+window.nbshopJS = new NBShopJS();
+const MAP_STYLE = [];
+$(document).ready(function(){
+
+    //init basic function
+    nbshopJS.init();
+
+    /* Append odabery veličinu */
+    $('.product-help-link').each(function () {
+        if($(this).data('target') == '#product_sizeguide_shoes_modal_slider'){
+            $('.panel-group .panel.pan-comments h4').html('').append($(this));
+            $('.panel-group .panel.pan-comments').addClass('size-class');
+        }
+    });
+    var textBtn = $('.panel-group .panel.pan-comments h4 .product-help-link span').text();
+    $('.panel-group .panel.pan-comments h4 .product-help-link').html('').text(textBtn).append('<i class="icon icon-angle-right icon-rotate-90 pull-right"></i>');
+
+
+    //init mobile break point
+    var mobileBreakpointRes = 767;
+    nbshopJS.mobileBreakpoint(mobileBreakpointRes);
+
+    //init homapage main slider
+    var mainSliderElementId = '.main-slider > .slider-init';
+    var mainSliderOptions   = {dots: true, speed: 300, autoplay: true, autoplaySpeed: 2000, slidesToShow: 1, slidesToScroll: 1, pauseOnHover: false};
+    nbshopJS.initSlider(mainSliderElementId, mainSliderOptions);
+    window.mainslideroptions = mainSliderOptions;
+
+    //init landing main slider
+    /*    var landingMainSliderElementId = '.landing-main-slider > .slider-init';
+        var landingMainSliderOptions   = {dots: true, speed: 300, slidesToShow: 1, slidesToScroll: 1};
+        nbshopJS.initSlider(landingMainSliderElementId, landingMainSliderOptions);*/
+
+    //init landing text and image slider
+    var landingImgTextSliderElementId = '.landing-image-text-slider > .slider-init';
+    var landingImgTextSliderOptions   = {dots: true, speed: 300, slidesToShow: 1, slidesToScroll: 1};
+    nbshopJS.initSlider(landingImgTextSliderElementId, landingImgTextSliderOptions);
+
+    //init slider for servisices on product detail page
+    var servicesSliderElementId = '.service-products-slider > .slider-init';
+    var servicesSliderOptions   = {dots: true, speed: 300, slidesToShow: 4, slidesToScroll: 1, arrows: true, dots: false};
+    nbshopJS.initSlider(servicesSliderElementId, servicesSliderOptions);
+
+    //init landing slider with background
+    /*    var landingSliderWithBgElementId = '.landing-slider-with-bg > .slider-init';
+        var landingSliderWithBgOptions   = {dots: true, speed: 300, slidesToShow: 1, slidesToScroll: 1, fade: true};
+        nbshopJS.initSlider(landingSliderWithBgElementId, landingSliderWithBgOptions);*/
+
+    //init landing slider with background
+    /*    var landingImageTextElementId = '.landing-image-text-slider > .slider-init';
+        var landingImageTextOptions   = {dots: false, speed: 300, slidesToShow: 1, slidesToScroll: 1, fade: true};
+        nbshopJS.initSlider(landingImageTextElementId, landingImageTextOptions);*/
+
+    if(screen.width < 768) {
+
+        var listsTabsSliderElementId = '.lists-tabs > .slider-init';
+        var listsTabsSliderOptions = {dots: false, infinite: true, variableWidth: true, speed: 300, slidesToShow: 1, centerPadding: '0', centerMode: true, focusOnSelect: true};
+        nbshopJS.initSlider(listsTabsSliderElementId, listsTabsSliderOptions);
+
+        //init shopbylook gallery slider
+        var shopbylookGallerySliderElementId = '.shopbylook-gallery > .img-wrapper > .slider-init';
+        var shopbylookGallerySliderOptions   = {dots: false, speed: 300, slidesToShow: 1, slidesToScroll: 1};
+        nbshopJS.initSlider(shopbylookGallerySliderElementId, shopbylookGallerySliderOptions);
+
+        //init shopbylook product slider
+        var shopbylookProductSliderElementId = '.shopbylook-slider > .slider-init';
+        var shopbylookProductSliderOptions   = {dots: false, infinite: true, arrows: true,  speed: 300, slidesToShow: 1, slidesToScroll: 1};
+        nbshopJS.initSlider(shopbylookProductSliderElementId, shopbylookProductSliderOptions);
+
+        /* Promena pozicija u mobilnom meniju */
+        if($("#miniFavContent").length){
+            $('.nav-main.list-inline').append('<li class="new-favorite-btn"></li>');
+            $('.nav-main.list-inline .new-favorite-btn').append($('#miniFavContent > a'));
+        }
+        $('.nav-main.list-inline').append($('.nav-main-useractions'));
+    }
+
+    //init slider with text in pagination
+    var customPaginationSliderElementId = '.custom-pagination-slider > .slider-init';
+    var customPaginationSliderOptions   = {
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        arrows: false,
+        dots: true,
+        customPaging : function(slider, i) {
+            var thumb = $(slider.$slides[i]).data('slide-name');
+            return '<span>'+thumb+'</span>';
+        }
+    };
+    nbshopJS.initSlider(customPaginationSliderElementId, customPaginationSliderOptions);
+
+    //init homapage main slider
+    var storeGallerzSliderElementId = '.store-gallery-slider > .slider-init';
+    var storeGallerzSliderOptions   = {dots: true, speed: 300, slidesToShow: 1, slidesToScroll: 1};
+    nbshopJS.initSlider(storeGallerzSliderElementId, storeGallerzSliderOptions);
+
+    //init categopty gallery slider
+    var categoptyGallerySliderElementId = '.category-gallery-slider > .slider-init';
+    var categoptyGallerySliderOptions   = {dots: false, speed: 300, slidesToScroll: 1, centerMode: true, centerPadding: '50px', slidesToShow: 3, variableWidth: true};
+    nbshopJS.initSlider(categoptyGallerySliderElementId, categoptyGallerySliderOptions);
+
+    //init actions main slider
+    var actionsMainSliderElementId = '.actions-main-slider > .slider-init';
+    var actionsMainSliderOptions   = {dots: true, slidesToShow: 1, slidesToScroll: 1, centerMode: true, variableWidth: true, infinite: true, centerPadding: '0px',};
+    nbshopJS.initSlider(actionsMainSliderElementId, actionsMainSliderOptions);
+
+    //init product slider product-list
+    var productLisrElementId = '.product-list > .slider-init';
+    var productLisrOptions   = {dots: true, slidesToShow: 4,
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(productLisrElementId, productLisrOptions);
+
+    //init product slider product-list
+    var productLisrSliderElementId = '.list_sale_product > .slider-init';
+    var productLisrSliderOptions   = {dots: true, slidesToShow: 4,
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(productLisrSliderElementId, productLisrSliderOptions);
+
+    //init action detail product slider
+    var actionDetailProductLisrElementId = '.actions-detail-product-slider > .slider-init';
+    var actionDetailProductLisrOptions   = {dots: false, slidesToShow: 4,
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(actionDetailProductLisrElementId, actionDetailProductLisrOptions);
+
+    //init product slider most-sale-product
+    var mostsaleElementId = '.most-sale-product > .slider-init';
+    var mostsaleOptions   = {dots: true, slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(mostsaleElementId, mostsaleOptions);
+
+    //init product slider for new-product
+    var newProductElementId = '.new-products > .slider-init';
+    var newProductOptions   = {dots: true, slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(newProductElementId, newProductOptions);
+
+    //init product slider for action-product
+    var actionProductElementId = '.product-action > .slider-init';
+    var actionProductOptions   = {dots: true, slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(actionProductElementId, newProductOptions);
+
+    //init product slider for action-product
+    var brandsElementId = '.brands-slider > .slider-init';
+    var brandsOptions   = {dots: false, slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(brandsElementId, brandsOptions);
+
+    //init product slider top-arrows-product
+    var topArrowsElementId = '.top-arrows > .slider-init';
+    var topArrowsOptions   = {dots: false, slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(topArrowsElementId, topArrowsOptions);
+
+    //init product outfit slider
+    var outfitElementId = '.outfit-slider > .slider-init';
+    var outfitOptions   = {dots: false, slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(outfitElementId, outfitOptions);
+
+    //init product last viewed slider
+    var lastViewedElementId = '.last-viewed-slider > .slider-init';
+    var lastViewedOptions   = {dots: false, slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(lastViewedElementId, lastViewedOptions);
+
+    //init similar products slider
+    var similarproductsSliderElementId = '.similar-products-slider > .slider-init';
+    var similarproductsSliderOptions   = {dots: false, slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 3}},
+            {breakpoint: 768,  settings: { slidesToShow: 2.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 1.5}}
+        ]};
+    nbshopJS.initSlider(similarproductsSliderElementId, similarproductsSliderOptions);
+
+    //init similar products slider
+    var verticalSimilarproductsSliderElementId = '.vertical-similar-product > .slider-init';
+    var verticalSimilarproductsSliderOptions   = {dots: false, slidesPerRow: 1, rows: 2};
+    nbshopJS.initSlider(verticalSimilarproductsSliderElementId, verticalSimilarproductsSliderOptions);
+
+    //init vertical scroll slider
+    var verticalScrollSliderElementId = '.vertical-scroll-slider > .slider-init';
+    var verticalScrollSliderOptions   = {
+        autoplay: true,
+        arrows: false,
+        dots: false,
+        rows: 1,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        infinite: true,
+        pauseOnHover: false,
+        swipe: true,
+        touchMove: true,
+        vertical: true,
+        speed: 5000,
+        autoplaySpeed: 1,
+        adaptiveHeight: false,
+        useTransform: false,
+    };
+    nbshopJS.initSlider(verticalScrollSliderElementId, verticalScrollSliderOptions);
+
+    //init similar products slider
+    var articleProductsSliderElementId = '.article-detail-slider > .slider-init';
+    var articleProductsSliderOptions   = {dots: false, slidesToShow: 4,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(articleProductsSliderElementId, articleProductsSliderOptions);
+
+    //init landing product slider
+    var landingProductSliderElementId = '.landing-product > .slider-init';
+    var landingProductSliderOptions   = {slidesToShow: 6,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 3.5}},
+            {breakpoint: 480,  settings: { slidesToShow: 2.5}}
+        ]};
+    nbshopJS.initSlider(landingProductSliderElementId, landingProductSliderOptions);
+
+    //init product thumb slider
+    var thumbSliderElementId = '.thumbs-slider > .slider-init-level2';
+    var thumbSliderOptions   = {slidesToShow: 3};
+    nbshopJS.initSliderLev2(thumbSliderElementId, thumbSliderOptions);
+
+    //init category slider
+    var categorySliderElementId = '.category-slider > .slider-init';
+    var categorySliderOptions   = {slidesToShow: 4,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 2}},
+            {breakpoint: 480,  settings: { slidesToShow: 1.1}}
+        ]};
+    nbshopJS.initSlider(categorySliderElementId, categorySliderOptions);
+
+    //init article slider
+    var articleSliderElementId = '.article-slider > .slider-init';
+    var articleSliderOptions   = {slidesToShow: 3,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 2}},
+            {breakpoint: 480,  settings: { slidesToShow: 1.1}}
+        ]};
+    nbshopJS.initSlider(articleSliderElementId, articleSliderOptions);
+
+    //init article slider witouth links
+    var articleSliderWLElementId = '.article-slider-witouth-links > .slider-init';
+    var articleSliderWLOptions   = {slidesToShow: 4,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 2}},
+            {breakpoint: 480,  settings: { slidesToShow: 2}}
+        ]};
+    nbshopJS.initSlider(articleSliderWLElementId, articleSliderWLOptions);
+
+    //init article slider witouth image
+    var articleEventSliderElementId = '.article-event-home-slider > .slider-init';
+    var articleEventSliderOptions   = {slidesToShow: 4,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 4}},
+            {breakpoint: 768,  settings: { slidesToShow: 2}},
+            {breakpoint: 480,  settings: { slidesToShow: 1.1}}
+        ]};
+    nbshopJS.initSlider(articleEventSliderElementId, articleEventSliderOptions);
+
+    var SimilarArticleSliderElementId = '.similar-article-slider > .slider-init';
+    var SimilarArticleSliderOptions   = {slidesToShow: 1, dots:false, arrows: false,
+        responsive: [
+            {breakpoint: 1024, settings: { slidesToShow: 1}},
+            {breakpoint: 768,  settings: { slidesToShow: 1}},
+            {breakpoint: 480,  settings: { slidesToShow: 1}}
+        ]};
+    nbshopJS.initSlider(SimilarArticleSliderElementId, SimilarArticleSliderOptions);
+
+    //init Double image grid slider
+    var doubleImgGgridSliderElementId = '.double-img-grid-slider > .slider-init';
+    var doubleImgGgridSliderOptions   = {slidesToShow: 4,
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 2}},
+            {breakpoint: 480,  settings: { slidesToShow: 1}}
+        ]};
+    nbshopJS.initSlider(doubleImgGgridSliderElementId, doubleImgGgridSliderOptions);
+
+    //init grid gallery slider
+    var gridGallerySliderElementId = '.article-grid-gallery-slider > .slider-init';
+    var gridGallerySliderOptions   = {slidesToShow: 1, arrows: false, dots: true};
+    nbshopJS.initSlider(gridGallerySliderElementId, gridGallerySliderOptions);
+
+    //init Small simple slider
+    var smallSimpleSliderElementId = '.simple-small-slider > .slider-init';
+    var smallSimpleSliderOptions   = {slidesToShow: 1,
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 2}},
+            {breakpoint: 480,  settings: { slidesToShow: 1}}
+        ]};
+    nbshopJS.initSlider(smallSimpleSliderElementId, smallSimpleSliderOptions);
+
+    //init Similar category slider
+    var similarCategorySliderElementId = '.similar-category-slider > .slider-init';
+    var similarCategorySliderOptions   = {slidesToShow: 3,
+        dots: false,
+        arrows: true,
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 2}},
+            {breakpoint: 480,  settings: { slidesToShow: 1}}
+        ]};
+    nbshopJS.initSlider(similarCategorySliderElementId, similarCategorySliderOptions);
+
+    //init print frame
+    //nbshopJS.printFrame();
+
+    //init
+    nbshopJS.handleBindedToTab('.binded-to-tab', 'html, body', 80, 800);
+
+    //init link scrol to poin
+    //nbshopJS.handleAnchorLinks('.smooth-scroll', 'html,body', 80, 500);
+
+
+    //init Small simple slider
+    var instagramSliderElementId = '.instagram-slider > .slider-init';
+    var instagramSliderOptions   = {
+        slidesToShow: 6 ,
+        arrows: false,
+        dots: false,
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 2}},
+            {breakpoint: 480,  settings: { slidesToShow: 1}}
+        ]};
+    nbshopJS.initSlider(instagramSliderElementId, instagramSliderOptions);
+
+    //init Thumbs Items slider
+    var ItemsThumbsSliderElementId = '.items-slider-with-thumbs > .slider-init';
+    var ItemsThumbsSliderOptions   = {
+        slidesToShow: 1 ,
+        arrows: false,
+        dots: false,
+        asNavFor: '.items-slider-with-thumbs .thumds-wrapper > .slider-init',
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 1}},
+            {breakpoint: 480,  settings: { slidesToShow: 1}}
+        ]};
+    nbshopJS.initSlider(ItemsThumbsSliderElementId, ItemsThumbsSliderOptions);
+
+    //init Thumbs Items slider
+    var ThumbsItemsThumbsSliderElementId = '.items-slider-with-thumbs .thumds-wrapper > .slider-init';
+    var ThumbsItemsThumbsSliderOptions   = {
+        slidesToShow: 10 ,
+        arrows: false,
+        dots: false,
+        centerMode: true,
+        asNavFor: '.items-slider-with-thumbs > .slider-init',
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 5}},
+            {breakpoint: 480,  settings: { slidesToShow: 3}}
+        ]};
+    nbshopJS.initSlider(ThumbsItemsThumbsSliderElementId, ThumbsItemsThumbsSliderOptions);
+
+    //init llist letters scroll
+    var LetterScrollElementId = '.list-letters .item-wrapper .content';
+    var LetterScrollOptions   = {
+        cursorcolor: "#3973b5",
+        autohidemode: false,
+        cursorborderradius: 0,
+        railvalign: "top",
+        cursorwidth: 7,
+        cursorborder: "0px solid #ee6a60",
+        background: "#ffffff"
+    };
+    nbshopJS.initScrolls(LetterScrollElementId, LetterScrollOptions);
+
+    //init parallax page speed and position
+    var firstElementSpeed = '2';
+    var firstElementPosition   = 'bottom';
+    var secondElementSpeed   = '3';
+    var secondElementPosition   = 'top';
+    nbshopJS.handleParallax(firstElementSpeed, firstElementPosition, secondElementSpeed, secondElementPosition);
+
+    //init link scrol to point
+    //nbshopJS.handleAnchorLinks('a[href*=#]','html,body',150 ,500);
+
+    //init nice Scrolls
+    /*var ScrollElementId = '.setscrolls';
+    var ScrollOptions   = {
+        cursorcolor: "#000000",
+        autohidemode: false,
+        cursorborderradius: 0,
+        railvalign: "top",
+        cursorwidth: 1,
+        cursorborder: "0px solid #000000",
+        background: "#ffffff"
+    };
+    nbshopJS.initScrolls(ScrollElementId, ScrollOptions);
+
+    var LetterScrollElementId = '.list-letters .item-wrapper .content';
+    var LetterScrollOptions   = {
+        cursorcolor: "#000000",
+        autohidemode: false,
+        cursorborderradius: 0,
+        railvalign: "top",
+        cursorwidth: 1,
+        cursorborder: "0px solid #000000",
+        background: "#ffffff"
+    };
+    nbshopJS.initScrolls(LetterScrollElementId, LetterScrollOptions);*/
+
+    //init Map style
+    var style =[/*
+        {
+            "featureType": "all",
+            "elementType": "labels.text.fill",
+            "stylers": [{"saturation": 36},{"color": "#000000"},{"lightness": 40}]},
+        {
+            "featureType": "all",
+            "elementType": "labels.text.stroke",
+            "stylers": [{"visibility": "on"},{"color": "#000000"},{"lightness": 16}]
+        },
+        {
+            "featureType": "all",
+            "elementType": "labels.icon",
+            "stylers": [{"visibility": "off"}]},{"featureType": "administrative",
+            "elementType": "geometry.fill","stylers": [{"color": "#000000"},{"lightness": 20}]
+        },
+        {
+            "featureType": "administrative",
+            "elementType": "geometry.stroke",
+            "stylers": [{"color": "#000000"},{"lightness": 17},{"weight": 1.2}]
+        },
+        {
+            "featureType": "landscape",
+            "elementType": "geometry",
+            "stylers": [{"color": "#000000"},{"lightness": 20}]
+        },
+        {
+            "featureType": "poi",
+            "elementType": "geometry",
+            "stylers": [{"color": "#000000"},{"lightness": 21}
+            ]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry.fill",
+            "stylers": [{"color": "#000000"},{"lightness": 17}]
+        },
+        {
+            "featureType": "road.highway",
+            "elementType": "geometry.stroke",
+            "stylers": [{"color": "#000000"},{"lightness": 29},{"weight": 0.2}]},{"featureType": "road.arterial","elementType": "geometry","stylers": [{"color": "#000000"},{"lightness": 18}]},
+        {
+            "featureType": "road.local",
+            "elementType": "geometry",
+            "stylers": [{"color": "#000000"},{"lightness": 16}]
+        },
+        {
+            "featureType": "transit",
+            "elementType": "geometry",
+            "stylers": [{"color": "#000000"},{"lightness": 19}]
+        },
+        {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [{"color": "#000000"},{"lightness": 17}]
+        }*/
+    ];
+    nbshopJS.handleMap($('.map'),style);
+
+    nbshopJS.handleNearestStoresMap(style);
+    /*
+    * date init
+    * */
+    nbshopJS.initDatepicker('.date',{
+        autoclose: true,
+        format:'dd.mm.yyyy'
+    });
+    //slider-with-background
+
+    //init Slider with background
+    var withBackgroundSliderElementId = '.slider-with-background > .slider-init';
+    var withBackgroundSliderOptions   = {slidesToShow: 1, dots:true,arrows: false,autoplay:true,
+        responsive: [
+            {breakpoint: 768,  settings: { slidesToShow: 1}},
+            {breakpoint: 480,  settings: { slidesToShow: 1}}
+        ]};
+    nbshopJS.initSlider(withBackgroundSliderElementId, withBackgroundSliderOptions);
+
+    nbshopJS.handleFullscreenMouseoverZoom($(".fullscreen-product-slider .slider-init.fscrren img"));
+
+    if(nbshopJS.width() < 769){
+        $('.product-images-zoom-open, .slider.product-main .item').off('click');
+    }
+
+    nbshopJS.handleMouseText($('.slider.product-main img'), $('#mousetext'));
+
+    function appendUserNav(){
+        $shopOptions = $('.nav-main-useractions');
+        $navFooterWrapper = $('.nav-main.list-inline > li');
+
+        $navFooterWrapper.find('.nav-main-useractions').html($shopOptions.html());
+
+    };
+
+
+    var handleBlogImage = function () {
+
+
+        $('.article .article-content .text-wrapper p, .page-fullwidth .text-wrapper p').each(function(){
+            var $p = $(this);
+            $p.has( "img" ).addClass('padding-less');
+
+        });
+
+
+    }
+
+    handleBlogImage();
+
+    var centerItemSliderElementId = '.center_item_slider-wrapper > .slider-init';
+    var centerItemSliderOptions   = {dots: false,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: '0',
+        variableWidth: true,
+        arrows: true};
+    nbshopJS.initSlider(centerItemSliderElementId, centerItemSliderOptions);
+
+
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+
+        /* Check the location of each desired element */
+        $('.fade-in').each( function(i){
+
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+
+                $(this).animate({'opacity':'1'},400);
+
+            }
+
+        });
+
+
+    });
+
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+        /* Check the location of each desired element */
+        $('.left').each( function(i){
+
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+
+                if(app.width() < 770) {
+                    $(this).animate({left: '0px'},0);
+                }else{
+                    $(this).animate({left: '70px'},500);
+                }
+
+            }
+
+        });
+    });
+
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+        /* Check the location of each desired element */
+        $('.right').each( function(i){
+
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+
+                if(app.width() < 770) {
+                    $(this).animate({right: '0px'},0);
+                }else{
+                    $(this).animate({right: '70px'},400);
+                }
+
+            }
+
+        });
+    });
+
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 10) {
+            $('.about-image-item').addClass('aaa');
+        } else {
+            $('.about-image-item').removeClass('aaa');
+        }
+    });
+
+    if(app.width() < 768) {
+        $('.img-responsive').removeClass('left');
+        $('.img-responsive').removeClass('right');
+    }
+
+    $(".country-btn").click(function(){
+        $value = $("#myselect").val();
+
+        if ($value == 1){
+            window.location = "https://www.mona.rs/SRB_rs";
+        }else {
+            window.location = "https://www.mona.rs/GLO_en";
+        }
+    });
+
+    $('#reg_loyaltyRequest').change(function() {
+        if(this.checked) {
+            $('#reg_sendNewsletter,#reg_callMeOnPhone,#reg_sendSMS,#reg_sendUserAdditionalData').each(function(){
+                if(!this.checked){
+                    $(this).click();
+                }
+            });
+        }
+    });
+
+    $('[rel=tooltip]').tooltip('disable');
+
+
+});

@@ -1,6 +1,5 @@
 
 <?php
-require_once 'views/_global/header.php';
 ?>
 
 <div class="registracija">
@@ -36,5 +35,3 @@ require_once 'views/_global/header.php';
 
 </div>
 
-</body>
-</html>

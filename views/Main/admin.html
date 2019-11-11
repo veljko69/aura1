@@ -1,0 +1,101 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<title>Admin</title>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-info "> Dodaj novi prizvod</h3>
+            <form action="admin/add" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>
+                        <input type="text" name="product_name" class="form-control" placeholder="Upisi naziv proizvoda"
+                               required>
+                    </label>
+                    <label>
+                        <input type="text" name="product_price" class="form-control"
+                               placeholder="Upisi cijenu proizvoda" required>
+                    </label>
+                    <label>
+                        <input type="text" name="product_size" class="form-control"
+                               placeholder="Upisi velicinu proizvoda">
+                    </label>
+                    <label>
+                        <input type="text" name="product_gender" class="form-control" placeholder="Upisi pol proizvoda"
+                               required>
+                    </label><br>
+                    <label>
+                        <input type="text" name="product_code" class="form-control"
+                               placeholder="Upisi  sifru proizvoda">
+                    </label>
+                    <label>
+                        <input type="text" name="product_color" class="form-control" placeholder="Upisi boju proizvoda">
+                    </label>
+                    <label>
+                        <input type="text" name="product_img" class="form-control" placeholder="Upisi sliku proizvoda">
+                    </label>
+                    <div class="form-group">
+                        <input type="submit" name="add" class="btn btn-success btn-block" value="Dodaj proizvod">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+    <div class="col-md-12">
+        <h3 class="text-center">Proizvodi</h3>
+    </div>
+    <link rel="stylesheet" href="http://localhost/aura1/assets/css/main.css">
+
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>NAZIV PROIZVODA</th>
+            <th>CIJENA</th>
+            <th>VEL.</th>
+            <th>POL</th>
+            <th>SIFRA</th>
+            <th>BOJA</th>
+            <th>SLIKA</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        {% for product in products %}
+
+        <tr>
+
+
+            <td>{{ product.proizvod_id}}</td>
+            <td>{{ product.naziv}}</td>
+            <td> {{ product.cijena }}</td>
+            <td>{{ product.velicina }}</td>
+            <td> {{ product.pol}}</td>
+            <td>{{ product.sifra }}</td>
+            <td>{{ product.boja }}</td>
+            <td>{{ product.slika}}.jpg</td>
+            <td><a href="http://localhost/aura1/admin/{{ product.proizvod_id}}/edit" class="badge badge-primary p-2">Uredi</a></td>
+            <td><a href="http://localhost/aura1/admin/{{ product.proizvod_id}}/delete" class="badge badge-danger p-2">Izbrisi</a>
+            </td>
+
+        </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+
+{% block naslov %}Admin{% endblock %}
+
+
