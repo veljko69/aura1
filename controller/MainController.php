@@ -5,10 +5,10 @@ namespace App\Controller;
 use App\core\Controller;
 use App\Models\ProductModel;
 use App\Models\UserModel;
+use App\core\session\Session;
 
 class MainController extends Controller
 {
-
 
     public function home()
     {
@@ -16,6 +16,14 @@ class MainController extends Controller
         $productModel = new ProductModel($dbc);
         $products = $productModel->getAll();
         $this->set('products', $products);
+
+    }  public function admin()
+    {
+        $dbc = $this->getDatabaseConnection();
+        $productModel = new ProductModel($dbc);
+        $products = $productModel->getAll();
+        $this->set('products', $products);
+
     }
 
     public function muski()
@@ -24,6 +32,10 @@ class MainController extends Controller
         $productModel = new ProductModel($dbc);
         $products = $productModel->getByPol('m');
         $this->set('products', $products);
+//        $this->getSession()->put('neki kljuc', 'neka vrijednost' . rand(100, 999));
+        $this->getSession()->save();
+        $staraVrijednost = $this->getSession()->get('neki kljuc','/');
+        $this->set('podatak',$staraVrijednost);
     }
 
     public function zenski()
@@ -39,10 +51,8 @@ class MainController extends Controller
     public function sizeplus()
     {
         $dbc = $this->getDatabaseConnection();
-
         $productModel = new ProductModel($dbc);
         $products = $productModel->getBySize();
-
         $this->set('products', $products);
     }
 
@@ -55,7 +65,7 @@ class MainController extends Controller
         $password1 = filter_input(INPUT_POST, 'reg_password1', FILTER_SANITIZE_STRING);
         $password2 = filter_input(INPUT_POST, 'reg_password2', FILTER_SANITIZE_STRING);
 
-        print_r($username);
+//        print_r($username);
 
         if ($password1 !== $password2) {
             echo 'Niste dva puta unijeli isti password .';
@@ -109,19 +119,26 @@ class MainController extends Controller
 
         if (!password_verify($password, $passwordHash)) {
             echo 'Unesite ispravnu lozinku';
+            exit();
         }
-        header("Location:/aura1/home ");
+        $this->getSession()->put('user_id', $user->user_id);
+        $this->getSession()->save();
+
+//        header("Location:/aura1/home ");
+//        echo "LOGIN USPJESAN";
+        $this->redirect('/aura1/user/profile');
     }
 
     public function getLogin()
     {
 
     }
-    public function showProductById($id)
-    {
-        $dbc = $this->getDatabaseConnection();
-        $productModel = new ProductModel($dbc);
-        $products = $productModel->getById($id);
-        $this->set('products', $products);
-    }
+  public  function getLogout(){
+      $this->getSession()->remove('user_id');
+      $this->getSession()->save();
+
+      $this->redirect('/aura1/home');
+
+  }
+
 }

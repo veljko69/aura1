@@ -1,0 +1,105 @@
+/* --- style basic typography -- */
+* {
+    outline:none;
+}
+
+*:focus {
+    outline:0;
+}
+
+* > iframe{
+    max-width: 100% !important;
+}
+
+html {
+    font-size: 15px;
+}
+
+body{
+    background: #ffffff;
+    color: #4a4b5c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+img {
+    max-width:100%;
+}
+
+/* LINKS */
+a {
+    color: #3973b5;
+
+    -webkit-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, background 0.2s ease-in-out;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #295280;
+}
+
+a:focus, .btn:focus{
+    outline: none;
+    border-width: 0;
+}
+
+a:focus{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* hidden link for div in a tag */
+a div {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+/* heading */
+h1, .h1 {
+    font-size:2rem;
+    color: #4a4b5c;
+    margin: 0 0 20px 0;
+}
+
+h2, .h2 {
+    color: #4a4b5c;
+    margin-top: 0;
+    line-height: 38px;
+    font-size: 1.6rem;
+}
+
+h3, .h3 {
+    font-size: 20px;
+}
+
+h4, .h4{
+    margin-top: 5px;
+}
+
+h5, .h5 {
+}
+
+h6 {
+
+}
+
+/* FORM elements */
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input:-ms-input-placeholder,
+input:-moz-placeholder{
+    color: #ffffff;
+}
+
+input[data-validation-id] {
+    position:relative;
+}
+
+label {
+    font-weight: 400;
+}
