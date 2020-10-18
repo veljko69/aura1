@@ -50,7 +50,10 @@ class __TwigTemplate_90502aa1a28e8cf10c79a07d20083bc4aa8abec8c1acf34ab2e652c4796
     <div class=\"row\">
         <div class=\"col-md-12\">
             <h3 class=\"text-info \"> Dodaj novi prizvod</h3>
-            <form action=\"admin/add\" method=\"post\" enctype=\"multipart/form-data\">
+            <form action=\"";
+        // line 16
+        echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
+        echo "/admin/add\" method=\"post\" enctype=\"multipart/form-data\">
                 <div class=\"form-group\">
                     <label>
                         <input type=\"text\" name=\"product_name\" class=\"form-control\" placeholder=\"Upisi naziv proizvoda\"
@@ -78,6 +81,13 @@ class __TwigTemplate_90502aa1a28e8cf10c79a07d20083bc4aa8abec8c1acf34ab2e652c4796
                     <label>
                         <input type=\"text\" name=\"product_img\" class=\"form-control\" placeholder=\"Upisi sliku proizvoda\">
                     </label>
+<!--                    <label>-->
+<!--                        <input type=\"text\" name=\"product_description\" class=\"form-control\" placeholder=\"Dodaj opis\">-->
+<!--                    </label>-->
+                    <label>
+                        <input type=\"text\" name=\"product_materijal\" class=\"form-control\" placeholder=\"Materijal proizvoda\">
+                    </label>
+
                     <div class=\"form-group\">
                         <input type=\"submit\" name=\"add\" class=\"btn btn-success btn-block\" value=\"Dodaj proizvod\">
                     </div>
@@ -90,7 +100,7 @@ class __TwigTemplate_90502aa1a28e8cf10c79a07d20083bc4aa8abec8c1acf34ab2e652c4796
     <div class=\"col-md-12\">
         <h3 class=\"text-center\">Proizvodi</h3>
     </div>
-    <link rel=\"stylesheet\" href=\"http://localhost/aura1/assets/css/main.css\">
+
 
 
     <table class=\"table table-striped\">
@@ -109,54 +119,54 @@ class __TwigTemplate_90502aa1a28e8cf10c79a07d20083bc4aa8abec8c1acf34ab2e652c4796
         </thead>
         <tbody>
         ";
-        // line 74
+        // line 81
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["products"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["product"]) {
-            // line 75
+            // line 82
             echo "
         <tr>
 
 
             <td>";
-            // line 79
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 79), "html", null, true);
-            echo "</td>
-            <td>";
-            // line 80
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "naziv", [], "any", false, false, false, 80), "html", null, true);
-            echo "</td>
-            <td> ";
-            // line 81
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "cijena", [], "any", false, false, false, 81), "html", null, true);
-            echo "</td>
-            <td>";
-            // line 82
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "velicina", [], "any", false, false, false, 82), "html", null, true);
-            echo "</td>
-            <td> ";
-            // line 83
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "pol", [], "any", false, false, false, 83), "html", null, true);
-            echo "</td>
-            <td>";
-            // line 84
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "sifra", [], "any", false, false, false, 84), "html", null, true);
-            echo "</td>
-            <td>";
-            // line 85
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "boja", [], "any", false, false, false, 85), "html", null, true);
-            echo "</td>
-            <td>";
             // line 86
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "slika", [], "any", false, false, false, 86), "html", null, true);
-            echo ".jpg</td>
-            <td><a href=\"http://localhost/aura1/admin/";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 86), "html", null, true);
+            echo "</td>
+            <td>";
             // line 87
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 87), "html", null, true);
-            echo "/edit\" class=\"badge badge-primary p-2\">Uredi</a></td>
-            <td><a href=\"http://localhost/aura1/admin/";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "naziv", [], "any", false, false, false, 87), "html", null, true);
+            echo "</td>
+            <td> ";
             // line 88
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 88), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "cijena", [], "any", false, false, false, 88), "html", null, true);
+            echo "</td>
+            <td>";
+            // line 89
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "velicina", [], "any", false, false, false, 89), "html", null, true);
+            echo "</td>
+            <td> ";
+            // line 90
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "pol", [], "any", false, false, false, 90), "html", null, true);
+            echo "</td>
+            <td>";
+            // line 91
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "sifra", [], "any", false, false, false, 91), "html", null, true);
+            echo "</td>
+            <td>";
+            // line 92
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "boja", [], "any", false, false, false, 92), "html", null, true);
+            echo "</td>
+            <td>";
+            // line 93
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "slika", [], "any", false, false, false, 93), "html", null, true);
+            echo ".jpg</td>
+            <td><a href=\"/aura1/";
+            // line 94
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 94), "html", null, true);
+            echo "/edit\" class=\"badge badge-primary p-2\">Uredi</a></td>
+            <td><a href=\"/aura1/";
+            // line 95
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 95), "html", null, true);
             echo "/delete\" class=\"badge badge-danger p-2\">Izbrisi</a>
             </td>
 
@@ -167,22 +177,22 @@ class __TwigTemplate_90502aa1a28e8cf10c79a07d20083bc4aa8abec8c1acf34ab2e652c4796
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 94
+        // line 101
         echo "        </tbody>
     </table>
 
 </div>
 
 ";
-        // line 99
+        // line 106
         $this->displayBlock('naslov', $context, $blocks);
-        // line 100
+        // line 107
         echo "
 
 ";
     }
 
-    // line 99
+    // line 106
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -201,11 +211,11 @@ class __TwigTemplate_90502aa1a28e8cf10c79a07d20083bc4aa8abec8c1acf34ab2e652c4796
 
     public function getDebugInfo()
     {
-        return array (  186 => 99,  180 => 100,  178 => 99,  171 => 94,  159 => 88,  155 => 87,  151 => 86,  147 => 85,  143 => 84,  139 => 83,  135 => 82,  131 => 81,  127 => 80,  123 => 79,  117 => 75,  113 => 74,  38 => 1,);
+        return array (  196 => 106,  190 => 107,  188 => 106,  181 => 101,  169 => 95,  165 => 94,  161 => 93,  157 => 92,  153 => 91,  149 => 90,  145 => 89,  141 => 88,  137 => 87,  133 => 86,  127 => 82,  123 => 81,  55 => 16,  38 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "Main/admin.html", "C:\\wamp64\\www\\aura1\\views\\Main\\admin.html");
+        return new Source("", "Main/admin.html", "D:\\wamp64\\www\\aura1\\views\\Main\\admin.html");
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller;
+namespace App\controller;
 
 use App\core\Controller;
 use App\Models\ProductModel;
@@ -14,10 +14,12 @@ class MainController extends Controller
     {
         $dbc = $this->getDatabaseConnection();
         $productModel = new ProductModel($dbc);
-        $products = $productModel->getAll();
+        $products = $productModel->getRandom();
         $this->set('products', $products);
 
-    }  public function admin()
+    }
+
+    public function admin()
     {
         $dbc = $this->getDatabaseConnection();
         $productModel = new ProductModel($dbc);
@@ -34,8 +36,8 @@ class MainController extends Controller
         $this->set('products', $products);
 //        $this->getSession()->put('neki kljuc', 'neka vrijednost' . rand(100, 999));
         $this->getSession()->save();
-        $staraVrijednost = $this->getSession()->get('neki kljuc','/');
-        $this->set('podatak',$staraVrijednost);
+        $staraVrijednost = $this->getSession()->get('neki kljuc', '/');
+        $this->set('podatak', $staraVrijednost);
     }
 
     public function zenski()
@@ -58,6 +60,7 @@ class MainController extends Controller
 
     public function postRegister()
     {
+
         $username = filter_input(INPUT_POST, 'reg_username', FILTER_SANITIZE_STRING);
         $email = filter_input(INPUT_POST, 'reg_email', FILTER_SANITIZE_EMAIL);
         $forename = filter_input(INPUT_POST, 'reg_forename', FILTER_SANITIZE_STRING);
@@ -65,7 +68,6 @@ class MainController extends Controller
         $password1 = filter_input(INPUT_POST, 'reg_password1', FILTER_SANITIZE_STRING);
         $password2 = filter_input(INPUT_POST, 'reg_password2', FILTER_SANITIZE_STRING);
 
-//        print_r($username);
 
         if ($password1 !== $password2) {
             echo 'Niste dva puta unijeli isti password .';
@@ -124,21 +126,37 @@ class MainController extends Controller
         $this->getSession()->put('user_id', $user->user_id);
         $this->getSession()->save();
 
-//        header("Location:/aura1/home ");
-//        echo "LOGIN USPJESAN";
-        $this->redirect('/aura1/user/profile');
+        header("Location:/aura1/home ");
+        echo "LOGIN USPJESAN";
+//        $this->redirect('/aura1/user/profile');
+        $this->redirect('/aura1/home');
+
     }
 
     public function getLogin()
     {
 
     }
-  public  function getLogout(){
-      $this->getSession()->remove('user_id');
-      $this->getSession()->save();
 
-      $this->redirect('/aura1/home');
+    public function getLogout()
+    {
+        $this->getSession()->remove('user_id');
+        $this->getSession()->save();
 
-  }
+        $this->redirect('/aura1/home');
 
+    }
+
+    public function getSlanje()
+    {
+
+//        $username = filter_input(INPUT_POST, 'reg_username', FILTER_SANITIZE_STRING);
+        $email = filter_input(INPUT_POST, 'reg_email', FILTER_SANITIZE_EMAIL);
+        $forename = filter_input(INPUT_POST, 'reg_forename', FILTER_SANITIZE_STRING);
+        $surname = filter_input(INPUT_POST, 'reg_surname', FILTER_SANITIZE_STRING);
+        $telefon = filter_input(INPUT_POST, 'reg_telefon', FILTER_SANITIZE_STRING);
+        $ulica = filter_input(INPUT_POST, 'reg_ulica', FILTER_SANITIZE_STRING);
+        $grad = filter_input(INPUT_POST, 'reg_grad', FILTER_SANITIZE_STRING);
+        $postanskibroj = filter_input(INPUT_POST, 'reg_postanskibroj', FILTER_SANITIZE_STRING);
+    }
 }

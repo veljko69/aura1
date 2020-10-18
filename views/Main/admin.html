@@ -13,8 +13,12 @@
     <div class="row">
         <div class="col-md-12">
             <h3 class="text-info "> Dodaj novi prizvod</h3>
-            <form action="admin/add" method="post" enctype="multipart/form-data">
+            <form action="{{ BASE }}/admin/add" method="post" enctype="multipart/form-data">
                 <div class="form-group">
+                    <label>
+                        <input type="text" name="product_tip" class="form-control" placeholder="Upisi tip proizvoda"
+                               required>
+                    </label>
                     <label>
                         <input type="text" name="product_name" class="form-control" placeholder="Upisi naziv proizvoda"
                                required>
@@ -24,13 +28,42 @@
                                placeholder="Upisi cijenu proizvoda" required>
                     </label>
                     <label>
-                        <input type="text" name="product_size" class="form-control"
-                               placeholder="Upisi velicinu proizvoda">
-                    </label>
-                    <label>
                         <input type="text" name="product_gender" class="form-control" placeholder="Upisi pol proizvoda"
                                required>
-                    </label><br>
+                    </label>
+
+                    <DIV CLASS=" row  ">
+                        <label class="col-1 ">
+                            <input type="text" name="product_size_v1" class="form-control"
+                                   placeholder="Vel.">
+                        </label>
+                        <label class="col-1">
+                            <input type="text" name="product_size_v2" class="form-control"
+                                   placeholder="Vel.">
+                        </label> <label class="col-1">
+                        <input type="text" name="product_size_v3" class="form-control"
+                               placeholder="Vel.">
+                    </label>
+                        <label class="col-1">
+                            <input type="text" name="product_size_v4" class="form-control"
+                                   placeholder="Vel.">
+                        </label>
+                        <label class="col-1">
+                            <input type="text" name="product_size_v5" class="form-control"
+                                   placeholder="Vel.">
+                        </label> <label class="col-1">
+                        <input type="text" name="product_size_v6" class="form-control"
+                               placeholder="Vel.">
+                    </label> <label class="col-1">
+                        <input type="text" name="product_size_v7" class="form-control"
+                               placeholder="Vel.">
+                    </label> <label class="col-1">
+                        <input type="text" name="product_size_v8" class="form-control"
+                               placeholder="Vel.">
+                    </label>
+
+                    </DIV>
+                    <br>
                     <label>
                         <input type="text" name="product_code" class="form-control"
                                placeholder="Upisi  sifru proizvoda">
@@ -38,6 +71,12 @@
                     <label>
                         <input type="text" name="product_color" class="form-control" placeholder="Upisi boju proizvoda">
                     </label>
+
+                    <label>
+                        <input type="text" name="product_materijal" class="form-control"
+                               placeholder="Upisi materijal proizvoda">
+                    </label>
+
                     <label>
                         <input type="text" name="product_img" class="form-control" placeholder="Upisi sliku proizvoda">
                     </label>
@@ -53,19 +92,28 @@
     <div class="col-md-12">
         <h3 class="text-center">Proizvodi</h3>
     </div>
-    <link rel="stylesheet" href="http://localhost/aura1/assets/css/main.css">
+
 
 
     <table class="table table-striped">
         <thead>
         <tr>
             <th>ID</th>
+            <th>TIP PROIZVODA</th>
             <th>NAZIV PROIZVODA</th>
             <th>CIJENA</th>
-            <th>VEL.</th>
             <th>POL</th>
+            <th>VEL.</th>
+            <th>VEL.</th>
+            <th>VEL.</th>
+            <th>VEL.</th>
+            <th>VEL.</th>
+            <th>VEL.</th>
+            <th>VEL.</th>
+            <th>VEL.</th>
             <th>SIFRA</th>
             <th>BOJA</th>
+            <th>MATERIJAL</th>
             <th>SLIKA</th>
 
         </tr>
@@ -77,15 +125,24 @@
 
 
             <td>{{ product.proizvod_id}}</td>
+            <td>{{ product.tip}}</td>
             <td>{{ product.naziv}}</td>
             <td> {{ product.cijena }}</td>
-            <td>{{ product.velicina }}</td>
             <td> {{ product.pol}}</td>
+            <td>{{ product.v1 }}</td>
+            <td>{{ product.v2 }}</td>
+            <td>{{ product.v3}}</td>
+            <td>{{ product.v4 }}</td>
+            <td>{{ product.v5 }}</td>
+            <td>{{ product.v6}}</td>
+            <td>{{ product.v7 }}</td>
+            <td>{{ product.v8 }}</td>
             <td>{{ product.sifra }}</td>
             <td>{{ product.boja }}</td>
+            <td>{{ product.materijal }}</td>
             <td>{{ product.slika}}.jpg</td>
-            <td><a href="http://localhost/aura1/admin/{{ product.proizvod_id}}/edit" class="badge badge-primary p-2">Uredi</a></td>
-            <td><a href="http://localhost/aura1/admin/{{ product.proizvod_id}}/delete" class="badge badge-danger p-2">Izbrisi</a>
+            <td><a href="{{ BASE }}/admin/{{ product.proizvod_id}}/edit" class="badge badge-primary p-2">Uredi</a></td>
+            <td><a href="{{ BASE }}/admin/{{ product.proizvod_id}}/delete" class="badge badge-danger p-2">Izbrisi</a>
             </td>
 
         </tr>

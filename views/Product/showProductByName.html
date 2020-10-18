@@ -8,10 +8,10 @@
     {% for product in products %}
 
     <div class="proizvod" >
-        <a href="http://localhost/aura1/product/{{ product.proizvod_id}} " >
-            <img src="../assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika">
+        <a href="{{ BASE }}/product/{{ product.proizvod_id}} " >
+            <img src="{{ BASE }}/assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika">
         </a>
-        <a class="link" href="http://localhost/aura1/product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
+        <a class="link" href="{{ BASE }}/product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
 
         <br>
         <p>cijena:</p>{{ product.cijena }}

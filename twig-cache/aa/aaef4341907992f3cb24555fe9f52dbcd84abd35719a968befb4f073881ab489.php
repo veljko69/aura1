@@ -47,10 +47,10 @@ class __TwigTemplate_531ed9fe5553a6f217afbb5bff5cb2c11b04eef6b66e18308412ceeaaef
 
 <div class=\"container-fluid\">
 
-<!--    <div class=\"row\">-->
+    <div class=\"row\">
         <div class=\"col-md-6  pl-5  m-auto\">
             <h3 class=\"text-info  text-center  mb-2\"> Uredi proizvod</h3>
-            <form action=\"http://localhost/aura1/admin/";
+            <form action=\"/aura1/admin/";
         // line 17
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "proizvod_id", [], "any", false, false, false, 17), "html", null, true);
         echo "/edit\" method=\"POST\" enctype=\"multipart/form-data\" >
@@ -106,16 +106,30 @@ class __TwigTemplate_531ed9fe5553a6f217afbb5bff5cb2c11b04eef6b66e18308412ceeaaef
         echo "\">
                     </label>
 
+<!--                    <label>Opis:-->
+<!--                        <input type=\"text\" name=\"product_description\" class=\"form-control\" value=\"";
+        // line 50
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "opis", [], "any", false, false, false, 50), "html", null, true);
+        echo "\">-->
+<!--                    </label>-->
+
+                    <label>Materijal:
+                        <input type=\"text\" name=\"product_materijal\" class=\"form-control\" value=\"";
+        // line 54
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "materijal", [], "any", false, false, false, 54), "html", null, true);
+        echo "\">
+                    </label>
+
                     <div class=\"form-group\">
                         <input type=\"submit\" name=\"add\" class=\"btn btn-success btn-block\" value=\"Uredi\">
                     </div>
                 </div>
             </form>
         </div>
-<!--    </div>-->
+    </div>
 
 
-    <link rel=\"stylesheet\" href=\"http://localhost/aura1/assets/css/main.css\">
+
 </div>
 ";
     }
@@ -132,11 +146,11 @@ class __TwigTemplate_531ed9fe5553a6f217afbb5bff5cb2c11b04eef6b66e18308412ceeaaef
 
     public function getDebugInfo()
     {
-        return array (  105 => 46,  98 => 42,  91 => 38,  83 => 33,  76 => 29,  69 => 25,  62 => 21,  55 => 17,  37 => 1,);
+        return array (  119 => 54,  112 => 50,  105 => 46,  98 => 42,  91 => 38,  83 => 33,  76 => 29,  69 => 25,  62 => 21,  55 => 17,  37 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "Product/getEdit.html", "C:\\wamp64\\www\\aura1\\views\\Product\\getEdit.html");
+        return new Source("", "Product/getEdit.html", "D:\\wamp64\\www\\aura1\\views\\Product\\getEdit.html");
     }
 }

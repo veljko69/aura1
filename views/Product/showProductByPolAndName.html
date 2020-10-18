@@ -1,26 +1,39 @@
-{% extends "_global/index.html"%}
-
+{% extends "_global/index1.html"%}
 {% block main%}
 {% spaceless %}
 
-<div class="proizvodi" >
+
+
+<div class="container  flex-wrap m-auto mt-5 col-12 d-flex">
+
+
     {% for product in products %}
 
-    <div class="proizvod" >
-        <a href="http://localhost/aura1/product/{{ product.proizvod_id}} " >
-            <img src="http://localhost/aura1/assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika">
-        </a>
-        <a class="link" href="http://localhost/aura1/product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
+    <div class="proizvod flex-grow-1 mb-2" >
+        <a class="slika" href="{{ BASE }}/product/{{ product.proizvod_id}} " >
+            <img src="{{ BASE }}/assets/img/{{ product.slika}}.jpg" height="auto" width="350" alt="{{product.naziv}}"></a>
+        <div class="podaci flex-column">
+            <div class="prva ">
+                <p class="podatak">CIJENA:{{ product.cijena }}</p>
+                <p class="podatak" >VELICINE: {{ product.v1 }}   {{ product.v2 }} {{ product.v3 }} {{ product.v4 }} {{ product.v5 }} {{
+                    product.v6 }} {{ product.v7 }} {{ product.v8 }}</p>
+<!--            </div>-->
+<!--            <div class=" druga">-->
+<!--                <p class="podatak">BOJA: {{ product.boja }}</p>-->
+<!--                <p class="podatak"> SIFRA PROIZVODA:{{ product.sifra }}</p>-->
+<!--                <a class="link" href="http://localhost/aura1/product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>-->
 
-        <br>
-        <p>cijena:</p>{{ product.cijena }}
-        <p>velicina:</p>{{ product.velicina }}<br>
-        {{ product.boja }}<br>
+            </div>
+
+        </div>
+
     </div>
+
     {% endfor %}
 
 </div>
 
+
 {% endspaceless %}
 {% endblock %}
-
+{% block naslov %}KOLEKCIJA{% endblock %}

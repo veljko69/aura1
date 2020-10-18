@@ -40,82 +40,45 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
 <html lang=\"en\">
 <head>
     <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">
     <title> ";
-        // line 5
+        // line 6
         $this->displayBlock('naslov', $context, $blocks);
-        echo "</title>
+        echo "-AURA</title>
     <link rel=\"stylesheet\" href=\"http://localhost/aura1/assets/css/main.css\">
     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
-<!--    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">-->
-<!--    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>-->
-<!--    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>-->
-<!--    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>-->
-
-
-    <!--    <link rel=\"stylesheet\" href=\"http://localhost/assets\\bootstrap-4.3.1-dist\\css\\bootstrap.min.css\">-->
-<!--    <script-->
-<!--            src=\"https://code.jquery.com/jquery-3.4.1.js\"-->
-<!--            integrity=\"sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=\"-->
-<!--            crossorigin=\"anonymous\"></script>-->
-
-<!--        <script>-->
-<!--            function showResult(str) {-->
-<!--                if (str.length===0) {-->
-<!--                    document.getElementById(\"livesearch\").innerHTML=\"\";-->
-<!--                    document.getElementById(\"livesearch\").style.border=\"0px\";-->
-<!--                    return;-->
-<!--                }-->
-<!--                var xmlhttp;-->
-<!--                if (window.XMLHttpRequest) {-->
-<!--                    // code for IE7+, Firefox, Chrome, Opera, Safari-->
-<!--                    xmlhttp = new XMLHttpRequest();-->
-<!--                } else {  // code for IE6, IE5-->
-<!--                    xmlhttp = new ActiveXObject(\"Microsoft.XMLHTTP\");-->
-<!--                }-->
-<!--                xmlhttp.onreadystatechange=function() {-->
-<!--                    if (this.readyState===4 && this.status===200) {-->
-<!--                        document.getElementById(\"livesearch\").innerHTML=this.responseText;-->
-<!--                        document.getElementById(\"livesearch\").style.border=\"1px solid #A5ACB2\";-->
-<!--                    }-->
-<!--                }-->
-<!--                xmlhttp.open(\"GET\",\"livesearch.php?q=\"+str,true);-->
-<!--                xmlhttp.send();-->
-<!--            }-->
-<!--        </script>-->
-
-
-<!--<form>-->
-<!--    <label>-->
-<!--        <input type=\"text\" size=\"30\" onkeyup=\"showResult(this.value)\">-->
-<!--    </label>-->
-<!--    <div id=\"livesearch\"></div>-->
-<!--</form>-->
 
 
 </head>
 <body>
 <div class=\"container\">
-        <header class=\"site-header\">
+  <header class=\"site-header\">
             <div class=\"banners\">
                 <a href=\"http://localhost/aura1/home\"><img src=\"http://localhost/aura1/assets/img/logo.png\" alt=\"aura logo\"></a>
             </div>
             <div class=\"bookmarks\">Loading bookmarks</div>
 
             <div class=\"social-icons\">
-                <a class=\"fa fa-facebook\" style=\"font-size: 20px\"></a>
-                <a class=\"fa fa-youtube\" style=\"font-size: 20px\"></a>
-                <i class=\"fa fa-instagram\" style=\"font-size: 20px\"></i>
-                <a><i class=\"fa fa-twitter\" style=\"font-size: 20px\"></i></a>
+
+                <a  class=\"fa fa-facebook\"  style=\"font-size: 20px\" href=\"#\"></a>
+                <a rel=\"nofollow\" class=\"fa fa-youtube\" style=\"font-size: 20px\"href=\"https://youtu.be/HTY6fKNN75Q\"  ></a>
+                <a rel=\"nofollow\" class=\"fa fa-instagram\"  style=\"font-size: 20px\"href=\"#\"  ></a>
+                <a class=\"fa fa-twitter\"  style=\"font-size: 20px\"href=\"#\"  ></a>
 
             </div>
 
-<!--<div class=\"clr-btn\" ><a href=\"http://localhost/aura1/api/bookmarks/clear\">Izbrisi</a></div>-->
-            <nav id=\"main-menu\">
-                <ul>
-                    <li><a href=\"http://localhost/aura1/home\">Pocetna</a></li>
+<div class=\"clr-btn\" ><a href=\"http://localhost/aura1/api/bookmarks/clear\">Izbrisi</a></div>
+       <nav id=\"main-menu\" >
+            <ul>
+                <div class=\"dropdown\"><a href=\"http://localhost/aura1/home\"><button class=\"dropbtn\">POCETNA
+                    <i class=\"fa fa-caret-down\"></i>
+                </button></a>
+<!--                    <li><a href=\"http://localhost/aura1/home\">POCETNA</a></li>-->
+                </div>
+
 <!--                    <li><a href=\"http://localhost/aura1/muski\">Muska kolekcija</a></li>-->
                     <div class=\"dropdown\">
-                        <a href=\"http://localhost/aura1/muski\"><button class=\"dropbtn\">Muska kolekcija
+                        <a href=\"http://localhost/aura1/muski\"><button class=\"dropbtn\">MUSKA KOLEKCIJA
                             <i class=\"fa fa-caret-down\"></i>
                         </button></a>
 
@@ -127,11 +90,12 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
                             <a href=\"http://localhost/aura1/products/m/majica\">Majica</a>
                             <a href=\"http://localhost/aura1/products/m/kais\">Kais</a>
                             <a href=\"http://localhost/aura1/products/m/kaput\">Kaput</a>
+                            <a href=\"http://localhost/aura1/products/m/odijelo\">Odijelo</a>
 
                         </div>
                     </div>
-                    <div class=\"dropdown\">
-                        <a href=\"http://localhost/aura1/zenski\"><button class=\"dropbtn\">Zenska kolekcija
+                <div class=\"dropdown\">
+                        <a href=\"http://localhost/aura1/zenski\"><button class=\"dropbtn\">ZENSKA KOLEKCIJA
                             <i class=\"fa fa-caret-down\"></i>
                         </button></a>
                         <div class=\"dropdown-content\">
@@ -146,25 +110,41 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
                             <a href=\"http://localhost/aura1/products/z/blejzer\">Blejzer</a>
 
                         </div>
-                    </div>
-                    <li><a href=\"http://localhost/aura1/sizeplus\">Size plus kolekcija</a></li>
-                    <li><a href=\"http://localhost/aura1/getregister\">Registracija</a></li>
-                    <li><a href=\"http://localhost/aura1/getlogin\">Prijava</a></li>
-                    <li><a href=\"http://localhost/aura1/user/logout\">Odjava</a></li>
+                </div>
+                <div class=\"dropdown\">
+                    <a href=\"http://localhost/aura1/sizeplus\"><button class=\"dropbtn\">SIZE PLUS KOLEKCIJA
+                        <i class=\"fa fa-caret-down\"></i>
+                    </button></a>
+                    <div class=\"dropdown-content\">
+                        <li><a href=\"http://localhost/aura1/sizeplus\">ZA PUNIJE DAME</a></li>
+                        <li><a href=\"http://localhost/aura1/sizeplus\">ZA PUNIJE MUSKARCE</a></li>
 
-                </ul>
-            </nav>
-            <p>";
-        // line 116
+
+                    </div>
+                </div>
+
+                <div class=\"dropdown\">
+                    <button class=\"dropbtn\">REGISTRACIJA/PRIJAVA<i class=\"fa fa-caret-down\"></i></button>
+
+                           <div class=\"dropdown-content\">
+                                <li><a href=\"http://localhost/aura1/getregister\">Registracija</a></li>
+                                <li><a href=\"http://localhost/aura1/getlogin\">Prijava</a></li>
+                                <li><a href=\"http://localhost/aura1/user/logout\">Odjava</a></li>
+                           </div>
+                </div>
+            </ul>
+       </nav>
+<!--            <p>";
+        // line 96
         echo twig_escape_filter($this->env, ($context["podatak"] ?? null), "html", null, true);
-        echo "</p>
+        echo "</p>-->
         </header>
             <main>
 
                 ";
-        // line 120
+        // line 100
         $this->displayBlock('main', $context, $blocks);
-        // line 123
+        // line 103
         echo "            </main>
 
         <footer class=\"footer\">
@@ -173,23 +153,24 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
     <script src=\"http://localhost/aura1/assets/js/topnav.js\"></script>
 
     <script src=\"http://localhost/aura1/assets/js/bookmark.js\"></script>
+
 </div>
 </body>
 </html>";
     }
 
-    // line 5
+    // line 6
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
-        echo "Pocetna";
+        echo "Muska i zenska odjeca";
     }
 
-    // line 120
+    // line 100
     public function block_main($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 121
+        // line 101
         echo "
                 ";
     }
@@ -206,11 +187,11 @@ class __TwigTemplate_6bef61af0ef1f6fecf2c262a09576f8c9b79a8c0c230754577e3954e5e8
 
     public function getDebugInfo()
     {
-        return array (  193 => 121,  189 => 120,  182 => 5,  168 => 123,  166 => 120,  159 => 116,  45 => 5,  39 => 1,);
+        return array (  174 => 101,  170 => 100,  163 => 6,  148 => 103,  146 => 100,  139 => 96,  46 => 6,  39 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "_global/index.html", "C:\\wamp64\\www\\aura1\\views\\_global\\index.html");
+        return new Source("", "_global/index.html", "D:\\wamp64\\www\\aura1\\views\\_global\\index.html");
     }
 }

@@ -1,35 +1,73 @@
-{% extends "_global/index.html"%}
+{% extends "_global/index1.html"%}
 {% block main%}
 {% spaceless %}
-<p>{{ podatak}}</p>
-<div class="pocetna">
-    <div class="z-pocetna">
+<!--<p>{{ podatak}}</p>-->
+<h1 style="color:white ; font-size: 1px">muska i zenska odjeca</h1>
 
-
-        <a href="zenski"> <img src="http://localhost/aura1/assets/img/people-2563491_1280.jpg" height="425" width="600"
-                               alt="z slika"/></a>
+<div class="row flex-wrap   ">
+    <div class=" zenski-top  col-md-6" style="  position: relative;
+    text-align: center;
+    color: white;">
+        <a href="{{ BASE }}/z"> <img class="img-fluid  rounded flex-grow-1 mb-2 p-1"
+                          src="{{ BASE }}/assets/img/pocetna-zensko.webp"
+                          alt="z slika"/></a>
+        <div class="centered" style="
+        border: gold solid 3px;
+        color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);">ŽENSKA KOLEKCIJA</div>
     </div>
-    <div class="m-pocetna">
 
-        <a href="muski"><img src="http://localhost/aura1/assets/img/black-and-white-1283231_1280.jpg" height="425"
-                             width="600" alt="m slika"/></a>
+
+    <div class=" muski-top col-md-6" style=" position: relative;
+    text-align: center;
+   ">
+        <a href="{{ BASE }}/m"><img class="img-fluid  rounded flex-grow-1 mb-2  p-1"
+                         src="{{ BASE }}/assets/img/baner-muski.jpg" alt="m slika"/></a>
+        <div class="centered" style="
+        border: gold solid 3px;
+        color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);">MUŠKA KOLEKCIJA</div>
     </div>
+
+    </div>
+
 </div>
-<div class="proizvodi">
+
+<!--<div>-->
+<!--    <h2 >PREPORUCUJEMO</h2>-->
+<!--</div>-->
+
+<div class="container  flex-wrap mt-5 col-12 d-inline-flex">
     {% for product in products %}
 
-    <div class="proizvod">
-        <a href="product/{{ product.proizvod_id}}"><img src="assets/img/{{ product.slika}}.jpg" height="auto"
-                                                        width="300"></a>
-        <a class="link" href="product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
+    <div class="proizvod flex-grow-1 mb-2">
+        <a class="slika" href="{{ BASE }}/product/{{ product.proizvod_id}}">
+            <img src="{{ BASE }}/assets/img/{{ product.slika}}.jpg" height="auto" width="350 "
+                 alt="{{ product.pol}}.{{ product.naziv}}"></a>
+        <!--            <a class="link" href="product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>-->
 
-        <br>
-        <p>cijena:</p>{{ product.cijena }}
-        <p>velicina:</p>{{ product.velicina }}<br>
-        {{ product.boja }}<br>
+        <div class="podaci flex-column m-3 " >
+<!--            <div class="prva ">-->
+                <p class="podatak">CIJENA: {{ product.cijena }}</p>
+                <p class="podatak">VELICINE: {{ product.v1 }} {{ product.v2 }} {{ product.v3 }} {{ product.v4 }} {{ product.v5 }} {{
+                    product.v6 }} {{ product.v7 }} {{ product.v8 }}</p>
+<!--            </div>-->
+<!--            <div class=" druga">-->
+<!--                <p class="podatak">BOJA: {{ product.boja }}</p>-->
+<!--&lt;!&ndash;                <p class="podatak"> SIFRA PROIZVODA:{{ product.sifra }}</p>&ndash;&gt;-->
+<!--            </div>-->
+
+        </div>
 
     </div>
     {% endfor %}
+
 </div>
 
 {% endspaceless %}

@@ -32,77 +32,77 @@ class __TwigTemplate_4a41f3a424405fd2eabde7ff2cd895c3a343e94b2652f181ea8140f9f52
 
     protected function doGetParent(array $context)
     {
-        // line 2
-        return "_global/index.html";
+        // line 1
+        return "_global/index1.html";
     }
 
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        $this->parent = $this->loadTemplate("_global/index.html", "Main/getRegister.html", 2);
+        $this->parent = $this->loadTemplate("_global/index1.html", "Main/getRegister.html", 1);
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 2
     public function block_main($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 4
+        // line 3
         ob_start(function () { return ''; });
-        // line 5
+        // line 4
         echo "
-    <div class=\"registracija\">
 
-        <form action=\"http://localhost/aura1/postregister\" method=\"POST\">
 
-            <div>
+        <form action=\"postregister\" method=\"POST\" class=\"container-fluid  w-100 col-lg-4 mt-5\">
+
+            <div class=\"form-group \">
                 <label for=\"input_email\" >E-mail:</label>
-                <input type=\"email\" id=\"input_email\" name=\"reg_email\" required class=\"form\"
+                <input type=\"email\" id=\"input_email\" name=\"reg_email\" required class=\"form-control\"
                        placeholder=\"Unesite svoju E-mail adresu o ovo polje\">
             </div>
-            <br>
-            <div>
+
+            <div class=\"form-group \" >
 
                 <label for=\"input_forename\" >Forename:</label>
-                <input type=\"text\" id=\"input_forename\" name=\"reg_forename\" required class=\"form\"
+                <input type=\"text\" id=\"input_forename\" name=\"reg_forename\" required class=\"form-control\"
                        placeholder=\"Unesite svoje ime\">
             </div>
-            <br>
+
 
             <div>
 
                 <label for=\"input_surname\" >Surname:</label>
-                <input type=\"text\" id=\"input_surname\" name=\"reg_surname\" required class=\"form\"
+                <input type=\"text\" id=\"input_surname\" name=\"reg_surname\" required class=\"form-control\"
                        placeholder=\"Unesite svoje prezime \">
             </div>
-            <br>
+
 
             <div>
 
                 <label for=\"input_username\" >Username:</label>
-                <input type=\"text\" id=\"input_username\" name=\"reg_username\" required class=\"form\"
+                <input type=\"text\" id=\"input_username\" name=\"reg_username\" required class=\"form-control\"
                        placeholder=\"Unesite zeljeno korisnicko ime\">
             </div>
-            <br>
+
 
             <div>
                 <label for=\"input_password_1\" >Password:</label>
-                <input type=\"password\" id=\"input_password_1\" name=\"reg_password1\" required class=\"form\"
+                <input type=\"password\" id=\"input_password_1\" name=\"reg_password1\" required class=\"form-control\"
                        placeholder=\"Unesite zeljenu lozinku\">
             </div>
-            <br>
+
 
             <div>
 
                 <label for=\"input_password_2\" >Repeat your password:</label>
-                <input type=\"text\" id=\"input_password_2\" name=\"reg_password2\" required class=\"form\"
+                <input type=\"text\" id=\"input_password_2\" name=\"reg_password2\" required class=\"form-control\"
                        placeholder=\"Unesite zeljenu lozinku jos jednom\">
 
             </div>
-            <br>
+
 
             <div>
-                <button type=\"submit\" class=\"form\" id=\"button\">
+                <button type=\"submit\" class=\"btn btn-primary mt-3 w-100\" id=\"button\">
                     Register
                 </button>
             </div>
@@ -111,16 +111,16 @@ class __TwigTemplate_4a41f3a424405fd2eabde7ff2cd895c3a343e94b2652f181ea8140f9f52
 
 
 
-    </div>
+
 
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));
-        // line 69
+        // line 68
         echo "
 ";
     }
 
-    // line 71
+    // line 70
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -139,11 +139,11 @@ class __TwigTemplate_4a41f3a424405fd2eabde7ff2cd895c3a343e94b2652f181ea8140f9f52
 
     public function getDebugInfo()
     {
-        return array (  124 => 71,  119 => 69,  53 => 5,  51 => 4,  47 => 3,  36 => 2,);
+        return array (  124 => 70,  119 => 68,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "Main/getRegister.html", "C:\\wamp64\\www\\aura1\\views\\Main\\getRegister.html");
+        return new Source("", "Main/getRegister.html", "D:\\wamp64\\www\\aura1\\views\\Main\\getRegister.html");
     }
 }

@@ -1,38 +1,53 @@
-{% extends "_global/index.html"%}
+{% extends "_global/index1.html"%}
 {% block main%}
 {% spaceless %}
-<div class="registracija">
+<!--<div class="registracija">-->
 
-    <form action="postlogin" method="post">
-
-
-        <div>
-
-            <label for="input_username" >Username:</label>
-            <input type="text" id="input_username" name="log_username" required class="form"
-                   placeholder="Unesite korisnicko ime">
-        </div>
-        <br>
-
-        <div>
-            <label for="input_password" >Password:</label>
-            <input type="text" id="input_password" name="log_password" required class="form"
-                   placeholder="Unesite lozinku">
-        </div>
-
-        <br>
-
-        <div>
-            <button type="submit" class="form" id="button">
-                Login
-            </button>
-        </div>
-
-    </form>
+<!--    <form action="postlogin" method="post">-->
 
 
+<!--        <div>-->
 
-</div>
+<!--            <label for="input_username" >Username:</label>-->
+<!--            <input type="text" id="input_username" name="log_username" required class="form"-->
+<!--                   placeholder="Unesite korisnicko ime">-->
+<!--        </div>-->
+<!--        <br>-->
+
+<!--        <div>-->
+<!--            <label for="input_password" >Password:</label>-->
+<!--            <input type="text" id="input_password" name="log_password" required class="form"-->
+<!--                   placeholder="Unesite lozinku">-->
+<!--        </div>-->
+
+<!--        <br>-->
+
+<!--        <div>-->
+<!--            <button type="submit" class="form" id="button">-->
+<!--                Login-->
+<!--            </button>-->
+<!--        </div>-->
+
+<!--    </form>-->
+
+<form action="postlogin" method="post" class="container-fluid col-lg-4 mt-5">
+    <div class="form-group ">
+        <label for="input_username">Username</label>
+        <input type="text" class="form-control" id="input_username" name="log_username" required placeholder="Unesite vase korisnicko ime">
+
+    </div>
+    <div class="form-group">
+        <label for="input_password">Password</label>
+        <input type="password" class="form-control" id="input_password" name="log_password" required placeholder="Unesite lozinku">
+    </div>
+<!--    <div class="form-check">-->
+<!--        <input type="checkbox" class="form-check-input" id="exampleCheck1">-->
+<!--        <label class="form-check-label" for="exampleCheck1">Check me out</label>-->
+<!--    </div>-->
+    <button type="submit" id="button" class="btn badge-primary mt-3 w-100">Submit</button>
+</form>
+
+
 {% endspaceless %}
 
 {% endblock %}

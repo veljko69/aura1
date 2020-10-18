@@ -1,18 +1,28 @@
-{% extends "_global/index.html"%}
+{% extends "_global/index1.html"%}
 {% block main%}
 {% spaceless %}
-<div class="proizvodi">
+<h1 class="d-inline-flex sticky-top" style="color: white;opacity: 0.4">ZENSKA KOLEKCIJA-AURA</h1>
+<div class="container  flex-wrap  col-12 d-inline-flex">
+
     {% for product in products %}
 
-    <div class="proizvod">
-        <a href="product/{{ product.proizvod_id}}" >
-            <img src="assets/img/{{ product.slika}}.jpg" height="auto" width="300">
-        </a>
-        <a class="link" href="product/{{ product.proizvod_id}}">{{ product.pol}}.{{ product.naziv}}</a><br>
-        <p>cijena:</p>{{ product.cijena }}<br>
-        <p>velicina:</p>{{ product.velicina }}<br>
-        {{ product.boja }}<br>
-        {{ product.sifra }}<br>
+    <div class="proizvod flex-grow-1 mb-2">
+        <a  class="slika" href="{{ BASE }}/product/{{ product.proizvod_id}}" >
+            <img src="{{ BASE }}/assets/img/{{ product.slika}}.jpg" height="auto" width="350" alt="{{ product.pol}}.{{ product.naziv}}"></a>
+<!--        <a class="link" href="product/{{ product.proizvod_id}}">{{ product.pol}}.{{ product.naziv}}</a><br>-->
+       <div class="podaci flex-column">
+           <div class="prva ">
+               <p class="podatak">CIJENA:{{ product.cijena }}</p>
+               <p class="podatak" >VELICINE:{{ product.v1 }}   {{ product.v2 }} {{ product.v3 }} {{ product.v4 }} {{ product.v5 }} {{
+                   product.v6 }} {{ product.v7 }} {{ product.v8 }}</p>
+           </div>
+<!--           <div class=" druga">-->
+<!--               <p class="podatak">BOJA: {{ product.boja }}</p>-->
+<!--               <p class="podatak"> SIFRA PROIZVODA:{{ product.sifra }}</p>-->
+<!--           </div>-->
+
+       </div>
+
     </div>
     {% endfor %}
 </div>

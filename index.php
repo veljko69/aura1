@@ -45,6 +45,7 @@ $route = $router->find($httpMethod, $url);
 
 $arguments = $route->extractArguments($url);
 //var_dump($arguments);
+//exit();
 $fullControllerName = '\\App\\Controller\\' . $route->getControllerName() . 'Controller';
 $controller = new $fullControllerName($databaseconnection);
 
@@ -56,12 +57,14 @@ $session = new  \App\Core\Session\Session($sessionStorage, Configuration::SESSIO
 $controller->setSession($session);
 $controller->getSession()->reload();
 //var_dump($session);
+//exit();
 $controller->__pre();
 call_user_func_array([$controller, $route->getMethodName()], $arguments);
 $controller->getSession()->save();
 
 $data = $controller->getData();
-
+//var_dump($data);
+//exit();
 
 #bez rutiranja
 //var_dump($controller);
@@ -77,6 +80,9 @@ if ($controller instanceof ApiController) {
     header('Access-Control-Allow-Origin: *');
 
     echo json_encode($data);
+    $data = json_encode($data);
+    var_dump($data);
+    echo $data;
     exit();
 }
 
@@ -85,18 +91,16 @@ $twig = new Environment($loader, [
     "cache" => "./twig-cache",
     "auto_reload" => true
 ]);
+
+$data['BASE'] = Configuration::BASE;
+//var_dump($data);
+//exit();
 try {
     echo $twig->render($route->getControllerName() . '/' . $route->getMethodName() . '.html', $data);
 } catch (LoaderError $e) {
 } catch (RuntimeError $e) {
 } catch (SyntaxError $e) {
 }
-
-
-
-
-
-
 
 
 

@@ -1,11 +1,11 @@
 <?php
 
 return [
-    App\Core\Route::get('|^muski/?$|',                                               'Main',     'muski'),
+    App\Core\Route::get('|^m/?$|',                                               'Main',     'muski'),
     App\Core\Route::get('|^product/([0-9]+)/?$|',                             'Product', 'showProductById'),
     App\Core\Route::get('|^products/([a-z]+)/?$|',                            'Product', 'showProductByName'),
     App\Core\Route::get('|^products/([a-z])/([a-z]+)/?$|',                'Product', 'showProductByPolAndName'),
-    App\Core\Route::get('|^zenski/?$|',                                              'Main',    'zenski'),
+    App\Core\Route::get('|^z/?$|',                                              'Main',    'zenski'),
     App\Core\Route::any('|^sizeplus/?$|',                                           'Main',    'sizeplus'),
 
     App\Core\Route::get('|^getregister/?$|',                                       'Main',    'getRegister'),
@@ -14,6 +14,9 @@ return [
     App\Core\Route::post('|^postlogin/?$|',                                      'Main',     'postLogin'),
     App\Core\Route::get('|^user/logout/?$|',                                      'Main',     'getLogout'),
     App\Core\Route::post('|^user/profile/?$|',                                      'UserDashboard',     'index'),
+
+    App\Core\Route::get('|^getslanje/?$|',                                       'Main',    'getSlanje'),
+    App\Core\Route::post('|^postslanje/?$|',                                   'Main',    'postSlanje'),
 
     App\Core\Route::get('|^admin/?$|',                                                   'Main',     'admin'),
     App\Core\Route::post('|^admin/add/?$|',                                       'Product',     'addProduct'),

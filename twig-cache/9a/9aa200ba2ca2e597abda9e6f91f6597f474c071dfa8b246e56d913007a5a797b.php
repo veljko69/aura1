@@ -33,13 +33,13 @@ class __TwigTemplate_b6d83ce5ea93e94846e21d93cfdd7a2b86f3bbbdeac59f29b0aef6f8d10
     protected function doGetParent(array $context)
     {
         // line 1
-        return "_global/index.html";
+        return "_global/index1.html";
     }
 
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        $this->parent = $this->loadTemplate("_global/index.html", "Main/getLogin.html", 1);
+        $this->parent = $this->loadTemplate("_global/index1.html", "Main/getLogin.html", 1);
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
@@ -50,46 +50,61 @@ class __TwigTemplate_b6d83ce5ea93e94846e21d93cfdd7a2b86f3bbbdeac59f29b0aef6f8d10
         // line 3
         ob_start(function () { return ''; });
         // line 4
-        echo "<div class=\"registracija\">
+        echo "<!--<div class=\"registracija\">-->
 
-    <form action=\"postlogin\" method=\"post\">
-
-
-        <div>
-
-            <label for=\"input_username\" >Username:</label>
-            <input type=\"text\" id=\"input_username\" name=\"log_username\" required class=\"form\"
-                   placeholder=\"Unesite korisnicko ime\">
-        </div>
-        <br>
-
-        <div>
-            <label for=\"input_password\" >Password:</label>
-            <input type=\"text\" id=\"input_password\" name=\"log_password\" required class=\"form\"
-                   placeholder=\"Unesite lozinku\">
-        </div>
-
-        <br>
-
-        <div>
-            <button type=\"submit\" class=\"form\" id=\"button\">
-                Login
-            </button>
-        </div>
-
-    </form>
+<!--    <form action=\"postlogin\" method=\"post\">-->
 
 
+<!--        <div>-->
 
-</div>
+<!--            <label for=\"input_username\" >Username:</label>-->
+<!--            <input type=\"text\" id=\"input_username\" name=\"log_username\" required class=\"form\"-->
+<!--                   placeholder=\"Unesite korisnicko ime\">-->
+<!--        </div>-->
+<!--        <br>-->
+
+<!--        <div>-->
+<!--            <label for=\"input_password\" >Password:</label>-->
+<!--            <input type=\"text\" id=\"input_password\" name=\"log_password\" required class=\"form\"-->
+<!--                   placeholder=\"Unesite lozinku\">-->
+<!--        </div>-->
+
+<!--        <br>-->
+
+<!--        <div>-->
+<!--            <button type=\"submit\" class=\"form\" id=\"button\">-->
+<!--                Login-->
+<!--            </button>-->
+<!--        </div>-->
+
+<!--    </form>-->
+
+<form action=\"postlogin\" method=\"post\" class=\"container-fluid col-lg-4 mt-5\">
+    <div class=\"form-group \">
+        <label for=\"input_username\">Username</label>
+        <input type=\"text\" class=\"form-control\" id=\"input_username\" name=\"log_username\" required placeholder=\"Unesite vase korisnicko ime\">
+
+    </div>
+    <div class=\"form-group\">
+        <label for=\"input_password\">Password</label>
+        <input type=\"password\" class=\"form-control\" id=\"input_password\" name=\"log_password\" required placeholder=\"Unesite lozinku\">
+    </div>
+<!--    <div class=\"form-check\">-->
+<!--        <input type=\"checkbox\" class=\"form-check-input\" id=\"exampleCheck1\">-->
+<!--        <label class=\"form-check-label\" for=\"exampleCheck1\">Check me out</label>-->
+<!--    </div>-->
+    <button type=\"submit\" id=\"button\" class=\"btn badge-primary mt-3 w-100\">Submit</button>
+</form>
+
+
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));
-        // line 37
+        // line 52
         echo "
 ";
     }
 
-    // line 39
+    // line 54
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -108,11 +123,11 @@ class __TwigTemplate_b6d83ce5ea93e94846e21d93cfdd7a2b86f3bbbdeac59f29b0aef6f8d10
 
     public function getDebugInfo()
     {
-        return array (  93 => 39,  88 => 37,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  108 => 54,  103 => 52,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "Main/getLogin.html", "C:\\wamp64\\www\\aura1\\views\\Main\\getLogin.html");
+        return new Source("", "Main/getLogin.html", "D:\\wamp64\\www\\aura1\\views\\Main\\getLogin.html");
     }
 }

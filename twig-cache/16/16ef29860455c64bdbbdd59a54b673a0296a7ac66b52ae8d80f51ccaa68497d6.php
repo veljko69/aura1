@@ -26,82 +26,108 @@ class __TwigTemplate_c864b01114d2cd255d310890b8aea57d616e94930c3002253c76ad91988
 
         $this->blocks = [
             'main' => [$this, 'block_main'],
+            'naslov' => [$this, 'block_naslov'],
         ];
     }
 
     protected function doGetParent(array $context)
     {
         // line 1
-        return "_global/index.html";
+        return "_global/index1.html";
     }
 
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        $this->parent = $this->loadTemplate("_global/index.html", "Product/showProductByPolAndName.html", 1);
+        $this->parent = $this->loadTemplate("_global/index1.html", "Product/showProductByPolAndName.html", 1);
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 3
+    // line 2
     public function block_main($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 4
+        // line 3
         ob_start(function () { return ''; });
-        // line 5
+        // line 4
         echo "
-<div class=\"proizvodi\" >
+
+
+<div class=\"container  flex-wrap m-auto col-12 d-flex\">
     ";
-        // line 7
+        // line 8
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["products"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["product"]) {
-            // line 8
+            // line 9
             echo "
-    <div class=\"proizvod\" >
-        <a href=\"http://localhost/aura1/product/";
-            // line 10
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 10), "html", null, true);
-            echo " \" >
-            <img src=\"http://localhost/aura1/assets/img/";
+    <div class=\"proizvod flex-grow-1 mb-2\" >
+        <a class=\"slika\" href=\"";
             // line 11
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "slika", [], "any", false, false, false, 11), "html", null, true);
-            echo ".jpg\" height=\"auto\" width=\"300\" alt=\"slika\">
-        </a>
-        <a class=\"link\" href=\"http://localhost/aura1/product/";
-            // line 13
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 13), "html", null, true);
-            echo " \">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "pol", [], "any", false, false, false, 13), "html", null, true);
-            echo ".";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "naziv", [], "any", false, false, false, 13), "html", null, true);
-            echo "</a>
-
-        <br>
-        <p>cijena:</p>";
+            echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
+            echo "/product/";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 11), "html", null, true);
+            echo " \" >
+            <img src=\"";
+            // line 12
+            echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
+            echo "/assets/img/";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "slika", [], "any", false, false, false, 12), "html", null, true);
+            echo ".jpg\" height=\"auto\" width=\"350\" alt=\"slika\"></a>
+        <div class=\"podaci flex-column\">
+            <div class=\"prva \">
+                <p class=\"podatak\">CIJENA:";
+            // line 15
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "cijena", [], "any", false, false, false, 15), "html", null, true);
+            echo "</p>
+<!--                <p class=\"podatak\" >VELICINA:";
             // line 16
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "cijena", [], "any", false, false, false, 16), "html", null, true);
-            echo "
-        <p>velicina:</p>";
-            // line 17
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "velicina", [], "any", false, false, false, 17), "html", null, true);
-            echo "<br>
-        ";
-            // line 18
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "boja", [], "any", false, false, false, 18), "html", null, true);
-            echo "<br>
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "velicina", [], "any", false, false, false, 16), "html", null, true);
+            echo "</p>-->
+            </div>
+            <div class=\" druga\">
+                <p class=\"podatak\">BOJA: ";
+            // line 19
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "boja", [], "any", false, false, false, 19), "html", null, true);
+            echo "</p>
+<!--                <p class=\"podatak\"> SIFRA PROIZVODA:";
+            // line 20
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "sifra", [], "any", false, false, false, 20), "html", null, true);
+            echo "</p>-->
+<!--                <a class=\"link\" href=\"http://localhost/aura1/product/";
+            // line 21
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "proizvod_id", [], "any", false, false, false, 21), "html", null, true);
+            echo " \">";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "pol", [], "any", false, false, false, 21), "html", null, true);
+            echo ".";
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["product"], "naziv", [], "any", false, false, false, 21), "html", null, true);
+            echo "</a>-->
+
+            </div>
+
+        </div>
+
     </div>
+
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['product'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 21
+        // line 30
         echo "
 </div>
 
+
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));
+    }
+
+    // line 36
+    public function block_naslov($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        echo "KOLEKCIJA";
     }
 
     public function getTemplateName()
@@ -116,11 +142,11 @@ class __TwigTemplate_c864b01114d2cd255d310890b8aea57d616e94930c3002253c76ad91988
 
     public function getDebugInfo()
     {
-        return array (  100 => 21,  91 => 18,  87 => 17,  83 => 16,  73 => 13,  68 => 11,  64 => 10,  60 => 8,  56 => 7,  52 => 5,  50 => 4,  46 => 3,  35 => 1,);
+        return array (  127 => 36,  118 => 30,  99 => 21,  95 => 20,  91 => 19,  85 => 16,  81 => 15,  73 => 12,  67 => 11,  63 => 9,  59 => 8,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "Product/showProductByPolAndName.html", "C:\\wamp64\\www\\aura1\\views\\Product\\showProductByPolAndName.html");
+        return new Source("", "Product/showProductByPolAndName.html", "D:\\wamp64\\www\\aura1\\views\\Product\\showProductByPolAndName.html");
     }
 }

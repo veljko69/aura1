@@ -1,0 +1,70 @@
+{% extends "_global/index1.html"%}
+{% block main%}
+{% spaceless %}
+
+
+
+<form action="postregister" method="POST" class="container-fluid  w-100 col-lg-4 mt-5">
+
+    <div class="form-group ">
+        <label for="input_email" >E-mail:</label>
+        <input type="email" id="input_email" name="reg_email" required class="form-control"
+               placeholder="Unesite svoju E-mail adresu o ovo polje">
+    </div>
+
+    <div class="form-group " >
+
+        <label for="input_forename" >Forename:</label>
+        <input type="text" id="input_forename" name="reg_forename" required class="form-control"
+               placeholder="Unesite svoje ime">
+    </div>
+
+
+    <div>
+
+        <label for="input_surname" >Surname:</label>
+        <input type="text" id="input_surname" name="reg_surname" required class="form-control"
+               placeholder="Unesite svoje prezime ">
+    </div>
+
+
+    <div>
+
+        <label for="input_username" >Username:</label>
+        <input type="text" id="input_username" name="reg_username" required class="form-control"
+               placeholder="Unesite zeljeno korisnicko ime">
+    </div>
+
+
+    <div>
+        <label for="input_password_1" >Password:</label>
+        <input type="password" id="input_password_1" name="reg_password1" required class="form-control"
+               placeholder="Unesite zeljenu lozinku">
+    </div>
+
+
+    <div>
+
+        <label for="input_password_2" >Repeat your password:</label>
+        <input type="text" id="input_password_2" name="reg_password2" required class="form-control"
+               placeholder="Unesite zeljenu lozinku jos jednom">
+
+    </div>
+
+
+    <div>
+        <button type="submit" class="btn btn-primary mt-3 w-100" id="button">
+            Register
+        </button>
+    </div>
+
+</form>
+
+
+
+
+
+{% endspaceless %}
+
+{% endblock %}
+{% block naslov %}Registracija korisnika{% endblock %}
