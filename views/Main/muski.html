@@ -1,8 +1,9 @@
 {% extends "_global/index.html"%}
 {% block main%}
 {% spaceless %}
-
+<h1>MUSKA KOLEKCIJA</h1><br>
     <div class="proizvodi" >
+
         {% for product in products %}
 
         <div class="proizvod" >
@@ -11,8 +12,9 @@
 
            <br>
             <p>cijena:</p>{{ product.cijena }}
-            <p>velicina:</p>{{ product.velicina }}<br>
-            {{ product.boja }}<br>
+            <p>velicina:</p>{{ product.v1 }} {{ product.v2 }} {{ product.v3 }} {{ product.v4 }} {{ product.v5 }} {{
+            product.v6 }} {{ product.v7 }} {{ product.v8 }}<br>
+<!--            {{ product.boja }}<br>-->
 
         </div>
             {% endfor %}

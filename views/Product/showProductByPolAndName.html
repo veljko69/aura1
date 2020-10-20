@@ -1,26 +1,71 @@
 {% extends "_global/index.html"%}
-
 {% block main%}
 {% spaceless %}
 
 <div class="proizvodi" >
+
+
+<!--    <h1>{{ product.naziv}}</h1>-->
     {% for product in products %}
 
+
     <div class="proizvod" >
+
         <a href="http://localhost/aura1/product/{{ product.proizvod_id}} " >
             <img src="http://localhost/aura1/assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika">
         </a>
         <a class="link" href="http://localhost/aura1/product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
 
         <br>
-        <p>cijena:</p>{{ product.cijena }}
-        <p>velicina:</p>{{ product.velicina }}<br>
-        {{ product.boja }}<br>
-    </div>
-    {% endfor %}
+        <br>
+<div style="margin-left: 30px ; font-size: 20px">
+                <p>CIJENA:</p>{{ product.cijena }}
+                <p>velicina:</p>{{ product.v1 }} {{ product.v2 }} {{ product.v3 }} {{ product.v4 }} {{ product.v5 }} {{
+        product.v6 }} {{ product.v7 }} {{ product.v8 }}<br>
+
 
 </div>
+        <!--        {{ product.boja }}<br>-->
 
+<!--         Button trigger modal-->
+<!--        <a href="http://localhost/aura1/api/product/{{ product.proizvod_id}}" type="button"  class="btn btn-primary" data-toggle="modal" data-target="#button-detalji" style="width: 100%  " >Detalji</a>-->
+<!--            <button   type="button"  class="btn btn-primary" data-toggle="modal" data-target="#button-detalji" style="width: 100% ">Vidi detalje</button>-->
+
+
+    </div>
+
+    {% endfor %}
+<!--    <script>-->
+<!--        $(document).ready(function(){-->
+<!--            $("#button_modal").click(function(){-->
+<!--    $("#button-detalji").modal();-->
+<!--            });-->
+
+
+
+<!--        function getProductData(){-->
+<!--            fetch('http://localhost/aura1/api/product/{{ product.proizvod_id}}')-->
+<!--                .then(result => result.json())-->
+<!--                .then(data => {-->
+<!--                    showReceivedData(data)-->
+<!--                });-->
+
+<!--            function showReceivedData(data){-->
+<!--console.log(data);-->
+<!--                document.querySelector('.modal-body').innerHTML = data;-->
+
+<!--                    document.querySelector(".cijena").innerHTML = JSON.stringify(data.product.cijena);-->
+<!--                    document.querySelector('#velicina').innerHTML = JSON.stringify(data.product.velicina);-->
+<!--                    document.querySelector('#pol').innerHTML = JSON.stringify(data.product.pol);-->
+<!--                    document.querySelector('#boja').innerHTML = JSON.stringify(data.product.boja)-->
+
+
+<!--            }-->
+<!--        }-->
+<!--        });-->
+<!--    </script>-->
+<!--</div>-->
+<!--<div class="cijena" >cijenaaaaaaa</div>-->
 {% endspaceless %}
 {% endblock %}
 

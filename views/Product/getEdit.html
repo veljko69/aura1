@@ -11,22 +11,35 @@
 
 <div class="container-fluid">
 
-<!--    <div class="row">-->
-        <div class="col-md-6  pl-5  m-auto">
+    <div class="row">
+        <div class="col-md-9 pl-5  m-auto">
             <h3 class="text-info  text-center  mb-2"> Uredi proizvod</h3>
-            <form action="http://localhost/aura1/admin/{{product.proizvod_id}}/edit" method="POST" enctype="multipart/form-data" >
+            <form action="http://localhost/aura1/admin/{{product.proizvod_id}}/edit" method="POST"
+                  enctype="multipart/form-data">
                 <div class="form-group">
+
+                    <label>Tip proizvoda:
+                        <input type="text" name="product_tip" class="form-control" value="{{ product.tip}}">
+                    </label>
 
                     <label>Naziv proizvoda:
                         <input type="text" name="product_name" class="form-control" value="{{ product.naziv}}">
                     </label>
 
                     <label>Cijena:
-                        <input type="text" name="product_price" class="form-control" value="{{ product.cijena}}  "  >
+                        <input type="text" name="product_price" class="form-control" value="{{ product.cijena}}  ">
                     </label>
 
-                   <label>Velicina:
-                        <input type="text" name="product_size" class="form-control" value="{{ product.velicina}}">
+                    <label class="">Velicine:
+
+                        <input type="text" name="product_size_v1" class="form-control" value="{{ product.v1}}">
+                        <input type="text" name="product_size_v2" class="form-control" value="{{ product.v2}}">
+                        <input type="text" name="product_size_v3" class="form-control" value="{{ product.v3}}">
+                        <input type="text" name="product_size_v4" class="form-control" value="{{ product.v4}}">
+                        <input type="text" name="product_size_v5" class="form-control" value="{{ product.v5}}">
+                        <input type="text" name="product_size_v6" class="form-control" value="{{ product.v6}}">
+                        <input type="text" name="product_size_v7" class="form-control" value="{{ product.v7}}">
+                        <input type="text" name="product_size_v8" class="form-control" value="{{ product.v8}}">
                     </label>
 
                     <label>Pol:
@@ -42,17 +55,25 @@
                         <input type="text" name="product_color" class="form-control" value="{{ product.boja}}">
                     </label>
 
+                    <label>Materijal:
+                        <input type="text" name="product_materijal" class="form-control" value="{{ product.materijal}}">
+                    </label>
+
                     <label>Slika:
                         <input type="text" name="product_img" class="form-control" value="{{ product.slika}}">
                     </label>
 
+                    <!--                    <label>Kolicina:-->
+                    <!--                        <input type="text" name="product_kolicina" class="form-control" value="{{ product.kolicina}}">-->
+                    <!--                    </label>-->
+
                     <div class="form-group">
-                        <input type="submit" name="add" class="btn btn-success btn-block" value="Uredi">
+                        <input type="submit" name="add" class="btn btn-success btn-block" value="Uredi proizvod">
                     </div>
                 </div>
             </form>
         </div>
-<!--    </div>-->
+    </div>
 
 
     <link rel="stylesheet" href="http://localhost/aura1/assets/css/main.css">

@@ -45,6 +45,7 @@ $route = $router->find($httpMethod, $url);
 
 $arguments = $route->extractArguments($url);
 //var_dump($arguments);
+//die();
 $fullControllerName = '\\App\\Controller\\' . $route->getControllerName() . 'Controller';
 $controller = new $fullControllerName($databaseconnection);
 
@@ -56,28 +57,33 @@ $session = new  \App\Core\Session\Session($sessionStorage, Configuration::SESSIO
 $controller->setSession($session);
 $controller->getSession()->reload();
 //var_dump($session);
+//var_dump($controller);
 $controller->__pre();
 call_user_func_array([$controller, $route->getMethodName()], $arguments);
 $controller->getSession()->save();
 
 $data = $controller->getData();
-
-
+//echo json_encode($data);
+//exit();
+//var_dump($data);
 #bez rutiranja
 //var_dump($controller);
 //var_dump($data);
-//foreach ($data as $name => $value) {
-//    $$name = $value;
-//}
+foreach ($data as $name => $value) {
+    $$name = $value;
+}
 //require_once 'views/'.$route->getControllerName().'/'.$route->getMethodName().'.php' ;
 
 if ($controller instanceof ApiController) {
     ob_clean();
-    header('Content-type:application/json; charset=utf-8');
+    header('Content-type: application/json; charset=utf-8');
     header('Access-Control-Allow-Origin: *');
 
     echo json_encode($data);
-    exit();
+   $data =  json_encode($data);
+//    var_dump($data);
+//    echo $data;
+    exit;
 }
 
 $loader = new FilesystemLoader('./views/');

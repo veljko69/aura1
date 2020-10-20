@@ -1,28 +1,31 @@
 <?php
 
 namespace App\Core;
+
 use App\core\Route;
-final class Router{
 
-    private $routes = [];
+final class Router
+{
 
-    public function __construct()
-    {
+      private $routes = [];
 
-    }
+      public function __construct()
+      {
 
-    public function add(Route &$route)
-    {
-        $this->routes[] = $route;
-    }
+      }
 
-    public function &find(string $method, string $url): Route
-    {
-        foreach ($this->routes as $route) {
-            if ($route->matches($method, $url)) {
-                return $route;
+      public function add(Route &$route)
+      {
+            $this->routes[] = $route;
+      }
+
+      public function &find(string $method, string $url): Route
+      {
+            foreach ($this->routes as $route) {
+                  if ($route->matches($method, $url)) {
+                        return $route;
+                  }
             }
-        }
-        return null;
-    }
+            return null;
+      }
 }

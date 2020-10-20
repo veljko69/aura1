@@ -26,6 +26,15 @@ class MainController extends Controller
 
     }
 
+      public function korpa()
+      {
+            $dbc = $this->getDatabaseConnection();
+            $productModel = new ProductModel($dbc);
+            $products = $productModel->getById($id);
+            $this->set('products', $products);
+
+      }
+
     public function muski()
     {
         $dbc = $this->getDatabaseConnection();

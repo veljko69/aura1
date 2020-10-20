@@ -1,0 +1,139 @@
+{% extends "_global/index.html"%}
+
+{% block main%}
+{% spaceless %}
+
+<div class="proizvodi">
+
+
+    {% for product in products %}
+
+
+    <div class="proizvod">
+
+        <a href="http://localhost/aura1/product/{{ product.proizvod_id}} ">
+            <img src="http://localhost/aura1/assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika">
+        </a>
+        <a class="link" href="http://localhost/aura1/product/{{ product.proizvod_id}} ">{{ product.pol}}.{{
+            product.naziv}}</a>
+
+
+        <p>cijena:</p>{{ product.cijena }}
+        <p>velicina:</p>{{ product.velicina }}<br>
+        <!--        {{ product.boja }}<br>-->
+
+    </div>
+
+    {% endfor %}
+
+</div>
+{% block naslov %}Aura{% endblock %}
+
+{% endspaceless %}
+{% endblock %}
+
+<!--{% endblock %}-->
+
+
+
+
+{% extends "_global/index.html"%}
+
+
+{% block main%}
+{% spaceless %}
+
+<div class="proizvodi" >
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="button-detalji" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="cijena"></div><br>
+                    <div id="velicina"></div>SSSS<br>
+                    <div id="pol"></div>SSSS<br>
+                    <div id="boja">XXXXX</div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% for product in products %}
+
+
+    <div class="proizvod" >
+
+        <a href="http://localhost/aura1/product/{{ product.proizvod_id}} " >
+            <img src="http://localhost/aura1/assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika">
+        </a>
+        <a class="link" href="http://localhost/aura1/product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
+
+        <br>
+        <br>
+
+        <!--        <p>cijena:</p>{{ product.cijena }}-->
+        <!--        <p>velicina:</p>{{ product.velicina }}<br>-->
+        <!--        {{ product.boja }}<br>-->
+
+        <!-- Button trigger modal -->
+        <a href="http://localhost/aura1/api/product/{{ product.proizvod_id}}"   type="button"  class="btn btn-primary " data-toggle="modal" data-target="#button-detalji" style="width: 100%  " >Vidi detalje</a>
+        <!--    <button   type="button"  class="btn btn-primary" data-toggle="modal" data-target="#button-detalji" style="width: 100% ">Vidi detalje</button>-->
+
+
+    </div>
+
+    {% endfor %}
+    <script>
+        $(document).ready(function(){
+            $("#myBtn").click(function(){
+                $("#myModal").modal();
+            });
+        });
+
+        function getProductData(){
+            fetch('http://localhost/aura1/api/product/{{ product.proizvod_id}}')
+                .then(result => result.json())
+                .then(data => {
+                    showReceivedData(data)
+                });
+            function showReceivedData(data){
+
+                // document.querySelector('#cijena').innerHTML = JSON.stringify(data.product);
+                // document.querySelector('.modal-body').innerHTML = data;
+                console.log(
+                    document.querySelector('#cijena').innerHTML = JSON.stringify(data.product.cijena),
+                    document.querySelector('#velicina').innerHTML = JSON.stringify(data.product),
+                    document.querySelector('#pol').innerHTML = JSON.stringify(data.product),
+                    document.querySelector('#boja').innerHTML = JSON.stringify(data.product)
+                )
+
+
+            }
+        }
+    </script>
+</div>
+
+{% endspaceless %}
+
+
+</body>
+</html>

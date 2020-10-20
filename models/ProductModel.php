@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Core\DatabaseConnection;
+
 //use App\core\Model;
 
 class ProductModel
@@ -41,7 +42,7 @@ class ProductModel
 
     public function getByProductName($productname)
     {
-        $sql = 'SELECT * FROM proizvod WHERE  naziv = ?;';
+        $sql = 'SELECT * FROM proizvod WHERE  tip = ?;';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res = $prep->execute([$productname]);
         $products = [];
@@ -65,7 +66,7 @@ class ProductModel
 
     public function getByPolAndName(string $pol, string $productname)
     {
-        $sql = 'SELECT * FROM proizvod WHERE  pol = ? AND naziv=?;';
+        $sql = 'SELECT * FROM proizvod WHERE  pol = ? AND tip=?;';
         $prep = $this->dbc->getConnection()->prepare($sql);
         $res = $prep->execute([$pol, $productname]);
         $products = [];
@@ -87,12 +88,12 @@ class ProductModel
         return $products;
     }
 
-    public function addProduct(string $naziv, string $cijena, string $velicina,string $pol,string $sifra, string $boja,string $slika)
+    public function addProduct($tip ,$naziv, $cijena,$pol,$velicina1,$velicina2,$velicina3,$velicina4,$velicina5,$velicina6,$velicina7,$velicina8,$sifra,$boja,$materijal,$slika)
     {
-        $sql = 'INSERT INTO proizvod(naziv, cijena,velicina,pol,sifra,boja,slika)
-                    VALUES(?,?,?,?,?,?,?)';
+        $sql = 'INSERT INTO proizvod(tip,naziv, cijena,pol,v1,v2,v3,v4,v5,v6,v7,v8,sifra,boja,materijal,slika)
+                    VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)';
         $prep = $this->dbc->getConnection()->prepare($sql);
-        $res = $prep->execute([$naziv, $cijena, $velicina, $pol, $sifra, $boja, $slika]);
+        $res = $prep->execute([$tip ,$naziv, $cijena,$pol,$velicina1,$velicina2,$velicina3,$velicina4,$velicina5,$velicina6,$velicina7,$velicina8,$sifra,$boja,$materijal,$slika]);
 
         return $res;
     }
@@ -104,23 +105,28 @@ class ProductModel
         $prep->execute([$id]);
     }
 
-public function editProduct( $naziv, $id,$cijena,$velicina,$pol,$sifra,$boja,$slika)
+    public function editProduct($id, $tip ,$naziv, $cijena,$pol,$velicina1,$velicina2,$velicina3,$velicina4,$velicina5,$velicina6,$velicina7,$velicina8,$sifra,$boja,$materijal,$slika)
     {
 
-      $sql = "UPDATE proizvod SET  naziv = ?, cijena = ?, velicina = ?, pol = ?,sifra = ?,boja =?, slika = ? WHERE  proizvod_id =?  ;";
-
-        var_dump([ $naziv, $cijena,$velicina,$pol,$sifra,$boja,$slika,$id]);
-
-    $prep = $this->dbc->getConnection()->prepare($sql);
-    $editProduct = $prep->execute([$id, $naziv, $cijena,$velicina,$pol,$sifra,$boja,$slika]);
+        $sql = "UPDATE proizvod SET  tip = ?,naziv = ?, cijena = ?,  pol = ?, v1 = ?, v2 = ?, v3 = ?, v4 = ?, v5 = ?, v6 = ?, v7 = ?, v8 = ?,sifra = ?,boja =?,materijal = ?, slika = ?  WHERE  proizvod_id =? ";
 
 
-    var_dump($editProduct);
-    if ($editProduct=true){
-        echo 'OK';
+        $prep = $this->dbc->getConnection()->prepare($sql);
+        $editProduct = $prep->execute([$tip ,$naziv, $cijena,$pol,$velicina1,$velicina2,$velicina3,$velicina4,$velicina5,$velicina6,$velicina7,$velicina8,$sifra,$boja,$materijal,$slika,$id]);
+
+        return $editProduct;
     }
 
-    return $editProduct;
-    }
+//    public function editKolicina($id, $kolicina)
+//    {
+//
+//        $sql = "UPDATE proizvod SET  kolicina =? WHERE  proizvod_id =? ";
+//
+//
+//        $prep = $this->dbc->getConnection()->prepare($sql);
+//        $editKolicina= $prep->execute([$kolicina, $id]);
+//
+//        return $editKolicina;
+//    }
 
 }

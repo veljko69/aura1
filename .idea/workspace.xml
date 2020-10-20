@@ -1,309 +1,395 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_10_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_10_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_10_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_1_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_1_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_1_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_2_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_2_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_2_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_3_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_3_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_3_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_4_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_4_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_4_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_5_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_5_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_5_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_6_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_6_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_6_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_7_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_7_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_7_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_8_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_8_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_8_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_9_1200_1800px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_9_320px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_9_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/4710201_w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/Linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/Uskrs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/american_ex_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/analytics.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/animations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/api.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/avatar_simple_visitor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/bancaIntesa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/bootbox.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/bootstrap-datepicker.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/bootstrap-datetimepicker.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/bootstrap.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/common.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/ddm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/dinacard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/drop-down.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/facebook_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/fbevents.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/giftcard_55_52px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/gtg.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/gtm_nb.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/icheck.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/icheck.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/imagesloaded.pkgd.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/infobubble-compiled.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/instagram_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery-scrolltofixed.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery-ui.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.appear.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.batchimageupload.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.countdown-plugin.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.countdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.countdown.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.countdown.regional.options.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.elevatezoom.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.fancybox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.fancybox.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.fs.zoomer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.fs.zoomer.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.map-resizer.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.maphilight.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.nicescroll.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.plugin.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.rateyo.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.rateyo.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/jquery.touchSwipe.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/lightbox.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/loyalty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/lozad.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/masonry.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/masterCardSC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/mc_acc_opt_35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/modernizr.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/moment.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/ms_acc_opt_35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/nbplugins.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/nbshop.script.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/parsley.config.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/parsley.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/parsley.remote.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/pinchzoom.TweenMax.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/pinchzoom.hammer.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/pinchzoom.jquery.mousewheel.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/pinchzoom.jquery.pinchzoomer.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/pinchzoomer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/player_api" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/recaptcha__sr.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/saved_resource" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/saved_resource(1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/saved_resource.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/script.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/scriptnb.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/slick.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style(1).css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.animation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.article.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.basic.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.catalog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.fonts.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.helper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.responsive.md.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.responsive.sm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.responsive.theme.md.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.responsive.theme.sm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.responsive.theme.xs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.responsive.theme.xxs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.responsive.xs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.responsive.xxs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.typography.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/style.typography.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/theme.script.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/toastr.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/typeahead.bundle.min.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/util.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/verifiedbyvisa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/visa_pos_fc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/w" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/www-widgetapi.js.преузимање" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/33_files/youtube-symbol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/bookmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/topnav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/ApiBookmarkController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/UserDashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/role/UserRoleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/2rS9GBRujvaLksKepSChKJQpUOQsCLyv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/5Ylg6pj0i43jZF2Jak10wiEFJVt7afaJ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/6VC5sIxa7oTHA7zt9NVKV5lUl5Hwx3Wf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/7JdOXzyi0hgTuobJmtlSdPZnVHe0IjCF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/8K0pZhHTwvZqvvmWBSYguCwRsxNqCHnt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/AC1vafRRSZR7CXAjCz1aB9Kb79WYlubh.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/BJ3g316L36F03hwHi0yHF8UGzB26vQ1X.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/BNVtUMGQKSxuJSnGggVU0cOeWLpW4bO8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/C5hXP0ZnSlCYDfc4hO81lMGw9dGCI2e8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/CA0CIZ2k3PqSHwYnGtsA29XfSfAkZ1fF.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/CSA5C4rnvftvvgPnG8Sp678eILJHzS3Q.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/D9TC7fUwPmItdzAC1y7KrLafWfmCVzWc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/Dk07ZPsNOhMAaMtpTUrK8nHYclRw0Kid.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/EFrQOqTBW9nFbYr35oav74n9ragm705g.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/EKJkggBfkw0s9130CjDSnpzA8F5vCAVB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/F92F14uS2jZz5e3vEUp3sWPJkspq6MGT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/G9My3Kk4eXTxwxRLs5rLkS5mwYLP40cp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/GAcJbJ24pg6nT2suEmiknS6WjzJ4EHc4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/HlDcJWwUHIvyajij6p3WsFGuojkqjnqq.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/IUaVdDJOvyRnlKvVOWnlG49Bfeyao7nB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/J50R0IQSwcnEV3Mri3zEnBOwY6MO7MXE.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/LGzRezda2ckVZZuIQg474EprtLJv7Gtw.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/NekKnLSPGrURU0V02Iv3nxnONM3SmWKl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/OAMeTxQBF0iTnEMRyPa3WZco7TDNPIat.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/PNENCmlvFkAdU9PjY7HE4uDtl3h1EsCt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/PxEuYkHpoe9PbVsUh70qjQ1uYK4YVAZd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/PzZKQ5nyV8bTfwKSIUgpTY9WBv1wYjjN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/Q9ZPZmFkx00Ib6QY94fYv2kAwAaKcom5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/QhUz5ZpAOw1FU51vuxJlGejv7OhzGSYM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/Rn9TT6RdHYHGf3HkuQCvW9frhaFLBFjm.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/SVYrSRWpnNZn0Ca6qJVnE6UKaLfDFUTu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/SYDpHhhrjYZhHnDPzFK7ZbzfLbKb4akW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/Shm3rrbSfP9wcmzLD7QVQlNYB35FLQTG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/T4QOR5jvqjkzEsqngDlZa3AbtA8PCBJB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/TaJjzPP6DcKI5a2VmEpEFQ69eaVvsT5G.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/UVPySmtVLEpiKZqDjpLMKhLLpuvRaTUB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/XirYp7hPlfbrby0yaB5iRMbRaVx1hief.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/Y7WHnM8Xoi77WiytMhTpTPkrX0EyKw06.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/YiyD9MM6xWyLpyWQzhLRdOjBDHnn0bOa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/ZDVdiRRJYSrnpcfwJWE5ZMomY5BLJ8tm.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/ZJifTsLBoSf3AttvcheD0yq7qGsCW2ow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/ZqWFm8r9ZyrjCNDisSko7OvYr4ChA2OT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/bR2vrKKuUaILFyMRfeZCkJFRDIfBIyDt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/djNieL6LuB2TltL7chYZ4bm18TZZZdIS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/g64yzoZNgOWTPvagwOTla8LD5C97N1qU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/grW0et3NeGnlorGWsI0lAOVh18gkTMpj.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/hylBd1pdg70Y7oK2nuirXDEoXQb4fOKa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/i2DhpB7NMQ905f65j60guEHfZ3bB5ncP.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/jXFBTzxTJ4OTAhGaIFw1Lo9zmp7sSX6W.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/jwzyLhoTOWn9KmsWqkjxRFlp9QGCJDKh.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/k1ODwWq4WMBGr1tEvHfCsuD0fepjNL7Z.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/k9IBYiTQbuVamcN1qFRhIRCgT9dSd7pc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/kQfTUNJFgzS6pu8M1iSYRfeEZnEgtRak.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/orexLkxIftgY5JCEiAIxPdjVGcqNhyvZ.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/p50Kbl2A5zpxHzidyDDtA2FfhzBcc8KG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/r7JHc5Ps21jquDUMyHwpwVmzXb0CVsGm.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/ro4dhHqHdWkBOdMQ3hqDWMFJTxn5Wk3B.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/sPfJ4RsTCxLuWueELwuHfKXOsHIo2UYq.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/sZ7alB4ACkrPzuV2E0pjlm4vhycIbTYD.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/sekdcQqZOPq4An342mCpLLjeNVaq9xhq.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/skgfJK6wuCNMbN7Jzu5oXV6LPPTUnAss.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/smqIPR1egVW8im9FXPznMAZB6uvDgApe.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/tWZf93ubd7T2f2DI7ghLMAKlKbyN2Yab.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/uVs2qXzdRsCPsThqyonfNjIhdCo429vS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/vVgrmqmsli8AinR7r8CpnNArGgCUSPt4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/xHjErKPZdUyrNtrugyFXP89LG7LREJUH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/xVfYaIKfOHvQDB3PzM0ZfuW0ia4ABtSY.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/xqlCL5ebwj1Rd0CnyjJfsXr5ejr6WBKH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/y00AvL1eYM0xyso2dsG7pLM5pvT9YmC5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/z6tCg2J8PWgIHmtEc650BT7NBd7dcAjG.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/zRCA4T2fjj6OIFvUUDbiJ2LQCH9QOElm.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions/ztKSVIzvhTVt4N1tUNDpvV67mjvf0h50.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twig-cache/16/16ef29860455c64bdbbdd59a54b673a0296a7ac66b52ae8d80f51ccaa68497d6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twig-cache/aa/aaef4341907992f3cb24555fe9f52dbcd84abd35719a968befb4f073881ab489.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twig-cache/d6/d62a6a2d9a4bb860af143b68587add447ab694c730f4efb6d9c1eb739f865e90.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twig-cache/dc/dc64734.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twig-cache/df/dfd09390cc7cf2f9b63e429625ba8e4d2f70db2e859eb8e16f771734fcd1d96f.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Main/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Product/getEdit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Product/showProductByPolAndName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/userDashboard/index.html" afterDir="false" />
+    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="korpa">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/64.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/opis/17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/opis/18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/opis/46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/opis/96.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/14XxHqfR8cvK1bRRMUT38AydMkiKcL8e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/1mjBTXci6RhljrPXBD2ZCoY3wIOblMkW.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/1pjYCJYbJmbrulItYA6ZmxJOrkasFvsM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/26FXnmth1JKpO7ktFtINM832tpb7rZtB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/2yudvzRZID3Zdq3a2Nc5g8P9m6sLRBJp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/33quSXJ13wbPgLg3MM0yr9OJa2lMNFfD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/3FvU8t5sTUWJBTpJzkzBWWROAVPCfuJn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/4Rl3Td99cfxIK1KYo0OpEgInw4OY3MjE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/4v9SYOmYfO4mrgnVvs5DdzEKKuAhntDA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/4w2P3vZsjZIDnBxgdArKJiCQ2z5PIGMB.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/5OPCQF4GHTCMq0siQSoTOlGzCJRHjx53.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/5ijjLmZW0Jt8ri7oo6fEmeMeP8VW7qHG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/5ln9eGun9ZjQz1EfmLJX4qzoxrcjwc36.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/5p6JV7fs5DNznawA4h45Zn9anmnHXTRk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/5rDvaFKmVJ5i2IOigJv5VqslAksH08PQ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/63g3Vzm6oX5L33U9uDrL86gXMqq1DSfy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/6jgRyom0ARMdBODQNwV4sht5qB7inIzI.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/79IjBzsI7Xj57fsCrimOT9Lm8x9DCYSm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/85qlmnSOc8VtKIRxxDCptYsf1eioD9FL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/8iJiTHORUSlaqg17w0pW07maqYtN7hD4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/8ouuSgYfsxtzZZEaMofHOUbNMeM80lB5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/92RiNjhB2PfCC8luM74eVWsB31BPOdm5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/9hZkfgBBPoZasmyoIaXp9nIdpT1dJaX8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/9mMiHeRuGSdycvYQjiTUJzEfX2vE8XLQ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/9miatfcpLMVmYi1CzUXS0ps0uTokfwKZ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/9s7MbsSzL1u65s3NNwPzIJ2biHVgekF2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/9wtAVuxNDRd0gFW1x1mdCEgf74HsYBe2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ACZo6RunJNUAVyX6EkfTxYaZuC1hxIRP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/AFeCwKKxPjn33mtxFuaNvczRLlRQqGNE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/B9utYbqoPwsl3CSLni6gCKuM1ct7Gkq9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/BSgkfvqZVjlZcsOPfEGVmpMQnfFFk3Mb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/BXDpDbIY18zrysjQKnW6gogwgjHwpPd4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/C5uQfnMylCjRdvyHpAPGFOSR61Ne4SCD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/C9tsAmfUfY5XbvIPySiKgcBSIYoMYcBL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/CSPS2Aa3jj4Poq652WirfXZnfsQJl3AJ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/D1veInm7I13uSJfALX9cYU8PSYLu8em3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/DAPb65rL4i6wUt4y4MpzwbnGgje5Yciq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/DGXks4DFgRDv49NFglwgvy0YsMRTSSvL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/DdYnUKys2YUjCClQYT3ex0Zc0W84sz47.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/DoC2EQrdZphbId61GdYg1tmg8r2JJToy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/DpZtSBiRHYCClW122SJWadKODgTGPa0Z.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/DtpChbW6nArsnuiAZ0VEVe0GgaVJ3Yvs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/EKFQDwIxQJ4mAMGxyqKrSGp02IZBN2Cw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/EhucD07UCwiv7k41NDpEt5wwhRcDsh1K.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/F2pyXNpa2CVLg5qhBW1t0fAUCsRIGoSM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/F8bGHZN9GNlO2d1JbwVGxQqGy706db82.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/FF5iFolaGWyxwVeowBQjKtw0VbVCzzSw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/FgZcL9BQTrrJ0PVlI1inFB6gdkAYL31v.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/GBumktktPGW6BuWSVL7CPXU9wOHWQd20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/HNDwnyHdYcHvXkO57bHUChCjVcwth6Ha.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/Hg4N72uH1T581xa4gELtH3wxzCqY84XS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/IKbF735piAiGMUsR6xPrj7hTOiyCjnRL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/IZ7Paw5El37M92i0KVxAGAU8HEHFWFxA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/IeJtiI1bTA7cdOtgZhWbOz8wPVqF6zBZ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/Ju1v32ZySXQmYjWcRlc3Wviis0DMLYIP.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/LEcp3XE1HwjEPy4pLCNfZpDYN3LxND4n.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/MDt97UirzXmXXCnKO4F0AfF1ocnFYG5w.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/McuOcGlkuhwwuAcffQzODukyyjl2ozVy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/NFAAvoYH6Jkpj4v56KIOC3zZdZVzcWer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/NHGM4yT2fSEaQY4qH2usP87pl575UvpX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ODJvEU6nZjNAdXThbECgds2ncSrQ3DiW.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/Oz4SxzhPJrHhdupgtCvf8MTsD2jYzzwY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/P68MtIlhGfpu4rQ5EFSTUSP0ZueATfCR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/P99GWlKCJMxlBIUXDAiPJOi3IEmgkbQx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/Ptibm4R1nFWjDyN6f334D2dnr3Q3HoIN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/QRv3VVED0CqSyl1UNq9qx4vFodqsHrIs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/QseBdxmEwRWZnm5WglECXQ18fyXnsjmV.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/R1ijMBErQGwkgDTDPdacLhhRyViS2xKp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/R1jlOO0MDwChYq9SPNh2yWdXUzKvnrfY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/R4YLtY4gYUsVYqdQRJUvxqfVrjB3WQ18.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/RVjXchOSRlM5lwkUJxBpuxOIXHVfG49b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/RXjrIHLZzOMNYkVpgNENG9rZZkCcPDsz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/RxCpv3zqUZ8agjMODI0qNOIg5NHZ3rXn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/SC0dq992sLW07F687wXOpDn7i6hrEtFb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/SLbO5qKOReIJAjBqB3vzHiPk0Uzjc7Lh.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/TWHOnuh51agzqvVyi5dlCEUKfVp6BooA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/TbjkZH54Q9bcvnDbYdP5AAoCvoF4QDeH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/U35DidYBoOjKx32N49aRymhnwompaWyq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/UVTj7Gr4brtzNG6ZC9ucD0ZMJjeiiGrx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/UnXkDmZTvKLG1c5B6rdrDl7NkPjeIPkn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/UsRcmdh07kYJJ6oeXiDNOmkGl06TWfHz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/VUfvPjQhKzzqAkVuLn1uDkMiDZsKXASx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/VjM9jqKYax4nu8TYu7FPfbxqRaewfcb3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/VvaxWP8upyivKXwJCLtxU8DRiSwSldcK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/WH3PWXh4Dcx8CZEE5xPTE7ilNHBt74gV.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/XXjUz78in4aNivisqwalKTVHHf9XDRvo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/Xj0MH4FHZTLiYu2Lmj20XGsHuyTeturQ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/Xygph4GxsTc0KTV5zH21plTFKz1chauC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/Y8d4Tqvq0GX5gPfYuOTn9sOL47mQuD8s.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/YHhmHIfUuIslmW5AJs0g5QHeBmsGxyPq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/YS5ZYWKHVjkBU9wDyFkNYoVFJkvNoUT6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ZpoXb0G2e502OfUfcOVs53y8EOCNgJQD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/Zzl0iJGv10BX54ILRehlvQJ5r964KO6j.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/aTFCT5D7k2Xskh6x27lE7oldbZK1RUxI.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ayKY4hjxaLn6a6q6LX6A0UXRafmkK1Ey.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/bdjeThv6f05ZKIwWRYr56E8Qfr5jUjiE.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/bjkTdUsbpPfdYA9xWZaEyUNEWKq0NcHj.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/byxrSMkajZOOFRTrmKYnfMllKlnO03Gv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/c4E1kImTwYirLYEjd10ODXfu8cRaDN5P.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/cLG8k7mK63XGPXFPz66IDYYxOWeHniJx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/clh0Hto03rAboeGcAZ9WhY2VTmnGGVPa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/d5dkVMFfO3GzXx8KZFoUcx2r6vlHKSm3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ecUtIsuUar9FYOXRgN6LKEwBGwvKubx2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/eoUodwSWZCzdf8UbLqkd5bzfc7yJGf5S.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/foabpIi1Ox0WkVSYz93ThnshEluOgbgT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/g77NhakZ09eoBbcZHgaFUiAZ6i49BLuk.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/gQSulmVeE5CmtP39bbErlpoqhNmhjP21.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/gWXT6WDNH9K3V1psHHHzBA2zjjHfaPad.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/gwqXm17MXf5RfFH635yVfUxTbmRVnhfm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/h0XB5qzVfTqDOvOO7asPsC0QpisIFMri.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/h5hLs2i0r0RvcHTWBb4ZoBuXCn6BSmLv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/hnHNMGGMUmMaUXF44v1E4s2kK3K5r7iH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/horNniOkH0ISHTmsW27qbTJR3MFp5wur.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/iNvzszcsJwlCAVG17G0tMdt8cACxmKUH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/jKVe1KhEOGWb1mGdXvQRHayl1lj3SDNr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/jifv0RYjohl8e80zMs8L5i0Rc9yoSj3B.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/k4M2sPKGoz0nyveYdxoBiW46xsCheP09.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/kOwaWf0OqGVY4ATxP1rjQ71OdtR8e4Qa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/kjT33oYMOVybk8Ff9Xe8WzGVNqYb212Y.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/koWZpd7gG1tMSAQ808Pr0ilWXT2tOTJp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/l91NFswMe25aPJscSoipMX9Cs1vNLxcr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/lu05W8fWigxzbLj6zQOlUorVhvL2QVje.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/mgzxkJgrxUkLfeShWlMxIc1GrMr7msXU.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/miDTLhPEkjpaRdgGzGH0uK7BkMI5oZIo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/mrsAXtM9roVbnwadwAPyH8zMyeYstbnT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/mx9PPb6XC6R8rmV6C51Z5kjqKTEvC8HX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/n3rsDr0WJVUDrx13aAjM5eaATjKjf8hj.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/nYofrmFSWGqekT5KFhTMuScWtqQhWh4q.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ne3FbbKLsF6dlmDC3luyMBb05bFuL3xv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/neSoLjPBuajR3PLnCpIzDuUMoGnRWPAv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/nn6TSZK66XPyekl1hypRgoEj2TRiMS4m.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/nt79WcXKf8E95pqldK7HOJSS3QgIgAOu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/o0pwcr8LeXTsNvU3EFHsX6EaPx1gtMR1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/o5CyX2K7WNiuQp1OhDuyIWR6cVgnR2tq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/oiIT1ovdpkyKKFnyQ9gQy8eLA0YZW9K0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/pUOEOeBO0aseWZYTnPVytYTzGQYgYMmN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/qx6mtmYPxvMD0UBmBFBzb3cwXvVdkbtL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/rDQohKfefmWBMJu4LiNQC7llnBH4O4cI.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/rH3tXKaJfWc9UVkuWmJTimCaKIN3T24D.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/rblsH2kjVL79eseGFLHPOKOhev1HaMh4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/s2PZEe8gMdRVHMKRwviiK7ETSityKJRD.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/sT245uUz3FuNWZWT9UO8DK9nHK7998DG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/syyPWWPIOv54ItIZbrE8VefSwSmZoSiq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/tJRKTE2jzpfsuu96xT89dgGvSok6mtGX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/tjCp6SHQB75ET0mJZXTq8CQZJD84TBRJ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/tm1Gx8nHF4ZLFSPNNcyUh4YADye7rnRG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/u8p19zXNItKWv3TgIlzVGm1mOnnTtHvQ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/v0J7FtfPy908j48lVANV66DItQoaYUIj.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/vDaI3t7VpYALuve9F5TNC8ipagoTvJEx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/vgLL0SUMFXEuir1lKXGKTrb19DjxVtEL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/vqJwxwTp2HplwwuYOhJrq3SPjVA5gBSx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/wVwClC47CdphyaiqFsh5mZQdBwK5tUO1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/wfZ3WFzLXM6lSKeBhFoTueFw2EJGFXdq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/wgnqCOGfr4WFiIuYPIn46SQi2UMoFsHo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/xIdo5fSHqDm2Y9R9q0Humf0hpFYgM3Ye.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/xNVqUlMlCv4M7D6nRqvedlhXCv8sD2bt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/xVVghIe29Ew7aObeqEOVM6xZ9VbMOZEC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/xotyjG7WzPj1r6bWPXIBCoYGclnq8RnC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/xqWCAX3W4MXyWQaUd2AS0dwVLvx2sM9s.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/y1WWd8jebvJsCdyfoTM8u3Vd4CkxjbFO.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/yPvh52d8gSEwI99kMNldMwHY36u184Gw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ySBTRd6VrBMkV90U5xIqIYBeHU0R2dwa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ycrkAqGzOZsXkGuyMMMuT1FvUE9thqub.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/yedThOGY1Zp9CmrfoszgWqbOamXyUpnc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/z3rkaQ85e4mwyXsG4rmP6DSDl5gOPhjF.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/zDUIzisgc6PnfnJ6qcRyWDIoREWBTN9b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sessions/ziJAV62GGQJY3HLd6wXIDZkQBLHU8Dss.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/16/16e2CA7.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/16/16e2CA9.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/37/37f440912d9339950c5834831c5e5e2b0ec32986c9b620c8c721624ec66e89dc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twig-cache/dc/dc6F86D.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Product/kopija.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Product/showKorpa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/korpa/korpa1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/aura1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aura1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/lora.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/lora.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/bluza1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_10_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_10_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_10_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_1_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_1_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_1_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_2_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_2_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_2_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_3_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_3_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_3_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_4_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_4_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_4_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_5_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_5_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_5_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_6_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_6_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_6_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_7_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_7_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_7_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_8_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_8_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_8_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_9_1200_1800px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_9_320px.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_9_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/4710201_w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/Linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/Uskrs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/american_ex_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/analytics.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/animations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/api.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/avatar_simple_visitor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/bancaIntesa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/bootbox.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/bootstrap-datepicker.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/bootstrap-datetimepicker.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/bootstrap.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/common.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/ddm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/dinacard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/drop-down.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/facebook_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/fbevents.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/giftcard_55_52px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/gtg.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/gtm_nb.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/icheck.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/icheck.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/imagesloaded.pkgd.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/infobubble-compiled.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/instagram_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery-scrolltofixed.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery-ui.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.appear.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.batchimageupload.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.countdown-plugin.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.countdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.countdown.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.countdown.regional.options.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.elevatezoom.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.fancybox.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.fs.zoomer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.fs.zoomer.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.map-resizer.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.maphilight.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.nicescroll.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.plugin.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.rateyo.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.rateyo.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/jquery.touchSwipe.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/lightbox.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/loyalty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/lozad.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/masonry.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/masterCardSC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/mc_acc_opt_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/modernizr.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/moment.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/ms_acc_opt_35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/nbplugins.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/nbshop.script.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/parsley.config.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/parsley.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/parsley.remote.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/pinchzoom.TweenMax.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/pinchzoom.hammer.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/pinchzoom.jquery.mousewheel.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/pinchzoom.jquery.pinchzoomer.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/pinchzoomer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/player_api" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/recaptcha__sr.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/saved_resource" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/saved_resource(1).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/saved_resource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/script.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/scriptnb.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/slick.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style(1).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.article.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.basic.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.cart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.catalog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.fonts.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.helper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.responsive.md.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.responsive.sm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.responsive.theme.md.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.responsive.theme.sm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.responsive.theme.xs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.responsive.theme.xxs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.responsive.xs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.responsive.xxs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.typography.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/style.typography.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/theme.script.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/toastr.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/typeahead.bundle.min.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/util.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/verifiedbyvisa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/visa_pos_fc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/w" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/www-widgetapi.js.преузимање" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/33_files/youtube-symbol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Wedding - 1309.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/ApiProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ApiProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Route.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/session/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/session/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proba.html" beforeDir="false" afterPath="$PROJECT_DIR$/proba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sessions/Y7WHnM8Xoi77WiytMhTpTPkrX0EyKw06.json" beforeDir="false" afterPath="$PROJECT_DIR$/sessions/0Ydt0nSotLme81XaX96BMAnrnqwLFKv6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sessions/YiyD9MM6xWyLpyWQzhLRdOjBDHnn0bOa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sessions/ZJifTsLBoSf3AttvcheD0yq7qGsCW2ow.json" beforeDir="false" afterPath="$PROJECT_DIR$/sessions/0b1NHbFFAbR6fNM3rnbgAJ0FmmTX1R2Z.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sessions/ZqWFm8r9ZyrjCNDisSko7OvYr4ChA2OT.json" beforeDir="false" afterPath="$PROJECT_DIR$/sessions/0fJyQeMk4cHXxlTiVFcaIDpib2xxOjWJ.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sessions/zRCA4T2fjj6OIFvUUDbiJ2LQCH9QOElm.json" beforeDir="false" afterPath="$PROJECT_DIR$/sessions/12RIS5ebxf4E110z5Msm9WSPph6kn4l0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sessions/ztKSVIzvhTVt4N1tUNDpvV67mjvf0h50.json" beforeDir="false" afterPath="$PROJECT_DIR$/sessions/12sxfgXujMGSnK50ltzN0BnchFp8KO4S.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/16/16ef29860455c64bdbbdd59a54b673a0296a7ac66b52ae8d80f51ccaa68497d6.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/16/16ef29860455c64bdbbdd59a54b673a0296a7ac66b52ae8d80f51ccaa68497d6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twig-cache/1a/1a86c5a3fb25a625241a09b8e1e87a76dd2bb5da35c713cff25ceb762656d50b.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/1a/1a86c5a3fb25a625241a09b8e1e87a76dd2bb5da35c713cff25ceb762656d50b.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twig-cache/6a/6a6b514766009aa28c77916ec8e076746ee36184cfd2f9a0c05c313352a0e452.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/6a/6a6b514766009aa28c77916ec8e076746ee36184cfd2f9a0c05c313352a0e452.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/aa/aaef4341907992f3cb24555fe9f52dbcd84abd35719a968befb4f073881ab489.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/aa/aaef4341907992f3cb24555fe9f52dbcd84abd35719a968befb4f073881ab489.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/c8/c8c567144bcd52f921479e64012b19a734e96edbc4106a202c55b10b6af15b03.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/c8/c8c567144bcd52f921479e64012b19a734e96edbc4106a202c55b10b6af15b03.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twig-cache/dc/dc6711c16e7e868750338eb9623dbaca10872a3893d3ea5d660d701c66457396.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/dc/dc6711c16e7e868750338eb9623dbaca10872a3893d3ea5d660d701c66457396.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/df/dfd09390cc7cf2f9b63e429625ba8e4d2f70db2e859eb8e16f771734fcd1d96f.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/df/dfd09390cc7cf2f9b63e429625ba8e4d2f70db2e859eb8e16f771734fcd1d96f.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/Main/getLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/getLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/Main/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Main/muski.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/muski.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Product/getEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/getEdit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/Product/showProductById.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/showProductById.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Product/showProductByPolAndName.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/showProductByPolAndName.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/_global/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/_global/index.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -314,6 +400,11 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="cijena/proizvod/aura/3c089ce0-a41a-4db2-ba22-6d7aac53bd9e:COLUMN" value="0edf0d" />
+    </colors>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -341,13 +432,6 @@
         <item name="aura@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="aura: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="aura@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="aura: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="proizvod: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -400,10 +484,16 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -417,7 +507,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="two.files.diff.last.used.folder" value="D:/Git/bin" />
   </component>
   <component name="RecentsManager">
@@ -429,37 +519,19 @@
       <recent name="C:\wamp64\www\aura1\core" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.proba.html">
     <configuration name="ProductController.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/aura1/controller/ProductController.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="proba.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/aura1/proba.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.proba.html" />
         <item itemvalue="JavaScript Debug.ProductController.php" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -539,7 +611,40 @@
       <workItem from="1572458314754" duration="1190000" />
       <workItem from="1572522685543" duration="614000" />
       <workItem from="1572979379095" duration="1515000" />
-      <workItem from="1573484489219" duration="1571000" />
+      <workItem from="1573484489219" duration="42061000" />
+      <workItem from="1574066399290" duration="146000" />
+      <workItem from="1574066823382" duration="16642000" />
+      <workItem from="1574417211293" duration="2974000" />
+      <workItem from="1574697358784" duration="9470000" />
+      <workItem from="1575051392258" duration="2459000" />
+      <workItem from="1575384593493" duration="3475000" />
+      <workItem from="1575393798910" duration="3012000" />
+      <workItem from="1575652915555" duration="53000" />
+      <workItem from="1575652979304" duration="5208000" />
+      <workItem from="1575903958025" duration="11528000" />
+      <workItem from="1578314265471" duration="5308000" />
+      <workItem from="1579183247188" duration="2441000" />
+      <workItem from="1579891573975" duration="173000" />
+      <workItem from="1579892431665" duration="5350000" />
+      <workItem from="1584037430032" duration="641000" />
+      <workItem from="1594115063183" duration="11468000" />
+      <workItem from="1594399617547" duration="11519000" />
+      <workItem from="1595194027917" duration="6120000" />
+      <workItem from="1595600217064" duration="12635000" />
+      <workItem from="1596009765069" duration="2672000" />
+      <workItem from="1597322627550" duration="505000" />
+      <workItem from="1598010900918" duration="681000" />
+      <workItem from="1599731548547" duration="2915000" />
+      <workItem from="1600695834251" duration="16199000" />
+      <workItem from="1601227102304" duration="2647000" />
+      <workItem from="1601279063108" duration="6733000" />
+      <workItem from="1601457429587" duration="10531000" />
+      <workItem from="1601657575605" duration="138000" />
+      <workItem from="1601659205030" duration="1887000" />
+      <workItem from="1602063944532" duration="624000" />
+      <workItem from="1602509294776" duration="6012000" />
+      <workItem from="1602669749274" duration="20965000" />
+      <workItem from="1603097379671" duration="17379000" />
     </task>
     <task id="LOCAL-00001" summary="dodao registraciju">
       <created>1565878056331</created>
@@ -646,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569518702416</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="dadao rutu za biranje prema imenu proizvoda">
+      <created>1573494087977</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573494088013</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -721,7 +833,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="dodao registraciju" />
     <MESSAGE value="dodao registracijuptopuna registracija i login" />
     <MESSAGE value="do rutiranja" />
@@ -729,5 +840,95 @@
     <MESSAGE value="slike" />
     <MESSAGE value="dadao rutu za biranje prema imenu proizvoda" />
     <option name="LAST_COMMIT_MESSAGE" value="dadao rutu za biranje prema imenu proizvoda" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="398" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601660982276">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="398" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1601660982276" />
+    <state x="15" y="0" key="CommitChangelistDialog2" timestamp="1601655720011">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="15" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1601655720011" />
+    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog" timestamp="1601657734578">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="92" y="92" width="1182" height="584" key="DiffContextDialog/0.0.1366.768@0.0.1366.768" timestamp="1601657734578" />
+    <state x="412" y="79" key="FileChooserDialogImpl" timestamp="1601657725996">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="412" y="79" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1601657725996" />
+    <state width="1309" height="165" key="GridCell.Tab.0.bottom" timestamp="1602708448788">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1309" height="165" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1602708448788" />
+    <state width="1309" height="165" key="GridCell.Tab.0.center" timestamp="1602708448735">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1309" height="165" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1602708448735" />
+    <state width="1309" height="165" key="GridCell.Tab.0.left" timestamp="1602708448735">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1309" height="165" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1602708448735" />
+    <state width="1309" height="165" key="GridCell.Tab.0.right" timestamp="1602708448788">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1309" height="165" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1602708448788" />
+    <state width="1309" height="209" key="GridCell.Tab.1.bottom" timestamp="1601657142846">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1309" height="209" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1601657142846" />
+    <state width="1309" height="209" key="GridCell.Tab.1.center" timestamp="1601657142845">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1309" height="209" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1601657142845" />
+    <state width="1309" height="209" key="GridCell.Tab.1.left" timestamp="1601657142845">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1309" height="209" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1601657142845" />
+    <state width="1309" height="209" key="GridCell.Tab.1.right" timestamp="1601657142845">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1309" height="209" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1601657142845" />
+    <state x="394" y="24" key="RollbackChangesDialog" timestamp="1601459573784">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="394" y="24" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1601459573784" />
+    <state x="59" y="0" key="SettingsEditor" timestamp="1600702428327">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="59" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1600702428327" />
+    <state x="337" y="62" width="675" height="655" key="StructurePopup" timestamp="1601539987827">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="337" y="62" width="675" height="655" key="StructurePopup/0.0.1366.768@0.0.1366.768" timestamp="1601539987827" />
+    <state x="349" y="142" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1602692968518">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="349" y="142" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1602692968518" />
+    <state x="323" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602679824876">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="323" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1602679824876" />
+    <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595600457898">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1595600457898" />
+    <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1596009870337">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1366.768@0.0.1366.768" timestamp="1596009870337" />
+    <state x="293" y="163" key="com.intellij.ide.util.TipDialog" timestamp="1603097477877">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="293" y="163" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1603097477877" />
+    <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603181430227">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1603181430227" />
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1602521710537">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1602521710537" />
   </component>
 </project>

@@ -1,31 +1,56 @@
 {% extends "_global/index.html"%}
 {% block main%}
 {% spaceless %}
-
+<h1 style="margin-left: 20px" >  {{ product.naziv }}</h1><br>
 <div class="proizvod-jedan">
-<button ><a  style="text-decoration: none ; padding: 0 15px" href="" onclick=" addBookmark( {{product.proizvod_id}}) ">.... Dodaj u favorite....</a>
-   </button>
+
+<!--<button ><a  style="text-decoration: none ; padding: 0 15px" href="" onclick=" addBookmark( {{product.proizvod_id}}) ">.... Dodaj u favorite....</a>-->
+<!--   </button>-->
 
     <div class="slika">
-        <img src="../assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt="slika"><br>
+        <img src="../assets/img/{{ product.slika}}.jpg" height="auto" width="300" alt=" {{ product.pol }}. {{ product.naziv }}"><br>
     </div>
 
-    <div class="podaci-jedan">
+    <div class="podaci-jedan" style="font-size: larger">
 
-        <h4>Naziv proizvoda:</h4>{{ product.pol }}.{{ product.naziv }}<br><br>
-        <h4>Cijena proizvoda:</h4>{{ product.cijena }}<br><br>
-        <h4>Dostupno u velicinama:</h4>{{ product.velicina }}<br><br>
-        <h4>Dostupno u bojama:</h4>{{ product.boja }}<br><br>
+       <h3>{{ product.naziv }}</h3> <br><br>
+        <h4>CIJENA PROIZVODA:</h4>{{ product.cijena }}<br><br>
+        <h4>VELICINE:</h4>{{ product.v1 }} {{ product.v2 }} {{ product.v3 }} {{ product.v4 }} {{ product.v5 }} {{
+        product.v6 }} {{ product.v7 }} {{ product.v8 }}<br><br>
+        <h4>BOJA:</h4>{{ product.boja }}<br><br>
         <h4>Sifra proizvoda:</h4>{{ product.sifra }}<br>
+
+        <div id="demo">
+
+            <button style="padding: 15px" type="button" class="btn-success" onclick="loadDoc()">OPIS PRIZVODA</button>
+            <script>
+                function loadDoc() {
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4 && this.status == 200) {
+                            document.getElementById("demo").innerHTML = this.responseText;
+                        }
+                    };
+                    xhttp.open("GET", "http://localhost/aura1/assets/opis/{{product.proizvod_id}}", true);
+                    xhttp.send();
+                }
+
+            </script>
+        </div>
     </div>
 </div>
 <h3 style="
 text-decoration: none;
 font-style:italic;
     margin-top: 30px;
-    border-top: 2px solid gray;
+    border-top: 4px solid gray;
     text-align: center;
 "><a href="http://localhost/aura1/products/{{ product.pol }}/{{ product.naziv }}">Slicni proizvodi</a></h3>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 {% endspaceless %}
 

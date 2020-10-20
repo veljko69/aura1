@@ -3,7 +3,11 @@
     padding: 0;
     margin: 0;
 }
+.container{
+    position: relative;
+}
 body {
+    position: relative;
     margin: 20px auto;
     width: 1200px;
     max-width: 1200px;
@@ -54,6 +58,8 @@ body .site-header {
 }
 
 #main-menu {
+    position: sticky;
+    top:0;
     grid-area: menu;
     margin: 10px 0;
     border-top: 2px solid grey;
@@ -132,7 +138,7 @@ body .site-header {
 .proizvod {
     text-decoration: none;
     width: 25%;
-    height: 600px;
+    height: 590px;
     border: #ebebeb 1px solid;
 }
 
@@ -141,11 +147,21 @@ body .site-header {
     background: rgba(200, 200, 200, 0.4);
 
 }
+#button-detalji{
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+background-color: rgba(0,0,0,0.5);
+    text-transform: uppercase;
+
+}
 
 .link {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+margin-left: 20px;
+    margin-top: 10px;
 }
 
 .proizvod-jedan{

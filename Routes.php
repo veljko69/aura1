@@ -22,10 +22,13 @@ return [
     App\Core\Route::post('|^admin/([0-9]+)/edit/?$|',                             'Product',     'postEdit'),
 
 
+    App\Core\Route::get('|^korpa/([0-9]+)/?$|',                                                  'Product',     'showKorpa'),
+
+
     #Api rute:
     App\Core\Route::get('|^api/product/([0-9]+)/?$|',                    'ApiProduct',            'showProductById'),
     App\Core\Route::get('|^api/bookmarks/?$|',                             'ApiBookmark',            'getBookmarks'),
-    App\Core\Route::get('|^api/bookmarks/clear/([0-9]+)?$|',       'ApiBookmark',            'clear'),
+    App\Core\Route::any('|^api/bookmarks/clear/([0-9]+)?$|',       'ApiBookmark',            'clear'),
     App\Core\Route::get('|^api/bookmarks/add/([0-9]+)?$|',         'ApiBookmark',            'addBookmark'),
 
     App\Core\Route::any('|^.*$|', 'Main', 'home')

@@ -47,72 +47,123 @@ class __TwigTemplate_531ed9fe5553a6f217afbb5bff5cb2c11b04eef6b66e18308412ceeaaef
 
 <div class=\"container-fluid\">
 
-<!--    <div class=\"row\">-->
-        <div class=\"col-md-6  pl-5  m-auto\">
+    <div class=\"row\">
+        <div class=\"col-md-9 pl-5  m-auto\">
             <h3 class=\"text-info  text-center  mb-2\"> Uredi proizvod</h3>
             <form action=\"http://localhost/aura1/admin/";
         // line 17
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "proizvod_id", [], "any", false, false, false, 17), "html", null, true);
-        echo "/edit\" method=\"POST\" enctype=\"multipart/form-data\" >
+        echo "/edit\" method=\"POST\"
+                  enctype=\"multipart/form-data\">
                 <div class=\"form-group\">
+
+                    <label>Tip proizvoda:
+                        <input type=\"text\" name=\"product_tip\" class=\"form-control\" value=\"";
+        // line 22
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "tip", [], "any", false, false, false, 22), "html", null, true);
+        echo "\">
+                    </label>
 
                     <label>Naziv proizvoda:
                         <input type=\"text\" name=\"product_name\" class=\"form-control\" value=\"";
-        // line 21
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "naziv", [], "any", false, false, false, 21), "html", null, true);
+        // line 26
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "naziv", [], "any", false, false, false, 26), "html", null, true);
         echo "\">
                     </label>
 
                     <label>Cijena:
                         <input type=\"text\" name=\"product_price\" class=\"form-control\" value=\"";
-        // line 25
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "cijena", [], "any", false, false, false, 25), "html", null, true);
-        echo "  \"  >
+        // line 30
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "cijena", [], "any", false, false, false, 30), "html", null, true);
+        echo "  \">
                     </label>
 
-                   <label>Velicina:
-                        <input type=\"text\" name=\"product_size\" class=\"form-control\" value=\"";
-        // line 29
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "velicina", [], "any", false, false, false, 29), "html", null, true);
+                    <label class=\"\">Velicine:
+
+                        <input type=\"text\" name=\"product_size_v1\" class=\"form-control\" value=\"";
+        // line 35
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v1", [], "any", false, false, false, 35), "html", null, true);
+        echo "\">
+                        <input type=\"text\" name=\"product_size_v2\" class=\"form-control\" value=\"";
+        // line 36
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v2", [], "any", false, false, false, 36), "html", null, true);
+        echo "\">
+                        <input type=\"text\" name=\"product_size_v3\" class=\"form-control\" value=\"";
+        // line 37
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v3", [], "any", false, false, false, 37), "html", null, true);
+        echo "\">
+                        <input type=\"text\" name=\"product_size_v4\" class=\"form-control\" value=\"";
+        // line 38
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v4", [], "any", false, false, false, 38), "html", null, true);
+        echo "\">
+                        <input type=\"text\" name=\"product_size_v5\" class=\"form-control\" value=\"";
+        // line 39
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v5", [], "any", false, false, false, 39), "html", null, true);
+        echo "\">
+                        <input type=\"text\" name=\"product_size_v6\" class=\"form-control\" value=\"";
+        // line 40
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v6", [], "any", false, false, false, 40), "html", null, true);
+        echo "\">
+                        <input type=\"text\" name=\"product_size_v7\" class=\"form-control\" value=\"";
+        // line 41
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v7", [], "any", false, false, false, 41), "html", null, true);
+        echo "\">
+                        <input type=\"text\" name=\"product_size_v8\" class=\"form-control\" value=\"";
+        // line 42
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v8", [], "any", false, false, false, 42), "html", null, true);
         echo "\">
                     </label>
 
                     <label>Pol:
                         <input type=\"text\" name=\"product_gender\" class=\"form-control\" value=\"";
-        // line 33
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "pol", [], "any", false, false, false, 33), "html", null, true);
+        // line 46
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "pol", [], "any", false, false, false, 46), "html", null, true);
         echo "\">
                     </label>
 
 
                     <label>Sifra:
                         <input type=\"text\" name=\"product_code\" class=\"form-control\" value=\"";
-        // line 38
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "sifra", [], "any", false, false, false, 38), "html", null, true);
+        // line 51
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "sifra", [], "any", false, false, false, 51), "html", null, true);
         echo "\">
                     </label>
 
                     <label>Boja:
                         <input type=\"text\" name=\"product_color\" class=\"form-control\" value=\"";
-        // line 42
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "boja", [], "any", false, false, false, 42), "html", null, true);
+        // line 55
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "boja", [], "any", false, false, false, 55), "html", null, true);
+        echo "\">
+                    </label>
+
+                    <label>Materijal:
+                        <input type=\"text\" name=\"product_materijal\" class=\"form-control\" value=\"";
+        // line 59
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "materijal", [], "any", false, false, false, 59), "html", null, true);
         echo "\">
                     </label>
 
                     <label>Slika:
                         <input type=\"text\" name=\"product_img\" class=\"form-control\" value=\"";
-        // line 46
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "slika", [], "any", false, false, false, 46), "html", null, true);
+        // line 63
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "slika", [], "any", false, false, false, 63), "html", null, true);
         echo "\">
                     </label>
 
+                    <!--                    <label>Kolicina:-->
+                    <!--                        <input type=\"text\" name=\"product_kolicina\" class=\"form-control\" value=\"";
+        // line 67
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "kolicina", [], "any", false, false, false, 67), "html", null, true);
+        echo "\">-->
+                    <!--                    </label>-->
+
                     <div class=\"form-group\">
-                        <input type=\"submit\" name=\"add\" class=\"btn btn-success btn-block\" value=\"Uredi\">
+                        <input type=\"submit\" name=\"add\" class=\"btn btn-success btn-block\" value=\"Uredi proizvod\">
                     </div>
                 </div>
             </form>
         </div>
-<!--    </div>-->
+    </div>
 
 
     <link rel=\"stylesheet\" href=\"http://localhost/aura1/assets/css/main.css\">
@@ -132,7 +183,7 @@ class __TwigTemplate_531ed9fe5553a6f217afbb5bff5cb2c11b04eef6b66e18308412ceeaaef
 
     public function getDebugInfo()
     {
-        return array (  105 => 46,  98 => 42,  91 => 38,  83 => 33,  76 => 29,  69 => 25,  62 => 21,  55 => 17,  37 => 1,);
+        return array (  156 => 67,  149 => 63,  142 => 59,  135 => 55,  128 => 51,  120 => 46,  113 => 42,  109 => 41,  105 => 40,  101 => 39,  97 => 38,  93 => 37,  89 => 36,  85 => 35,  77 => 30,  70 => 26,  63 => 22,  55 => 17,  37 => 1,);
     }
 
     public function getSourceContext()

@@ -21,13 +21,14 @@
     <div class="proizvod">
         <a href="product/{{ product.proizvod_id}}"><img src="assets/img/{{ product.slika}}.jpg" height="auto"
                                                         width="300"></a>
-        <a class="link" href="product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>
+        <!--        <a class="link" href="product/{{ product.proizvod_id}} ">{{ product.pol}}.{{ product.naziv}}</a>-->
 
-        <br>
-        <p>cijena:</p>{{ product.cijena }}
-        <p>velicina:</p>{{ product.velicina }}<br>
-        {{ product.boja }}<br>
-
+        <div style="margin-left: 35px">
+            <p>cijena:</p>{{ product.cijena }}<br>
+            <p>velicina:</p>{{ product.v1 }} {{ product.v2 }} {{ product.v3 }} {{ product.v4 }} {{ product.v5 }} {{
+            product.v6 }} {{ product.v7 }} {{ product.v8 }}<br>
+            <!--        <p>boja:</p>{{ product.boja }}-->
+        </div>
     </div>
     {% endfor %}
 </div>
