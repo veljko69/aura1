@@ -52,79 +52,133 @@ class __TwigTemplate_d5cfa18f83b54c71108eff03d18558bac6822ae997ec22b51df6ec44b44
         // line 4
         echo "
 
+<form action=\"";
+        // line 6
+        echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
+        echo "/postslanje\" method=\"POST\" class=\"form m-1 row mt-2 \">
+    <div class=\"form col-md-4 \">
 
-<form action=\"postregister\" method=\"POST\" class=\"container-fluid  w-100 col-lg-4 mt-5\">
-
-    <div class=\"form-group \">
-        <label for=\"input_email\" >E-mail:</label>
-        <input type=\"email\" id=\"input_email\" name=\"reg_email\" required class=\"form-control\"
-               placeholder=\"Unesite svoju E-mail adresu o ovo polje\">
-    </div>
-
-    <div class=\"form-group \" >
-
-        <label for=\"input_forename\" >Forename:</label>
-        <input type=\"text\" id=\"input_forename\" name=\"reg_forename\" required class=\"form-control\"
-               placeholder=\"Unesite svoje ime\">
-    </div>
+        <div class=\"m-5 d-flex justify-content-center form-group\">
+            <h5>PODACI KUPCA</h5>
+        </div>
+        <p class=\" \">Unesite licne podatke i broj telefona kako bi Vam narudžba bila uspješno
+            dostavljena.</p>
 
 
-    <div>
+        <div class=\"form-group  \">
 
-        <label for=\"input_surname\" >Surname:</label>
-        <input type=\"text\" id=\"input_surname\" name=\"reg_surname\" required class=\"form-control\"
-               placeholder=\"Unesite svoje prezime \">
-    </div>
-
-
-    <div>
-
-        <label for=\"input_username\" >Username:</label>
-        <input type=\"text\" id=\"input_username\" name=\"reg_username\" required class=\"form-control\"
-               placeholder=\"Unesite zeljeno korisnicko ime\">
-    </div>
+            <label for=\"input_forename\">Ime:</label>
+            <input type=\"text\" id=\"input_forename\" name=\"slanje_forename\" required class=\"form-control\">
+        </div>
 
 
-    <div>
-        <label for=\"input_password_1\" >Password:</label>
-        <input type=\"password\" id=\"input_password_1\" name=\"reg_password1\" required class=\"form-control\"
-               placeholder=\"Unesite zeljenu lozinku\">
-    </div>
+        <div class=\"form-group  \">
+
+            <label for=\"input_surname\">Prezime:</label>
+            <input type=\"text\" id=\"input_surname\" name=\"slanje_surname\" required class=\"form-control\">
+
+        </div>
 
 
-    <div>
+        <div class=\"form-group \">
 
-        <label for=\"input_password_2\" >Repeat your password:</label>
-        <input type=\"text\" id=\"input_password_2\" name=\"reg_password2\" required class=\"form-control\"
-               placeholder=\"Unesite zeljenu lozinku jos jednom\">
+            <label for=\"input_telefon\">Telefon:</label>
+            <input type=\"text\" id=\"input_telefon\" name=\"slanje_telefon\" required class=\"form-control\">
+
+        </div>
+
+        <div class=\"form-group \">
+            <label for=\"input_email\">E-mail:</label>
+            <input type=\"email\" id=\"input_email\" name=\"slanje_email\" required class=\"form-control\">
+
+        </div>
 
     </div>
 
+    <div class=\"form col-md-4 \">
+        <div class=\"m-5 d-flex justify-content-center slanje-group\">
+            <h5>ADRESA KUPCA</h5>
+        </div>
 
-    <div>
-        <button type=\"submit\" class=\"btn btn-primary mt-3 w-100\" id=\"button\">
-            Register
+
+        <p class=\" form-group  \">Unesite podatke vezane za Vašu adresu kako bi Vam narudžba bila uspješno
+            dostavljena.</p>
+
+        <div class=\"form-group \">
+            <label for=\"input_ulica\">Ulica i broj:</label>
+            <input type=\"text\" id=\"input_ulica\" name=\"slanje_ulica\" required class=\"form-control\">
+
+        </div>
+
+
+        <div class=\"form-group\">
+            <label for=\"input_grad\">Grad:</label>
+            <input type=\"text\" id=\"input_grad\" name=\"slanje_grad\" required class=\"form-control\">
+
+        </div>
+
+        <div class=\"form-group\">
+
+            <label for=\"input_p_broj\">Postanski broj:</label>
+            <input type=\"text\" id=\"input_p_broj\" name=\"slanje_postanskibroj\" required class=\"form-control\">
+
+
+        </div>
+
+        <div class=\"form-group\">
+
+            <label for=\"input_drzava\">Drzava:</label>
+            <input type=\"text\" id=\"input_drzava\" value=\"Bosna i Hercegovina\" name=\"slanje_drzava\" required
+                   class=\"form-control\">
+
+
+        </div>
+    </div>
+    <div class=\"form col-md-4 \">
+
+
+        <div class=\"m-5 d-flex justify-content-center form-group\">
+            <h5>OPCIJE PLACANJA</h5>
+        </div>
+
+        <p class=\"form-group\">Izaberite način plaćanja Vaše narudžbe</p>
+
+        <div class=\" form-group input-group\">
+
+            <div class=\"input-group-text\">
+                <input type=\"radio\">
+            </div>
+            <input type=\"text\" class=\"form-control\" value=\"Placanje pouzecem\" readonly>
+        </div>
+
+
+        <div class=\"m-5 d-flex justify-content-center form-group\">
+            <h5>OPCIJE DOSTAVE</h5>
+        </div>
+        <p>Zelim da mi se proizvos isporuci na navedenu adresu i slazem sa svim uslovima isporuke</p>
+
+
+        <button type=\"submit\" class=\"btn btn-success w-100 \" style=\"background-color: #437831\" id=\"button\">
+            Potvrdi
         </button>
+
+
     </div>
-
 </form>
-
-
-
 
 
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));
-        // line 68
+        // line 119
         echo "
 ";
     }
 
-    // line 70
+    // line 121
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
-        echo "Registracija korisnika";
+        echo "Podaci";
     }
 
     public function getTemplateName()
@@ -139,7 +193,7 @@ class __TwigTemplate_d5cfa18f83b54c71108eff03d18558bac6822ae997ec22b51df6ec44b44
 
     public function getDebugInfo()
     {
-        return array (  124 => 70,  119 => 68,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  178 => 121,  173 => 119,  57 => 6,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()

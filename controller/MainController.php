@@ -90,11 +90,14 @@ class MainController extends Controller
             exit();
 
         }
+
         $passwordHash = password_hash($password1, PASSWORD_DEFAULT);
 
         $newuser = $userModel->add($username, $email, $passwordHash, $forename, $surname);
         if ($newuser) {
-            header("Location:getlogin ");
+            header('Location:getlogin' );
+//            $this->redirect('{{ BASE }}/getlogin');
+
         }
     }
 
@@ -147,16 +150,32 @@ class MainController extends Controller
 
     }
 
-    public function getSlanje()
+    public function postSlanje()
     {
 
-//        $username = filter_input(INPUT_POST, 'reg_username', FILTER_SANITIZE_STRING);
-        $email = filter_input(INPUT_POST, 'reg_email', FILTER_SANITIZE_EMAIL);
-        $forename = filter_input(INPUT_POST, 'reg_forename', FILTER_SANITIZE_STRING);
-        $surname = filter_input(INPUT_POST, 'reg_surname', FILTER_SANITIZE_STRING);
-        $telefon = filter_input(INPUT_POST, 'reg_telefon', FILTER_SANITIZE_STRING);
-        $ulica = filter_input(INPUT_POST, 'reg_ulica', FILTER_SANITIZE_STRING);
-        $grad = filter_input(INPUT_POST, 'reg_grad', FILTER_SANITIZE_STRING);
-        $postanskibroj = filter_input(INPUT_POST, 'reg_postanskibroj', FILTER_SANITIZE_STRING);
+        $dbc = $this->getDatabaseConnection();
+        $userModel = new UserModel($dbc);
+
+        $ime = filter_input(INPUT_POST, 'slanje_forename', FILTER_SANITIZE_STRING);
+        $prezime = filter_input(INPUT_POST, 'slanje_surname', FILTER_SANITIZE_STRING);
+        $telefon = filter_input(INPUT_POST, 'slanje_telefon', FILTER_SANITIZE_STRING);
+        $email = filter_input(INPUT_POST, 'slanje_email', FILTER_SANITIZE_EMAIL);
+        $ulica = filter_input(INPUT_POST, 'slanje_ulica', FILTER_SANITIZE_STRING);
+        $grad = filter_input(INPUT_POST, 'slanje_grad', FILTER_SANITIZE_STRING);
+        $postanskibroj = filter_input(INPUT_POST, 'slanje_postanskibroj', FILTER_SANITIZE_STRING);
+//var_dump($ime,$prezime, $telefon,$email, $ulica, $grad, $postanskibroj);
+        $novikupac = $userModel->addKupac($ime,$prezime, $telefon,$email, $ulica, $grad, $postanskibroj);
+
+        if ($novikupac) {
+            header('Location:hvala' );
+//            $this->redirect('{{ BASE }}/getlogin');
+
+        }
+
+
+    }
+
+    public function getSlanje(){
+
     }
 }

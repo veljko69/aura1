@@ -1,0 +1,91 @@
+{% extends "_global/index1.html"%}
+{% block main%}
+{% spaceless %}
+
+
+<title>Korpa</title>
+<div class="container-fluid">
+    <hr>
+    <div class="col-md-12">
+        <h3 class="text-center">Proizvodi u korpi</h3>
+    </div>
+    <link rel="stylesheet" href="http://localhost/aura1/assets/css/main.css">
+
+    <div class="container-fluid row border-primary">
+        <table class="table  col-md-8 ">
+            <thead>
+            <tr>
+                <th></th>
+                <th>PROIZVOD</th>
+                <th>CIJENA</th>
+                <th>KOLICINA</th>
+                <th>UKUPNO</th>
+
+
+            </tr>
+            </thead>
+            <tbody>
+
+
+            <tr>
+
+
+                <td><img src="../assets/img/{{ product.slika}}.jpg" height="auto" width="120px"
+                         alt=" {{ product.pol }}. {{ product.naziv }}"></td>
+                <td><h4 style="margin-top: 10px">{{ product.naziv}}</h4><br>
+
+                    Sifra : {{ product.sifra }}<br>
+                    Boja :{{ product.boja }}
+
+                    <!--            <td><a href="http://localhost/aura1/admin/{{ product.proizvod_id}}/edit" class="badge badge-primary p-2">Uredi</a>-->
+                    <!--            </td>-->
+                    <a href="http://localhost/aura1/admin/{{ product.proizvod_id}}/delete"
+                       class="badge badge-light p-2">Izbaci iz korpe</a>
+                </td>
+
+                <td>
+                    <h5 style="margin-top: 10px ; margin-right: 30px"> {{ product.cijena }} </h5> <br>
+                </td>
+                <td>
+                    Izaberi kolicinu: <label>
+                    <input type="number" min="1" step="1" value="1" name="product_kolicina" id="product_kolicina">
+                </label>
+                </td>
+                <td>
+                    <h3>U
+                        kupno</h3>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+        <div class="col-1">
+
+        </div>
+        <div class="col-3 border-d  card ">
+            <div class="bg-light">
+
+                <h5 class="d-flex justify-content-center  card-header ">MEDUZBIR</h5>
+
+            </div>
+            <div class="row p-2 mt-2">
+                <h4 class="d-flex justify-content-start col-6"> SUMA: </h4>
+                <h4 class="d-flex justify-content-end col-6"> {{product.cijena}} km</h4><br>
+
+            </div>
+            <div class="row p-2 mt-2">
+                <h4 class="d-flex justify-content-start col-6"> DOSTAVA: </h4>
+                <h4 class="d-flex justify-content-end col-6"> 7.00 km</h4><br>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+{% endspaceless %}
+
+{% endblock %}
+{% block naslov %}Korpa{% endblock %}

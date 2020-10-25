@@ -17,6 +17,8 @@ return [
 
     App\Core\Route::get('|^getslanje/?$|',                                       'Main',    'getSlanje'),
     App\Core\Route::post('|^postslanje/?$|',                                   'Main',    'postSlanje'),
+    App\Core\Route::get('|^korpa/([0-9]+)/?$|',                                'Product',     'showKorpa'),
+    App\Core\Route::get('|^korpa1/([0-9]+)/?$|',                                'Product',     'showKorpa1'),
 
     App\Core\Route::get('|^admin/?$|',                                                   'Main',     'admin'),
     App\Core\Route::post('|^admin/add/?$|',                                       'Product',     'addProduct'),

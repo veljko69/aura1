@@ -1,0 +1,59 @@
+{% extends "_global/index1.html"%}
+{% block main%}
+{% spaceless %}
+
+
+<div class="container d-flex flex-wrap justify-content-center mt-5 col-md-9 ">
+
+
+    <div class=" row flex-wrap col-md-8 ">
+
+        <div class=" col-md-4 ">
+            <img src="{{ BASE }}/assets/img/{{ product.slika}}.jpg" height="230px" width="auto" alt="{{product.naziv}}">
+        </div>
+
+        <div class="d-block col-md-8 w-100 justify-content-end ">
+
+            <div class="d-flex justify-content-center">
+                <a href="http://localhost/aura1/admin/{{ product.proizvod_id}}/delete"
+                   class="badge badge-light p-2 w-100 justify-content-end">Izbaci iz korpe</a>
+            </div>
+
+            <div>
+                <h4 style="margin-top: 10px">{{ product.naziv}}</h4><br>
+            </div>
+            <div>
+                Sifra : {{ product.sifra }}<br>
+                Boja :{{ product.boja }}
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-4 justify-content-end float-right">
+        <div class="bg-light">
+
+            <h5 class="d-flex justify-content-center  card-header ">MEDUZBIR</h5>
+
+        </div>
+        <div class="row p-2 mt-2">
+            <h4 class="d-flex justify-content-start col-6"> SUMA: </h4>
+            <h4 class="d-flex justify-content-end col-6"> {{product.cijena}} km</h4><br>
+
+        </div>
+        <div class="row p-2 mt-2">
+            <h4 class="d-flex justify-content-start col-6"> DOSTAVA: </h4>
+            <h4 class="d-flex justify-content-end col-6"> 7.00 km</h4><br>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+{% endspaceless %}
+{% endblock %}

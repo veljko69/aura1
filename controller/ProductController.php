@@ -20,6 +20,33 @@ class ProductController extends Controller
         $this->set('product', $product);
     }
 
+    public function showKorpa($id)
+    {
+        $dbc = $this->getDatabaseConnection();
+        $productModel = new ProductModel($dbc);
+        $product = $productModel->getById($id);
+
+        if (!$product) {
+            header('Location :/aura1/home');
+            exit();
+        }
+        $this->set('product', $product);
+    }
+
+    public function showKorpa1($id)
+    {
+        $dbc = $this->getDatabaseConnection();
+        $productModel = new ProductModel($dbc);
+
+        $product = $productModel->getById($id);
+
+        if (!$product) {
+            header('Location :/aura1/home');
+            exit();
+        }
+        $this->set('product', $product);
+    }
+
     public function showProductByName($productname)
     {
         $dbc = $this->getDatabaseConnection();
