@@ -56,6 +56,8 @@ $sessionStorage = new $sessionStorageClassName(...$sessionStorageConstructorArgu
 $session = new  \App\Core\Session\Session($sessionStorage, Configuration::SESSION_LIFETIME);
 $controller->setSession($session);
 $controller->getSession()->reload();
+session_start();
+echo session_id();
 //var_dump($session);
 //exit();
 $controller->__pre();

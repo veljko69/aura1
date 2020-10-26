@@ -163,7 +163,7 @@ class MainController extends Controller
         $ulica = filter_input(INPUT_POST, 'slanje_ulica', FILTER_SANITIZE_STRING);
         $grad = filter_input(INPUT_POST, 'slanje_grad', FILTER_SANITIZE_STRING);
         $postanskibroj = filter_input(INPUT_POST, 'slanje_postanskibroj', FILTER_SANITIZE_STRING);
-//var_dump($ime,$prezime, $telefon,$email, $ulica, $grad, $postanskibroj);
+
         $novikupac = $userModel->addKupac($ime,$prezime, $telefon,$email, $ulica, $grad, $postanskibroj);
 
         if ($novikupac) {

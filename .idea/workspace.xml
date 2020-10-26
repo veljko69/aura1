@@ -25,48 +25,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="bootstrap">
-      <change afterPath="$PROJECT_DIR$/assets/img/21-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/21-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/21-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/21-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/22-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/22-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/22-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/23-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/23-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/24-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/24-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/24-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/24-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/podrska_viber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hvala.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twig-cache/13/1382579be2834abbd35019eb58dfad2eebe216f431523db7f59cf2dcc223569a.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twig-cache/a4/a4a5d2d0000193618819cc103b85ac89c623f7cd4c60e0b26c5d767fad89e126.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twig-cache/c1/c1e8a1a1fa0850e5c33298fa053dc4f1b50613c06d1d82c4ae555f11dd3bd064.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Product/korpa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Product/showKorpa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Product/showKorpa1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/veljk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/veljk.xml" afterDir="false" />
+    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/Routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/26.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/UserModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proba.html" beforeDir="false" afterPath="$PROJECT_DIR$/proba.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twig-cache/f7/f766fab9f8e3e665cd1dadbe4ca87d0d9847d7d9fb20308969fe852002ce2769.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/f7/f766fab9f8e3e665cd1dadbe4ca87d0d9847d7d9fb20308969fe852002ce2769.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Main/getLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/getLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Main/getRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/getRegister.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Main/getSlanje.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Main/getSlanje.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twig-cache/a4/a4a5d2d0000193618819cc103b85ac89c623f7cd4c60e0b26c5d767fad89e126.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/a4/a4a5d2d0000193618819cc103b85ac89c623f7cd4c60e0b26c5d767fad89e126.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Product/showKorpa.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/showKorpa.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/Product/showProductById.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/showProductById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Product/showProductByPolAndName.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/showProductByPolAndName.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/_global/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/_global/index1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +92,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../online-shopping-system" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -322,7 +287,8 @@
       <workItem from="1603270242211" duration="18797000" />
       <workItem from="1603354861665" duration="24000" />
       <workItem from="1603406185981" duration="1206000" />
-      <workItem from="1603627045729" duration="18040000" />
+      <workItem from="1603627045729" duration="19294000" />
+      <workItem from="1603707800359" duration="4056000" />
     </task>
     <task id="LOCAL-00001" summary="dodao registraciju">
       <created>1565878056331</created>
@@ -443,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603052341619</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="podaci kupca">
+      <created>1603663846618</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1603663846618</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -512,7 +485,8 @@
     <MESSAGE value="slike" />
     <MESSAGE value="dadao rutu za biranje prema imenu proizvoda" />
     <MESSAGE value="bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap" />
+    <MESSAGE value="podaci kupca" />
+    <option name="LAST_COMMIT_MESSAGE" value="podaci kupca" />
   </component>
   <component name="WindowStateProjectService">
     <state x="622" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601751950264">
@@ -527,18 +501,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="649" y="340" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1601406215994" />
-    <state x="454" y="33" width="1012" height="1000" key="CommitChangelistDialog2" timestamp="1603052356840">
+    <state x="454" y="33" width="1012" height="1000" key="CommitChangelistDialog2" timestamp="1603663845687">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="454" y="33" width="1012" height="1000" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603052356840" />
+    <state x="454" y="33" width="1012" height="1000" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603663845687" />
     <state x="92" y="92" width="1736" height="896" maximized="true" key="DiffContextDialog" timestamp="1602372479940">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" maximized="true" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602372479940" />
-    <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1603354878016">
+    <state x="687" y="235" key="FileChooserDialogImpl" timestamp="1603712340482">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="687" y="235" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603354878016" />
+    <state x="687" y="235" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1603712340482" />
     <state width="1865" height="333" key="GridCell.Tab.0.bottom" timestamp="1603060339286">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -603,10 +577,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="624" y="297" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601590031331" />
-    <state x="744" y="113" width="683" height="854" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603662591049">
+    <state x="744" y="113" width="683" height="854" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1603710829473">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="744" y="113" width="683" height="854" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603662591049" />
+    <state x="744" y="113" width="683" height="854" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603710829473" />
     <state x="728" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601500816202">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
