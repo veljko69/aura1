@@ -25,11 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="podaci kupca">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/UserModel.php" afterDir="false" />
-    </list>
+    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,6 +282,7 @@
       <workItem from="1603406185981" duration="1206000" />
       <workItem from="1603627045729" duration="19294000" />
       <workItem from="1603707800359" duration="5364000" />
+      <workItem from="1603747747781" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="dodao registraciju">
       <created>1565878056331</created>
@@ -420,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603714052279</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="podaci kupca">
+      <created>1603747979682</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603747979682</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -481,6 +485,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="dodao registraciju" />
     <MESSAGE value="dodao registracijuptopuna registracija i login" />
