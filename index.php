@@ -57,8 +57,9 @@ $session = new  \App\Core\Session\Session($sessionStorage, Configuration::SESSIO
 $controller->setSession($session);
 $controller->getSession()->reload();
 session_start();
-echo session_id();
+//echo session_id();
 //var_dump($session);
+var_dump($_SESSION);
 //exit();
 $controller->__pre();
 call_user_func_array([$controller, $route->getMethodName()], $arguments);

@@ -25,13 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="">
+    <list default="true" id="0481ecfb-b8fa-491b-8102-a5baec34f5e3" name="Default Changelist" comment="podaci kupca">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twig-cache/a4/a4a5d2d0000193618819cc103b85ac89c623f7cd4c60e0b26c5d767fad89e126.php" beforeDir="false" afterPath="$PROJECT_DIR$/twig-cache/a4/a4a5d2d0000193618819cc103b85ac89c623f7cd4c60e0b26c5d767fad89e126.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Product/showKorpa.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/showKorpa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Product/showProductById.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/Product/showProductById.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/UserModel.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +285,7 @@
       <workItem from="1603354861665" duration="24000" />
       <workItem from="1603406185981" duration="1206000" />
       <workItem from="1603627045729" duration="19294000" />
-      <workItem from="1603707800359" duration="4056000" />
+      <workItem from="1603707800359" duration="5364000" />
     </task>
     <task id="LOCAL-00001" summary="dodao registraciju">
       <created>1565878056331</created>
@@ -416,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603663846618</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="podaci kupca">
+      <created>1603714052279</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603714052279</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -501,10 +505,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="649" y="340" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1601406215994" />
-    <state x="454" y="33" width="1012" height="1000" key="CommitChangelistDialog2" timestamp="1603663845687">
+    <state x="454" y="33" width="1012" height="1000" key="CommitChangelistDialog2" timestamp="1603714067716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="454" y="33" width="1012" height="1000" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603663845687" />
+    <state x="454" y="33" width="1012" height="1000" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1603714067716" />
     <state x="92" y="92" width="1736" height="896" maximized="true" key="DiffContextDialog" timestamp="1602372479940">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -561,10 +565,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="788" y="431" key="VCS.ChangelistChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603627532179" />
-    <state x="452" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601500712103">
+    <state x="452" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603714099114">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="452" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1601500712103" />
+    <state x="452" y="207" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603714099114" />
     <state x="835" y="377" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1601417892018">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

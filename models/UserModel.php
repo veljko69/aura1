@@ -1,8 +1,9 @@
 <?php
 namespace App\models;
  use App\Core\DatabaseConnection;
+ use mysql_xdevapi\Session;
 
-class UserModel
+ class UserModel
 {
 
     private $dbc;
@@ -65,11 +66,12 @@ class UserModel
             return $res;
         }
 
-    public  function addKupac($ime,$prezime, $telefon,$email, $ulica, $grad, $postanskibroj){
+    public  function addKupac($ime,$prezime, $telefon,$email, $ulica, $grad, $postanskibroj ){
+
         $sql = 'INSERT INTO kupac(ime,prezime, telefon,email, ulica, grad, postanski_broj)
                     VALUES(?,?,?,?,?,?,?)';
         $prep = $this->dbc->getConnection()->prepare($sql);
-        $res  = $prep->execute([$ime,$prezime, $telefon,$email, $ulica, $grad, $postanskibroj]);
+        $res  = $prep->execute([$ime,$prezime, $telefon,$email, $ulica, $grad, $postanskibroj,]);
 
         return $res;
     }
