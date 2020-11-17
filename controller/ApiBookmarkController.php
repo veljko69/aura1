@@ -10,7 +10,7 @@ use App\Models\ProductModel;
 class ApiBookmarkController extends ApiController
 {
     public function getBookmarks(){
-       $bookmarks =  $this->getSession()->get('bookmarks',[1]);
+       $bookmarks =  $this->getSession()->get('bookmarks',[]);
        $this->set('bookmarks',$bookmarks);
     }
 
@@ -27,7 +27,7 @@ class ApiBookmarkController extends ApiController
 
         foreach ($bookmarks as $bookmark){
 
-            if ($bookmark->proizvod_id ==$productId){
+            if ($bookmark->proizvod_id == $productId){
                $this->set('error', -2);
                return;
             };
@@ -41,7 +41,6 @@ class ApiBookmarkController extends ApiController
     public function clear(){
         $this->getSession()->put('bookmarks', []);
         $this->set('error', 0);
-//        header('Location :/aura1/home');
 
     }
 }

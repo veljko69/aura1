@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <script src="https://kit.fontawesome.com/9a79e9da94.js" crossorigin="anonymous"></script>
+
     <title> {% block naslov %}Muska i zenska odjeca{% endblock %}-AURA</title>
 </head>
 <body>
@@ -95,35 +97,16 @@
                     <a class="dropdown-item" href="{{ BASE }}/user/logout">Odjava</a>
                 </div>
             </li>
-              <li>
 
-<!--                  <div class="dropdown">-->
-<!--                      <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">-->
-<!--&lt;!&ndash;                          <i class="fa fa-shopping-cart"></i>&ndash;&gt;-->
-<!--                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>-->
-<!--                          <span>Your Cart</span>-->
-<!--                          <div class="badge qty">0</div>-->
-<!--                      </a>-->
-<!--                      <div class="cart-dropdown">-->
-<!--                          <div class="cart-list" id="product_id">-->
+          <li>
+              <div class="bookmarks">*</div>
+              <div class="cijena">*</div>
+              <div class="btn-secondary" ><a href="" onclick="clearBookmark()"> Izbrisi</a></div>
+          </li>
 
-
-<!--                          </div>-->
-
-<!--                          <div class="cart-btns">-->
-<!--                              <a href="showKorpa1" style="width:100%;"><i class="fa fa-edit"></i> edit cart</a>-->
-
-<!--                          </div>-->
-<!--                      </div>-->
-
-<!--                  </div>-->
-
-
-              </li>
         </ul>
     </div>
 </nav>
-
 
 {% block main %}
 
@@ -132,7 +115,7 @@
 <footer class=" d-flex justify-content-center mt-5 border-top fixed-bottom p-2" style="background-color: #e1e1e5"> & copy; Aura 2019</footer>
 
 
-
+<script src="http://localhost/aura1/assets/js/bookmark.js"></script>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

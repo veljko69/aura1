@@ -4,7 +4,8 @@
   "type": "project",
     "require": {
       "ext-pdo": "*",
-      "ext-json": "*"
+      "ext-json": "*",
+      "ext-mysql_xdevapi": "*"
     },
     "autoload": {
         "psr-4": {

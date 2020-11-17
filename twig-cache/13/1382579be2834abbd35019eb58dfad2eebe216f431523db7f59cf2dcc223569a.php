@@ -78,27 +78,24 @@ class __TwigTemplate_e708ee22e969a6479c46a4409758390e2446ff260e57e2930737e0b5c0e
             </div>
 
             <div>
-                <h4 style=\"margin-top: 10px\">";
-        // line 23
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "naziv", [], "any", false, false, false, 23), "html", null, true);
-        echo "</h4><br>
+                <h4 class=\"korpa\" style=\"margin-top: 10px\"></h4><br>
             </div>
             <div>
                 Sifra : ";
         // line 26
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "sifra", [], "any", false, false, false, 26), "html", null, true);
         echo "<br>
-                Boja :";
+                Boja :<p>";
         // line 27
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "boja", [], "any", false, false, false, 27), "html", null, true);
-        echo "
+        echo "</p>
             </div>
 
         </div>
     </div>
 
 
-    <div class=\"col-md-4 justify-content-end float-right\">
+    <div class=\" justify-content-end float-right\">
         <div class=\"bg-light\">
 
             <h5 class=\"d-flex justify-content-center  card-header \">MEDUZBIR</h5>
@@ -141,7 +138,7 @@ class __TwigTemplate_e708ee22e969a6479c46a4409758390e2446ff260e57e2930737e0b5c0e
 
     public function getDebugInfo()
     {
-        return array (  111 => 42,  93 => 27,  89 => 26,  83 => 23,  75 => 18,  62 => 12,  52 => 4,  50 => 3,  46 => 2,  35 => 1,);
+        return array (  108 => 42,  90 => 27,  86 => 26,  75 => 18,  62 => 12,  52 => 4,  50 => 3,  46 => 2,  35 => 1,);
     }
 
     public function getSourceContext()

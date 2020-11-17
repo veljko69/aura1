@@ -27,7 +27,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img onload="loadDoc() " class="d-block w-100"
+                        <img  class="d-block w-100"
                              src="{{ BASE }}/assets/img/{{ product.slika}}.jpg" alt="
               {{ product.naziv }}">
                     </div>
@@ -217,7 +217,7 @@
                         IZABERI VELICINU
                     </button>
                     <div class="dropdown-menu  w-100" aria-labelledby="dropdownMenuButton ">
-                        <a class="dropdown-item" href="#">{{ product.v1 }}</a>
+                        <a class="dropdown-item" href="#" onclick="addSize({{ product.proizvod_id }},{{product.v1}})">{{ product.v1 }}</a>
                         <a class="dropdown-item" href="#">{{ product.v2 }}</a>
                         <a class="dropdown-item" href="#">{{ product.v3 }}</a>
                         <a class="dropdown-item" href="#">{{ product.v4}}</a>
@@ -243,6 +243,8 @@
             <div class="card-body mt-4">
                 <!--                <h3 class="card-title" style="text-transform: uppercase">{{ product.naziv }}</h3>-->
 
+
+<!--                Dostupno u velicinama-->
                 <h5>Dostupno u velicinama: <br>
                     <span class="row  mt-3">
    <form action="slanje">
@@ -283,29 +285,6 @@
 
                     </span></h5><br>
 
-<!--                <label>Terms and conditions<span class="note">*</span></label>-->
-<!--                <input type="radio" name="tnc" value="agree" ><?php echo $tncv; ?>>I agree<br>-->
-<!--                <input type="radio" name="tnc" value="disagree"> <?php echo $tnc1v; ?>>I disagree<br>-->
-<!--                $tnc = $_POST['tnc'];-->
-<!--                switch($tnc)-->
-<!--                {-->
-<!--                case "agree":-->
-<!--                $tncv="checked";-->
-<!--                $tnc1v="";-->
-<!--                break;-->
-
-<!--                case "disagree":-->
-<!--                $tncv="";-->
-<!--                $tnc1v="checked";-->
-<!--                break;-->
-
-<!--                default: // By default 1st option is selected-->
-<!--                $tncv="checked";-->
-<!--                $tnc1v="";-->
-<!--                break;-->
-<!--                };-->
-
-
 
 
                 <p>Sifra proizvoda: <span>{{ product.sifra }}</span></p><br>
@@ -313,11 +292,15 @@
                 <h5>Cijena proizvoda: <span>{{ product.cijena }} km</span></h5><br>
             </div>
             <!-- Button trigger modal -->
+<!--              <button> <a style="text-decoration: none; padding: 0 15px" href="" onclick=" addBookmark( {{product.proizvod_id}}) "> .... Dodaj u omiljeno. ... </a>-->
+<!--             </button>-->
 
 
-            <!--            <button type="button" class="btn btn-secondary col-12" style="color:#A19379;background-color: #fbfaf7 ">-->
-            <!--                <a onclick=" addBookmark( {{product.proizvod_id}})">SACUVAJTE U LISTI ZELJA</a>-->
-            <!--            </button>-->
+            <button type="button" class="btn btn-outline-secondary col-12 " >
+            <a href="" onclick=" addBookmark({{product.proizvod_id}}) "> SACUVAJTE U LISTI ZELJA</a>
+            </button>
+
+
             <a href="{{ BASE }}/korpa/{{ product.proizvod_id }}">
                 <button class=" btn btn-primary col-12 mt-2 mb-2 "> NARUCI PROIZVOD</button>
             </a>
@@ -365,6 +348,7 @@ font-style:italic;
 
 
 </script>
+<?php  print_r($_COOKIE['APPSESSION']); ?>
 {% endspaceless %}
 
 {% endblock %}

@@ -15,6 +15,7 @@ use Twig\Error\LoaderError;
 use Twig\Error\RuntimeError;
 use Twig\Error\SyntaxError;
 use Twig\Loader\FilesystemLoader;
+use function mysql_xdevapi\getSession;
 
 ob_start();
 
@@ -56,19 +57,21 @@ $sessionStorage = new $sessionStorageClassName(...$sessionStorageConstructorArgu
 $session = new  \App\Core\Session\Session($sessionStorage, Configuration::SESSION_LIFETIME);
 $controller->setSession($session);
 $controller->getSession()->reload();
-session_start();
-//echo session_id();
+
+//var_dump($_REQUEST);
 //var_dump($session);
-var_dump($_SESSION);
+// print_r($_COOKIE['APPSESSION']);
+
 //exit();
 $controller->__pre();
 call_user_func_array([$controller, $route->getMethodName()], $arguments);
 $controller->getSession()->save();
 
 $data = $controller->getData();
+
 //var_dump($data);
 //exit();
-
+//echo 'Hello ' . htmlspecialchars($_COOKIE["user_id"]) . '!';
 #bez rutiranja
 //var_dump($controller);
 //var_dump($data);
@@ -83,10 +86,7 @@ if ($controller instanceof ApiController) {
     header('Access-Control-Allow-Origin: *');
 
     echo json_encode($data);
-    $data = json_encode($data);
-    var_dump($data);
-    echo $data;
-    exit();
+       exit;
 }
 
 $loader = new FilesystemLoader('./views/');
@@ -96,6 +96,9 @@ $twig = new Environment($loader, [
 ]);
 
 $data['BASE'] = Configuration::BASE;
+//$data['idsesije'] = $_COOKIE['APPSESSION'];
+//echo $_SERVER['PHP_SELF'];
+
 //var_dump($data);
 //exit();
 try {

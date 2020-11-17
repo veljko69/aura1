@@ -2,9 +2,11 @@
   <dictionary name="veljk">
     <words>
       <w>getslanje</w>
+      <w>izbrisi</w>
       <w>korpa</w>
       <w>kupac</w>
       <w>materijal</w>
+      <w>opis</w>
       <w>pocetna</w>
       <w>postanskibroj</w>
       <w>postslanje</w>

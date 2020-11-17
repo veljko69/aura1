@@ -52,8 +52,10 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
     <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\"
           integrity=\"sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z\" crossorigin=\"anonymous\">
 
+    <script src=\"https://kit.fontawesome.com/9a79e9da94.js\" crossorigin=\"anonymous\"></script>
+
     <title> ";
-        // line 17
+        // line 19
         $this->displayBlock('naslov', $context, $blocks);
         echo "-AURA</title>
 </head>
@@ -62,7 +64,7 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
 
 <nav class=\"navbar navbar-expand-lg navbar-light bg-light \" >
     <a class=\"navbar-brand pb-4 ml-5 mr-5\" href=\"";
-        // line 23
+        // line 25
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/home\" style=\"font-size:3em\">aura</a>
 
@@ -76,7 +78,7 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
 
             <li class=\"nav-item active ml-2 mr-2\">
                 <a class=\"nav-link\" href=\"";
-        // line 34
+        // line 36
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/home/\">POCETNA STRANICA <span class=\"sr-only\">(current)</span></a>
             </li>
@@ -90,39 +92,39 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
 
                     <a class=\"dropdown-item\" href=\"";
-        // line 45
+        // line 47
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/m\">CIJELA MUSKA KOLEKCIJA</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 46
+        // line 48
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/m/pantalone\">Pantalone</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 47
+        // line 49
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/m/kosulja\">Kosulja</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 48
+        // line 50
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/m/sako\">Sako</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 49
+        // line 51
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/m/jakna\">Jakna</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 50
+        // line 52
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/m/majica\">Majica</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 51
+        // line 53
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/m/kais\">Kais</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 52
+        // line 54
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/m/kaput\">Kaput</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 53
+        // line 55
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/m/odijelo\">Odijelo</a>
                 </div>
@@ -130,7 +132,7 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
 
             <li class=\"nav-item dropdown ml-2 mr-2\">
                 <a class=\"nav-link dropdown-toggle\" href=\"";
-        // line 58
+        // line 60
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/z\" id=\"navbarDropdownMenuLink\" role=\"button\"
                    data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
@@ -138,43 +140,43 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
                 </a>
                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                     <a class=\"dropdown-item\" href=\"";
-        // line 63
+        // line 65
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/z\">CIJELA ZENSKA KOLEKCIJA</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 64
+        // line 66
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/pantalone\">Pantalone</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 65
+        // line 67
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/kosulja\">Kosulja</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 66
+        // line 68
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/haljina\">Haljina</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 67
+        // line 69
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/jakna\">Jakna</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 68
+        // line 70
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/majica\">Majica</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 69
+        // line 71
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/kais\">Kais</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 70
+        // line 72
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/suknja\">Suknja</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 71
+        // line 73
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/bluza\">Bluza</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 72
+        // line 74
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/z/blejzer\">Blejzer</a>
                 </div>
@@ -182,7 +184,7 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
 
             <li class=\"nav-item dropdown ml-2 mr-2\">
                 <a class=\"nav-link dropdown-toggle\" href=\"";
-        // line 77
+        // line 79
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/sizeplus\" id=\"navbarDropdownMenuLink\" role=\"button\"
                    data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
@@ -190,11 +192,11 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
                 </a>
                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                     <a class=\"dropdown-item\" href=\"";
-        // line 82
+        // line 84
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/sizeplus\">ZA PUNIJE DAME</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 83
+        // line 85
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/sizeplus\">ZA PUNIJE MUSKARCE</a>
                 </div>
@@ -207,58 +209,39 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
                 </a>
                 <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">
                     <a class=\"dropdown-item\" href=\"";
-        // line 93
+        // line 95
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/getregister\">Registracija</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 94
+        // line 96
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/getlogin\">Prijava</a>
                     <a class=\"dropdown-item\" href=\"";
-        // line 95
+        // line 97
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/user/logout\">Odjava</a>
                 </div>
             </li>
-              <li>
 
-<!--                  <div class=\"dropdown\">-->
-<!--                      <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"true\">-->
-<!--&lt;!&ndash;                          <i class=\"fa fa-shopping-cart\"></i>&ndash;&gt;-->
-<!--                          <i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i>-->
-<!--                          <span>Your Cart</span>-->
-<!--                          <div class=\"badge qty\">0</div>-->
-<!--                      </a>-->
-<!--                      <div class=\"cart-dropdown\">-->
-<!--                          <div class=\"cart-list\" id=\"product_id\">-->
+          <li>
+              <div class=\"bookmarks\">*</div>
+              <div class=\"cijena\">*</div>
+              <div class=\"btn-secondary\" ><a href=\"\" onclick=\"clearBookmark()\"> Izbrisi</a></div>
+          </li>
 
-
-<!--                          </div>-->
-
-<!--                          <div class=\"cart-btns\">-->
-<!--                              <a href=\"showKorpa1\" style=\"width:100%;\"><i class=\"fa fa-edit\"></i> edit cart</a>-->
-
-<!--                          </div>-->
-<!--                      </div>-->
-
-<!--                  </div>-->
-
-
-              </li>
         </ul>
     </div>
 </nav>
 
-
 ";
-        // line 128
+        // line 111
         $this->displayBlock('main', $context, $blocks);
-        // line 131
+        // line 114
         echo "<hr class=\"m-y-2\">
 <footer class=\" d-flex justify-content-center mt-5 border-top fixed-bottom p-2\" style=\"background-color: #e1e1e5\"> & copy; Aura 2019</footer>
 
 
-
+<script src=\"http://localhost/aura1/assets/js/bookmark.js\"></script>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"
@@ -274,18 +257,18 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
 </html>";
     }
 
-    // line 17
+    // line 19
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
         echo "Muska i zenska odjeca";
     }
 
-    // line 128
+    // line 111
     public function block_main($context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 129
+        // line 112
         echo "
 ";
     }
@@ -302,7 +285,7 @@ class __TwigTemplate_8d00065b569547f71e73967d2c0d4f8c384b2865065d0824e233c6add8b
 
     public function getDebugInfo()
     {
-        return array (  289 => 129,  285 => 128,  278 => 17,  257 => 131,  255 => 128,  219 => 95,  215 => 94,  211 => 93,  198 => 83,  194 => 82,  186 => 77,  178 => 72,  174 => 71,  170 => 70,  166 => 69,  162 => 68,  158 => 67,  154 => 66,  150 => 65,  146 => 64,  142 => 63,  134 => 58,  126 => 53,  122 => 52,  118 => 51,  114 => 50,  110 => 49,  106 => 48,  102 => 47,  98 => 46,  94 => 45,  80 => 34,  66 => 23,  57 => 17,  39 => 1,);
+        return array (  272 => 112,  268 => 111,  261 => 19,  240 => 114,  238 => 111,  221 => 97,  217 => 96,  213 => 95,  200 => 85,  196 => 84,  188 => 79,  180 => 74,  176 => 73,  172 => 72,  168 => 71,  164 => 70,  160 => 69,  156 => 68,  152 => 67,  148 => 66,  144 => 65,  136 => 60,  128 => 55,  124 => 54,  120 => 53,  116 => 52,  112 => 51,  108 => 50,  104 => 49,  100 => 48,  96 => 47,  82 => 36,  68 => 25,  59 => 19,  39 => 1,);
     }
 
     public function getSourceContext()

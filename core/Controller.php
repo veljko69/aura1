@@ -46,9 +46,13 @@ class Controller
     {
         return $this->data;
     }
-    final  public function redirect( string $path, int $code = 303){
+
+
+    final  public function redirect( string $path, int $code = 303)
+    {
         ob_clean();
         header('Location:'. $path, true, $code);
         exit;
     }
+
 }

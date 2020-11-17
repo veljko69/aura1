@@ -103,7 +103,7 @@ class __TwigTemplate_fbc682eab708fd813e88ca8d96f4f078cc0d30086c32c6b558ac59b8371
             <div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\">
                 <div class=\"carousel-inner\">
                     <div class=\"carousel-item active\">
-                        <img onload=\"loadDoc() \" class=\"d-block w-100\"
+                        <img  class=\"d-block w-100\"
                              src=\"";
         // line 31
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
@@ -323,8 +323,12 @@ class __TwigTemplate_fbc682eab708fd813e88ca8d96f4f078cc0d30086c32c6b558ac59b8371
                         IZABERI VELICINU
                     </button>
                     <div class=\"dropdown-menu  w-100\" aria-labelledby=\"dropdownMenuButton \">
-                        <a class=\"dropdown-item\" href=\"#\">";
+                        <a class=\"dropdown-item\" href=\"#\" onclick=\"addSize(";
         // line 220
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "proizvod_id", [], "any", false, false, false, 220), "html", null, true);
+        echo ",";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v1", [], "any", false, false, false, 220), "html", null, true);
+        echo ")\">";
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v1", [], "any", false, false, false, 220), "html", null, true);
         echo "</a>
                         <a class=\"dropdown-item\" href=\"#\">";
@@ -376,6 +380,8 @@ class __TwigTemplate_fbc682eab708fd813e88ca8d96f4f078cc0d30086c32c6b558ac59b8371
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "naziv", [], "any", false, false, false, 244), "html", null, true);
         echo "</h3>-->
 
+
+<!--                Dostupno u velicinama-->
                 <h5>Dostupno u velicinama: <br>
                     <span class=\"row  mt-3\">
    <form action=\"slanje\">
@@ -384,66 +390,66 @@ class __TwigTemplate_fbc682eab708fd813e88ca8d96f4f078cc0d30086c32c6b558ac59b8371
 
                        <label class=\"btn btn-outline-secondary \">
                          <input type=\"radio\" name=\"options\" id=\"option1\" value=\"";
-        // line 253
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v1", [], "any", false, false, false, 253), "html", null, true);
+        // line 255
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v1", [], "any", false, false, false, 255), "html", null, true);
         echo "\"> ";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v1", [], "any", false, false, false, 253), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v1", [], "any", false, false, false, 255), "html", null, true);
         echo "
                        </label>
                        <label class=\"btn btn-outline-secondary\">
                          <input type=\"radio\" name=\"options\" id=\"option2\" value=\"";
-        // line 256
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v2", [], "any", false, false, false, 256), "html", null, true);
+        // line 258
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v2", [], "any", false, false, false, 258), "html", null, true);
         echo "\"> ";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v2", [], "any", false, false, false, 256), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v2", [], "any", false, false, false, 258), "html", null, true);
         echo "
                        </label>
                        <label class=\"btn btn-outline-secondary \">
                          <input type=\"radio\" name=\"options\" id=\"option3\"  value=\"";
-        // line 259
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v3", [], "any", false, false, false, 259), "html", null, true);
+        // line 261
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v3", [], "any", false, false, false, 261), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v3", [], "any", false, false, false, 259), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v3", [], "any", false, false, false, 261), "html", null, true);
         echo "
                        </label>
                          <label class=\"btn btn-outline-secondary\">
                          <input type=\"radio\" name=\"options\" id=\"option4\" value=\"";
-        // line 262
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v4", [], "any", false, false, false, 262), "html", null, true);
+        // line 264
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v4", [], "any", false, false, false, 264), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v4", [], "any", false, false, false, 262), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v4", [], "any", false, false, false, 264), "html", null, true);
         echo "
                        </label>
                          <label class=\"btn btn-outline-secondary\">
                          <input type=\"radio\" name=\"options\" id=\"option5\" value=\"";
-        // line 265
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v5", [], "any", false, false, false, 265), "html", null, true);
+        // line 267
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v5", [], "any", false, false, false, 267), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v5", [], "any", false, false, false, 265), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v5", [], "any", false, false, false, 267), "html", null, true);
         echo "
                        </label>
                          <label class=\"btn btn-outline-secondary\">
                          <input type=\"radio\" name=\"options\" id=\"option6\" value=\"";
-        // line 268
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v6", [], "any", false, false, false, 268), "html", null, true);
+        // line 270
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v6", [], "any", false, false, false, 270), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v6", [], "any", false, false, false, 268), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v6", [], "any", false, false, false, 270), "html", null, true);
         echo "
                        </label>
                           <label class=\"btn btn-outline-secondary\">
                          <input type=\"radio\" name=\"options\" id=\"option7\" value=\"";
-        // line 271
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v7", [], "any", false, false, false, 271), "html", null, true);
+        // line 273
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v7", [], "any", false, false, false, 273), "html", null, true);
         echo "\">";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v7", [], "any", false, false, false, 271), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v7", [], "any", false, false, false, 273), "html", null, true);
         echo "
                        </label>
                           <label class=\"btn btn-outline-secondary \" >
                          <input type=\"radio\" name=\"options\" id=\"option8\" value=\"";
-        // line 274
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v8", [], "any", false, false, false, 274), "html", null, true);
+        // line 276
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v8", [], "any", false, false, false, 276), "html", null, true);
         echo "\" >";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v8", [], "any", false, false, false, 274), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "v8", [], "any", false, false, false, 276), "html", null, true);
         echo "
                        </label>
                             <label class=\"btn btn-outline-secondary active\" >
@@ -456,65 +462,49 @@ class __TwigTemplate_fbc682eab708fd813e88ca8d96f4f078cc0d30086c32c6b558ac59b8371
 
                     </span></h5><br>
 
-<!--                <label>Terms and conditions<span class=\"note\">*</span></label>-->
-<!--                <input type=\"radio\" name=\"tnc\" value=\"agree\" ><?php echo \$tncv; ?>>I agree<br>-->
-<!--                <input type=\"radio\" name=\"tnc\" value=\"disagree\"> <?php echo \$tnc1v; ?>>I disagree<br>-->
-<!--                \$tnc = \$_POST['tnc'];-->
-<!--                switch(\$tnc)-->
-<!--                {-->
-<!--                case \"agree\":-->
-<!--                \$tncv=\"checked\";-->
-<!--                \$tnc1v=\"\";-->
-<!--                break;-->
-
-<!--                case \"disagree\":-->
-<!--                \$tncv=\"\";-->
-<!--                \$tnc1v=\"checked\";-->
-<!--                break;-->
-
-<!--                default: // By default 1st option is selected-->
-<!--                \$tncv=\"checked\";-->
-<!--                \$tnc1v=\"\";-->
-<!--                break;-->
-<!--                };-->
-
-
 
 
                 <p>Sifra proizvoda: <span>";
-        // line 311
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "sifra", [], "any", false, false, false, 311), "html", null, true);
+        // line 290
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "sifra", [], "any", false, false, false, 290), "html", null, true);
         echo "</span></p><br>
                 <h5>Boja: <span>";
-        // line 312
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "boja", [], "any", false, false, false, 312), "html", null, true);
+        // line 291
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "boja", [], "any", false, false, false, 291), "html", null, true);
         echo "</span></h5><br>
                 <h5>Cijena proizvoda: <span>";
-        // line 313
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "cijena", [], "any", false, false, false, 313), "html", null, true);
+        // line 292
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "cijena", [], "any", false, false, false, 292), "html", null, true);
         echo " km</span></h5><br>
             </div>
             <!-- Button trigger modal -->
+<!--              <button> <a style=\"text-decoration: none; padding: 0 15px\" href=\"\" onclick=\" addBookmark( ";
+        // line 295
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "proizvod_id", [], "any", false, false, false, 295), "html", null, true);
+        echo ") \"> .... Dodaj u omiljeno. ... </a>-->
+<!--             </button>-->
 
 
-            <!--            <button type=\"button\" class=\"btn btn-secondary col-12\" style=\"color:#A19379;background-color: #fbfaf7 \">-->
-            <!--                <a onclick=\" addBookmark( ";
-        // line 319
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "proizvod_id", [], "any", false, false, false, 319), "html", null, true);
-        echo ")\">SACUVAJTE U LISTI ZELJA</a>-->
-            <!--            </button>-->
+            <button type=\"button\" class=\"btn btn-outline-secondary col-12 \" >
+            <a href=\"\" onclick=\" addBookmark(";
+        // line 300
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "proizvod_id", [], "any", false, false, false, 300), "html", null, true);
+        echo ") \"> SACUVAJTE U LISTI ZELJA</a>
+            </button>
+
+
             <a href=\"";
-        // line 321
+        // line 304
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/korpa/";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "proizvod_id", [], "any", false, false, false, 321), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "proizvod_id", [], "any", false, false, false, 304), "html", null, true);
         echo "\">
                 <button class=\" btn btn-primary col-12 mt-2 mb-2 \"> NARUCI PROIZVOD</button>
             </a>
 
 
             <!--            <img src=\"";
-        // line 326
+        // line 309
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/assets/img/naruci_viber\" alt=\"naruci_preko_vibera\" class=\"card-img\">-->
 
@@ -525,15 +515,15 @@ class __TwigTemplate_fbc682eab708fd813e88ca8d96f4f078cc0d30086c32c6b558ac59b8371
 
                 <H4 class=\"m-2\">PODIJELITE : </H4>
                 <a class=\"m-2\" href=\"#\"> <img src=\"";
-        // line 334
+        // line 317
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/assets/img/fb.png\" alt=\"facebook\"></a>
                 <a class=\"m-2\" href=\"#\"> <img src=\"";
-        // line 335
+        // line 318
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/assets/img/ig.png\" alt=\"instagram\"></a>
                 <!--                <a class=\"m-2\" href=\"#\"> <img src=\"";
-        // line 336
+        // line 319
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/assets/img/fb.png\" alt=\"facebook\"></a>-->
             </div>
@@ -551,12 +541,12 @@ font-style:italic;
     border-top: 2px solid gray;
     text-align: center;
 \"><a href=\"";
-        // line 351
+        // line 334
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/products/";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "pol", [], "any", false, false, false, 351), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "pol", [], "any", false, false, false, 334), "html", null, true);
         echo "/";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "tip", [], "any", false, false, false, 351), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "tip", [], "any", false, false, false, 334), "html", null, true);
         echo "\">SLICNI PROIZVODI</a></h3>
 
 
@@ -569,28 +559,29 @@ font-style:italic;
             }
         };
         xhttp.open(\"GET\", \"";
-        // line 362
+        // line 345
         echo twig_escape_filter($this->env, ($context["BASE"] ?? null), "html", null, true);
         echo "/assets/opis/";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "slika", [], "any", false, false, false, 362), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "slika", [], "any", false, false, false, 345), "html", null, true);
         echo ".txt\", true);
         xhttp.send();
     }
 
 
 </script>
+<?php  print_r(\$_COOKIE['APPSESSION']); ?>
 ";
         echo trim(preg_replace('/>\s+</', '><', ob_get_clean()));
-        // line 369
+        // line 353
         echo "
 ";
     }
 
-    // line 372
+    // line 356
     public function block_naslov($context, array $blocks = [])
     {
         $macros = $this->macros;
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "naziv", [], "any", false, false, false, 372), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["product"] ?? null), "naziv", [], "any", false, false, false, 356), "html", null, true);
     }
 
     public function getTemplateName()
@@ -605,7 +596,7 @@ font-style:italic;
 
     public function getDebugInfo()
     {
-        return array (  590 => 372,  585 => 369,  573 => 362,  555 => 351,  537 => 336,  533 => 335,  529 => 334,  518 => 326,  508 => 321,  503 => 319,  494 => 313,  490 => 312,  486 => 311,  444 => 274,  436 => 271,  428 => 268,  420 => 265,  412 => 262,  404 => 259,  396 => 256,  388 => 253,  376 => 244,  356 => 227,  352 => 226,  348 => 225,  344 => 224,  340 => 223,  336 => 222,  332 => 221,  328 => 220,  184 => 79,  162 => 60,  139 => 40,  133 => 39,  127 => 36,  121 => 35,  115 => 32,  109 => 31,  93 => 18,  89 => 17,  86 => 16,  79 => 15,  76 => 14,  70 => 13,  66 => 12,  56 => 5,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
+        return array (  581 => 356,  576 => 353,  563 => 345,  545 => 334,  527 => 319,  523 => 318,  519 => 317,  508 => 309,  498 => 304,  491 => 300,  483 => 295,  477 => 292,  473 => 291,  469 => 290,  450 => 276,  442 => 273,  434 => 270,  426 => 267,  418 => 264,  410 => 261,  402 => 258,  394 => 255,  380 => 244,  360 => 227,  356 => 226,  352 => 225,  348 => 224,  344 => 223,  340 => 222,  336 => 221,  328 => 220,  184 => 79,  162 => 60,  139 => 40,  133 => 39,  127 => 36,  121 => 35,  115 => 32,  109 => 31,  93 => 18,  89 => 17,  86 => 16,  79 => 15,  76 => 14,  70 => 13,  66 => 12,  56 => 5,  53 => 4,  51 => 3,  47 => 2,  36 => 1,);
     }
 
     public function getSourceContext()

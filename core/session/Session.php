@@ -82,12 +82,12 @@ final class Session
     public function reload()
     {
         $jsonData = $this->sessionStorage->load($this->sessionId);
-        $restroreData = json_decode($jsonData);
-        if (!$restroreData) {
+        $restoreData = json_decode($jsonData);
+        if (!$restoreData) {
             $this->sessionData =(object) [];
             return;
         }
-        $this->sessionData = $restroreData;
+        $this->sessionData = $restoreData;
     }
 
     public function regenerate()
